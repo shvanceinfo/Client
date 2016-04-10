@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<!--
+		ID   		没有实际含义
+		MapID 		表示场景地图（不同场景地图，前端显示的玩家数量不同），若MapID=0，则表示“其它场景”的玩家显示数量		
+		Name		场景名称
+		Option 		默认选中的显示玩家数量（指代DisplayNum的位置）
+		DisplayNum	允许显示的玩家数量（第一组，第二组，第三组，第四组）DisplayNum==0时，UI显示“隐藏全部”
+		说明：如果需要启用对应场景的“显示玩家数量”，只需要将“注释”打开即可
+	-->
+<RECORDS>
+	<RECORD ID="0" MapID="0"         Name="同屏玩家"  Option="2" DisplayNum="0,10,20,30" />
+<!--
+	<RECORD ID="1" MapID="100000001" Name="降临村" 	 Option="2" DisplayNum="0,10,20,30" />
+	<RECORD ID="2" MapID="100000002" Name="时光之城" Option="2" DisplayNum="0,10,20,30" />
+	-->
+	<RECORD ID="3" MapID="300400010" Name="世界BOSS"  Option="2" DisplayNum="0,10,20,30" />
+</RECORDS>

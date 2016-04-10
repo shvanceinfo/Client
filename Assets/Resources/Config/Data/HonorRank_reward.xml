@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1001" name="第1名" rankLeft="1" rankRight="1" RewardResource="3,1200,1,3000"/>
+	<RECORD ID="1002" name="第2至3名" rankLeft="2" rankRight="3" RewardResource="3,1000,1,2500"/>
+	<RECORD ID="1003" name="第4至5名" rankLeft="4" rankRight="5" RewardResource="3,950,1,2380"/>
+	<RECORD ID="1004" name="第6至10名" rankLeft="6" rankRight="10" RewardResource="3,900,1,2250"/>
+	<RECORD ID="1005" name="第11至20名" rankLeft="11" rankRight="20" RewardResource="3,850,1,2130"/>
+	<RECORD ID="1006" name="第21至50名" rankLeft="21" rankRight="50" RewardResource="3,800,1,2000"/>
+	<RECORD ID="1007" name="第51至100名" rankLeft="51" rankRight="100" RewardResource="3,750,1,1880"/>
+	<RECORD ID="1008" name="第101至200名" rankLeft="101" rankRight="200" RewardResource="3,700,1,1750"/>
+	<RECORD ID="1009" name="第201至500名" rankLeft="201" rankRight="500" RewardResource="3,650,1,1630"/>
+	<RECORD ID="1010" name="第501至2000名" rankLeft="501" rankRight="2000" RewardResource="3,600,1,1500"/>
+	<RECORD ID="1011" name="第2001至99999999名" rankLeft="2001" rankRight="99999999" RewardResource="3,550,1,1380"/>
+</RECORDS>

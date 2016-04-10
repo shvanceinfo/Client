@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="103001" Name="封印恶魔" Icon="diamond_box" GongHuiLv="1" Type="0" Number="1" EventTime="全天" EventType="0" EventTime_set="全天" EventButton1="召唤恶魔" EventButton2="立即参与" EventDesc="击杀恶魔掉落大量贡献度、荣誉和公会财富，每位成员每日可召唤1次，所有公会成员可参与，恶魔召唤者可额外获得大量荣誉，伤害排名可获得更多奖励，最后一击有惊喜。"/>
+	<RECORD ID="103002" Name="公会魔神" Icon="diamond_box" GongHuiLv="3" Type="3" Number="2" EventTime="全天" EventType="1" EventTime_set="0" EventButton1="开战时间" EventButton2="立即参与" EventDesc="击杀公会魔神掉落大量贡献度、金币和公会财富，每日开放1场，所有公会成员可参与，伤害排名可获得更多奖励，最后一击有惊喜。"/>
+</RECORDS>

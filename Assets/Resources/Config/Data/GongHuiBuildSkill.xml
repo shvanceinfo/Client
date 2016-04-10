@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="109001" Name="技能塔1阶" Icon="diamond_box" Level="1" SkillUp_resource="9,100000" SkillUp_item="0" SkillUp_time="60" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至2级，可研究2级公会技能！"/>
+	<RECORD ID="109002" Name="技能塔2阶" Icon="diamond_box" Level="2" SkillUp_resource="9,500000" SkillUp_item="0" SkillUp_time="120" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至3级，可研究3级公会技能！"/>
+	<RECORD ID="109003" Name="技能塔3阶" Icon="diamond_box" Level="3" SkillUp_resource="9,1000000" SkillUp_item="0" SkillUp_time="180" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至4级，可研究4级公会技能！"/>
+	<RECORD ID="109004" Name="技能塔4阶" Icon="diamond_box" Level="4" SkillUp_resource="9,5000000" SkillUp_item="0" SkillUp_time="240" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至5级，可研究5级公会技能！"/>
+	<RECORD ID="109005" Name="技能塔5阶" Icon="diamond_box" Level="5" SkillUp_resource="9,10000000" SkillUp_item="0" SkillUp_time="300" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至6级，可研究6级公会技能！"/>
+	<RECORD ID="109006" Name="技能塔6阶" Icon="diamond_box" Level="6" SkillUp_resource="9,20000000" SkillUp_item="0" SkillUp_time="360" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至7级，可研究7级公会技能！"/>
+	<RECORD ID="109007" Name="技能塔7阶" Icon="diamond_box" Level="7" SkillUp_resource="9,50000000" SkillUp_item="0" SkillUp_time="420" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至8级，可研究8级公会技能！"/>
+	<RECORD ID="109008" Name="技能塔8阶" Icon="diamond_box" Level="8" SkillUp_resource="9,100000000" SkillUp_item="0" SkillUp_time="480" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至9级，可研究9级公会技能！"/>
+	<RECORD ID="109009" Name="技能塔9阶" Icon="diamond_box" Level="9" SkillUp_resource="9,200000000" SkillUp_item="0" SkillUp_time="540" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔提升至10级，可研究10级公会技能！"/>
+	<RECORD ID="109010" Name="技能塔10阶" Icon="diamond_box" Level="10" SkillUp_resource="9,500000000" SkillUp_item="0" SkillUp_time="600" CurLvDesc="技能塔升级后可研究更高级的公会技能！" NextLvDesc="技能塔已经升至最高级。"/>
+</RECORDS>

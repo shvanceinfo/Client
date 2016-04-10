@@ -1,0 +1,1 @@
+protogen -i:NetMessage.proto -o:NetMessage.cs

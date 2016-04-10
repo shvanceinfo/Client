@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1000010" LootDesc="测试礼包1" LootType="2" LootMax="6" ResourceLoot="1,5000000,3,500000,5,15000000" ItemID="5000111,5000101,5000301,5000401" ItemCount="10000,8000,8000,200" ItemWeight="1,1,1,1"/>
+	<RECORD ID="2000001" LootDesc="[35f8f2]体力药剂（小）[-]" LootType="2" LootMax="0" ResourceLoot="6,20"/>
+	<RECORD ID="2000002" LootDesc="[df09c3]体力药剂（中）[-]" LootType="2" LootMax="0" ResourceLoot="6,50"/>
+	<RECORD ID="2000003" LootDesc="[df09c3]体力药剂（大）[-]" LootType="2" LootMax="0" ResourceLoot="6,100"/>
+	<RECORD ID="2000100" LootDesc="[25da13]100金币卡[-]" LootType="2" LootMax="0" ResourceLoot="1,100"/>
+	<RECORD ID="2000101" LootDesc="[25da13]200金币卡[-]" LootType="2" LootMax="0" ResourceLoot="1,200"/>
+	<RECORD ID="2000102" LootDesc="[35f8f2]500金币卡[-]" LootType="2" LootMax="0" ResourceLoot="1,500"/>
+	<RECORD ID="2000103" LootDesc="[df09c3]1000金币卡[-]" LootType="2" LootMax="0" ResourceLoot="1,1000"/>
+	<RECORD ID="2000104" LootDesc="[ffab40]2000金币卡[-]" LootType="2" LootMax="0" ResourceLoot="1,2000"/>
+	<RECORD ID="2000201" LootDesc="[25da13]10钻石卡[-]" LootType="2" LootMax="0" ResourceLoot="2,10"/>
+	<RECORD ID="2000202" LootDesc="[35f8f2]20钻石卡[-]" LootType="2" LootMax="0" ResourceLoot="2,20"/>
+	<RECORD ID="2000203" LootDesc="[df09c3]30钻石卡[-]" LootType="2" LootMax="0" ResourceLoot="2,30"/>
+	<RECORD ID="2000204" LootDesc="[ffab40]50钻石卡[-]" LootType="2" LootMax="0" ResourceLoot="2,50"/>
+	<RECORD ID="2000301" LootDesc="[25da13]1万经验卡[-]" LootType="2" LootMax="0" ResourceLoot="5,10000"/>
+	<RECORD ID="2000302" LootDesc="[35f8f2]5万经验卡[-]" LootType="2" LootMax="0" ResourceLoot="5,50000"/>
+	<RECORD ID="2000303" LootDesc="[df09c3]10万经验卡[-]" LootType="2" LootMax="0" ResourceLoot="5,100000"/>
+	<RECORD ID="2000304" LootDesc="[ffab40]20万经验卡[-]" LootType="2" LootMax="0" ResourceLoot="5,200000"/>
+	<RECORD ID="2000401" LootDesc="[25da13]10水晶卡[-]" LootType="2" LootMax="0" ResourceLoot="7,10"/>
+	<RECORD ID="2000402" LootDesc="[35f8f2]20水晶卡[-]" LootType="2" LootMax="0" ResourceLoot="7,20"/>
+	<RECORD ID="2000403" LootDesc="[df09c3]50水晶卡[-]" LootType="2" LootMax="0" ResourceLoot="7,50"/>
+	<RECORD ID="2000404" LootDesc="[ffab40]100水晶卡[-]" LootType="2" LootMax="0" ResourceLoot="7,100"/>
+	<RECORD ID="2000901" LootDesc="哥布林随机道具" LootType="1" LootMax="0" ItemID="2000501,2000601,2000701,2000801" ItemCount="1,1,1,1" ItemWeight="250,250,250,250"/>
+	<RECORD ID="4000100" LootDesc="[ffab40]缤纷宝石箱[-]" LootType="1" LootMax="1" ItemID="3000101,3000201,3000301,3000401,3000501,3000601,3000701,3000801,3000901,3001001,3001101" ItemCount="1,1,1,1,1,1,1,1,1,1,1" ItemWeight="100,100,100,100,100,100,100,100,100,100,100"/>
+	<RECORD ID="4000101" LootDesc="[25da13]1级宝石箱[-]" LootType="1" LootMax="1" ItemID="3000101,3000201,3000301,3000401,3000501,3000601,3000701,3000801,3000901,3001001,3001101" ItemCount="1,1,1,1,1,1,1,1,1,1,1" ItemWeight="100,100,100,100,100,100,100,100,100,100,100"/>
+	<RECORD ID="4000102" LootDesc="[25da13]2级宝石箱[-]" LootType="1" LootMax="1" ItemID="3000102,3000202,3000302,3000402,3000502,3000602,3000702,3000802,3000902,3001002,3001102" ItemCount="1,1,1,1,1,1,1,1,1,1,1" ItemWeight="100,100,100,100,100,100,100,100,100,100,100"/>
+	<RECORD ID="4000103" LootDesc="[35f8f2]3级宝石箱[-]" LootType="1" LootMax="1" ItemID="3000103,3000203,3000303,3000403,3000503,3000603,3000703,3000803,3000903,3001003,3001103" ItemCount="1,1,1,1,1,1,1,1,1,1,1" ItemWeight="100,100,100,100,100,100,100,100,100,100,100"/>
+	<RECORD ID="4000104" LootDesc="[35f8f2]4级宝石箱[-]" LootType="1" LootMax="1" ItemID="3000104,3000204,3000304,3000404,3000504,3000604,3000704,3000804,3000904,3001004,3001104" ItemCount="1,1,1,1,1,1,1,1,1,1,1" ItemWeight="100,100,100,100,100,100,100,100,100,100,100"/>
+	<RECORD ID="4000105" LootDesc="[df09c3]5级宝石箱[-]" LootType="1" LootMax="1" ItemID="3000105,3000205,3000305,3000405,3000505,3000605,3000705,3000805,3000905,3001005,3001105" ItemCount="1,1,1,1,1,1,1,1,1,1,1" ItemWeight="100,100,100,100,100,100,100,100,100,100,100"/>
+	<RECORD ID="4000106" LootDesc="[df09c3]6级宝石箱[-]" LootType="1" LootMax="1" ItemID="3000106,3000206,3000306,3000406,3000506,3000606,3000706,3000806,3000906,3001006,3001106" ItemCount="1,1,1,1,1,1,1,1,1,1,1" ItemWeight="100,100,100,100,100,100,100,100,100,100,100"/>
+	<RECORD ID="4000107" LootDesc="[ffab40]7级宝石箱[-]" LootType="1" LootMax="1" ItemID="3000107,3000207,3000307,3000407,3000507,3000607,3000707,3000807,3000907,3001007,3001107" ItemCount="1,1,1,1,1,1,1,1,1,1,1" ItemWeight="100,100,100,100,100,100,100,100,100,100,100"/>
+	<RECORD ID="4010001" LootDesc="[ffab40]第一猎杀礼包[-]" LootType="2" LootMax="1" ResourceLoot="3,30,1,3000" ItemID="5000301" ItemCount="1" ItemWeight="1000"/>
+	<RECORD ID="4010002" LootDesc="[df09c3]第二猎杀礼包[-]" LootType="2" LootMax="1" ResourceLoot="3,20,1,2000" ItemID="5000111" ItemCount="1" ItemWeight="1000"/>
+	<RECORD ID="4010003" LootDesc="[df09c3]第三猎杀礼包[-]" LootType="2" LootMax="1" ResourceLoot="3,10,1,1000" ItemID="5000111" ItemCount="1" ItemWeight="1000"/>
+	<RECORD ID="4010004" LootDesc="[35f8f2]第四猎杀礼包[-]" LootType="2" LootMax="1" ResourceLoot="3,8,1,800" ItemID="5000111" ItemCount="1" ItemWeight="1000"/>
+	<RECORD ID="4010005" LootDesc="[25da13]第五猎杀礼包[-]" LootType="2" LootMax="1" ResourceLoot="3,6,1,600" ItemID="5000111" ItemCount="1" ItemWeight="1000"/>
+	<RECORD ID="4000201" LootDesc="[25da13]1000名噩梦宝箱[-]" LootType="2" LootMax="1" ItemID="5000401" ItemCount="1" ItemWeight="1"/>
+	<RECORD ID="4000202" LootDesc="[25da13]500名噩梦宝箱[-]" LootType="2" LootMax="1" ItemID="5000401" ItemCount="2" ItemWeight="1"/>
+	<RECORD ID="4000203" LootDesc="[35f8f2]300名噩梦宝箱[-]" LootType="2" LootMax="1" ItemID="5000401" ItemCount="3" ItemWeight="1"/>
+	<RECORD ID="4000204" LootDesc="[35f8f2]100名噩梦宝箱[-]" LootType="2" LootMax="1" ItemID="5000401" ItemCount="4" ItemWeight="1"/>
+	<RECORD ID="4000205" LootDesc="[35f8f2]50名噩梦宝箱[-]" LootType="2" LootMax="1" ItemID="5000401" ItemCount="5" ItemWeight="1"/>
+	<RECORD ID="4000206" LootDesc="[df09c3]前10名噩梦宝箱[-]" LootType="2" LootMax="1" ItemID="5000401" ItemCount="6" ItemWeight="1"/>
+	<RECORD ID="4000211" LootDesc="[25da13]1000名地狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000402" ItemCount="1" ItemWeight="1"/>
+	<RECORD ID="4000212" LootDesc="[25da13]500名地狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000402" ItemCount="2" ItemWeight="1"/>
+	<RECORD ID="4000213" LootDesc="[35f8f2]300名地狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000402" ItemCount="3" ItemWeight="1"/>
+	<RECORD ID="4000214" LootDesc="[35f8f2]100名地狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000402" ItemCount="4" ItemWeight="1"/>
+	<RECORD ID="4000215" LootDesc="[35f8f2]50名地狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000402" ItemCount="5" ItemWeight="1"/>
+	<RECORD ID="4000216" LootDesc="[df09c3]前10名地狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000402" ItemCount="6" ItemWeight="1"/>
+	<RECORD ID="4000221" LootDesc="[25da13]1000名炼狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000403" ItemCount="1" ItemWeight="1"/>
+	<RECORD ID="4000222" LootDesc="[25da13]500名炼狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000403" ItemCount="2" ItemWeight="1"/>
+	<RECORD ID="4000223" LootDesc="[35f8f2]300名炼狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000403" ItemCount="3" ItemWeight="1"/>
+	<RECORD ID="4000224" LootDesc="[35f8f2]100名炼狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000403" ItemCount="4" ItemWeight="1"/>
+	<RECORD ID="4000225" LootDesc="[35f8f2]50名炼狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000403" ItemCount="5" ItemWeight="1"/>
+	<RECORD ID="4000226" LootDesc="[df09c3]前10名炼狱宝箱[-]" LootType="2" LootMax="1" ItemID="5000403" ItemCount="6" ItemWeight="1"/>
+	<RECORD ID="4000301" LootDesc="[35f8f2]5级战士勇者礼盒[-]" LootType="2" LootMax="2" ResourceLoot="1,10000,2,50" ItemID="4000310" ItemCount="1" ItemWeight="1"/>
+	<RECORD ID="4000302" LootDesc="[35f8f2]5级弓箭勇者礼盒[-]" LootType="2" LootMax="2" ResourceLoot="1,10000,2,50" ItemID="4000310" ItemCount="1" ItemWeight="1"/>
+	<RECORD ID="4000303" LootDesc="[35f8f2]5级法师勇者礼盒[-]" LootType="2" LootMax="2" ResourceLoot="1,10000,2,50" ItemID="4000310" ItemCount="1" ItemWeight="1"/>
+	<RECORD ID="4000310" LootDesc="[35f8f2]10级勇者礼盒[-]" LootType="2" LootMax="3" ResourceLoot="1,50000,2,50" ItemID="4000320,5000301,5000111" ItemCount="1,5,5" ItemWeight="1,1,1"/>
+	<RECORD ID="4000320" LootDesc="[35f8f2]20级勇者礼盒[-]" LootType="2" LootMax="4" ResourceLoot="1,100000,2,50" ItemID="4000330,5000301,5000111,2000001" ItemCount="1,5,5,2" ItemWeight="1,1,1,1"/>
+	<RECORD ID="4000330" LootDesc="[35f8f2]30级勇者礼盒[-]" LootType="2" LootMax="4" ResourceLoot="1,200000,2,50" ItemID="4000340,5000301,5000111,2000001" ItemCount="1,10,5,4" ItemWeight="1,1,1,1"/>
+	<RECORD ID="4000340" LootDesc="[35f8f2]40级勇者礼盒[-]" LootType="2" LootMax="4" ResourceLoot="1,300000,2,100" ItemID="4000350,5000301,5000111,2000002" ItemCount="1,15,10,2" ItemWeight="1,1,1,1"/>
+	<RECORD ID="4000350" LootDesc="[35f8f2]50级勇者礼盒[-]" LootType="2" LootMax="4" ResourceLoot="1,500000,2,100" ItemID="4000360,5000301,5000111,2000002" ItemCount="1,20,15,3" ItemWeight="1,1,1,1"/>
+	<RECORD ID="4000360" LootDesc="[35f8f2]60级勇者礼盒[-]" LootType="2" LootMax="3" ResourceLoot="1,500000,2,200" ItemID="5000301,5000111,2000003" ItemCount="30,20,2" ItemWeight="1,1,1"/>
+	<RECORD ID="4000601" LootDesc="[35f8f2]VIP1礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,10,10,10" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000602" LootDesc="[35f8f2]VIP2礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,20,20,20" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000603" LootDesc="[35f8f2]VIP3礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,30,30,30" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000604" LootDesc="[35f8f2]VIP4礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,40,40,40" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000605" LootDesc="[35f8f2]VIP5礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,50,50,50" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000606" LootDesc="[35f8f2]VIP6礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,60,60,60" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000607" LootDesc="[35f8f2]VIP7礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,70,70,70" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000608" LootDesc="[35f8f2]VIP8礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,80,80,80" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000609" LootDesc="[35f8f2]VIP9礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,90,90,90" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000610" LootDesc="[35f8f2]VIP10礼包[-]" LootType="2" LootMax="6" ItemID="5000301,2000103,5000111,4000101,4000101,4000101" ItemCount="10,6,10,100,100,100" ItemWeight="1,1,1,1,1,1"/>
+	<RECORD ID="4000701" LootDesc="恶魔洞窟掉落包（噩梦）" LootType="1" LootMax="1" ItemID="2000412,2000101" ItemCount="1,1" ItemWeight="1,1"/>
+	<RECORD ID="4000702" LootDesc="恶魔洞窟掉落包（地狱）" LootType="1" LootMax="1" ItemID="2000414,2000101" ItemCount="1,1" ItemWeight="1,1"/>
+	<RECORD ID="4000703" LootDesc="恶魔洞窟掉落包（炼狱）" LootType="1" LootMax="1" ItemID="2000416,2000101" ItemCount="1,1" ItemWeight="1,1"/>
+</RECORDS>

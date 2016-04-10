@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="106001" Name="攻击" Icon="diamond_box" Level="1" SkillType="5" SkillValue="10" BuildSkillLv="1" SkillUp_resource="9,100" SkillUp_item="0" SkillLearn_resource="8,100" SkillLearn_item="0"/>
+	<RECORD ID="106002" Name="攻击" Icon="diamond_box" Level="2" SkillType="5" SkillValue="20" BuildSkillLv="2" SkillUp_resource="9,500" SkillUp_item="0" SkillLearn_resource="8,500" SkillLearn_item="0"/>
+	<RECORD ID="106003" Name="攻击" Icon="diamond_box" Level="3" SkillType="5" SkillValue="30" BuildSkillLv="3" SkillUp_resource="9,1000" SkillUp_item="0" SkillLearn_resource="8,1000" SkillLearn_item="0"/>
+	<RECORD ID="106004" Name="攻击" Icon="diamond_box" Level="4" SkillType="5" SkillValue="40" BuildSkillLv="4" SkillUp_resource="9,5000" SkillUp_item="0" SkillLearn_resource="8,5000" SkillLearn_item="0"/>
+	<RECORD ID="106005" Name="攻击" Icon="diamond_box" Level="5" SkillType="5" SkillValue="50" BuildSkillLv="5" SkillUp_resource="9,10000" SkillUp_item="0" SkillLearn_resource="8,10000" SkillLearn_item="0"/>
+	<RECORD ID="106006" Name="攻击" Icon="diamond_box" Level="6" SkillType="5" SkillValue="60" BuildSkillLv="6" SkillUp_resource="9,20000" SkillUp_item="0" SkillLearn_resource="8,20000" SkillLearn_item="0"/>
+	<RECORD ID="106007" Name="攻击" Icon="diamond_box" Level="7" SkillType="5" SkillValue="70" BuildSkillLv="7" SkillUp_resource="9,50000" SkillUp_item="0" SkillLearn_resource="8,50000" SkillLearn_item="0"/>
+	<RECORD ID="106008" Name="攻击" Icon="diamond_box" Level="8" SkillType="5" SkillValue="80" BuildSkillLv="8" SkillUp_resource="9,100000" SkillUp_item="0" SkillLearn_resource="8,100000" SkillLearn_item="0"/>
+	<RECORD ID="106009" Name="攻击" Icon="diamond_box" Level="9" SkillType="5" SkillValue="90" BuildSkillLv="9" SkillUp_resource="9,150000" SkillUp_item="0" SkillLearn_resource="8,150000" SkillLearn_item="0"/>
+	<RECORD ID="106010" Name="攻击" Icon="diamond_box" Level="10" SkillType="5" SkillValue="100" BuildSkillLv="10" SkillUp_resource="9,200000" SkillUp_item="0" SkillLearn_resource="8,200000" SkillLearn_item="0"/>
+	<RECORD ID="206001" Name="防御" Icon="diamond_box" Level="1" SkillType="6" SkillValue="10" BuildSkillLv="1" SkillUp_resource="9,100" SkillUp_item="0" SkillLearn_resource="8,100" SkillLearn_item="0"/>
+	<RECORD ID="206002" Name="防御" Icon="diamond_box" Level="2" SkillType="6" SkillValue="20" BuildSkillLv="2" SkillUp_resource="9,500" SkillUp_item="0" SkillLearn_resource="8,500" SkillLearn_item="0"/>
+	<RECORD ID="206003" Name="防御" Icon="diamond_box" Level="3" SkillType="6" SkillValue="30" BuildSkillLv="3" SkillUp_resource="9,1000" SkillUp_item="0" SkillLearn_resource="8,1000" SkillLearn_item="0"/>
+	<RECORD ID="206004" Name="防御" Icon="diamond_box" Level="4" SkillType="6" SkillValue="40" BuildSkillLv="4" SkillUp_resource="9,5000" SkillUp_item="0" SkillLearn_resource="8,5000" SkillLearn_item="0"/>
+	<RECORD ID="206005" Name="防御" Icon="diamond_box" Level="5" SkillType="6" SkillValue="50" BuildSkillLv="5" SkillUp_resource="9,10000" SkillUp_item="0" SkillLearn_resource="8,10000" SkillLearn_item="0"/>
+	<RECORD ID="206006" Name="防御" Icon="diamond_box" Level="6" SkillType="6" SkillValue="60" BuildSkillLv="6" SkillUp_resource="9,20000" SkillUp_item="0" SkillLearn_resource="8,20000" SkillLearn_item="0"/>
+	<RECORD ID="206007" Name="防御" Icon="diamond_box" Level="7" SkillType="6" SkillValue="70" BuildSkillLv="7" SkillUp_resource="9,50000" SkillUp_item="0" SkillLearn_resource="8,50000" SkillLearn_item="0"/>
+	<RECORD ID="206008" Name="防御" Icon="diamond_box" Level="8" SkillType="6" SkillValue="80" BuildSkillLv="8" SkillUp_resource="9,100000" SkillUp_item="0" SkillLearn_resource="8,100000" SkillLearn_item="0"/>
+	<RECORD ID="206009" Name="防御" Icon="diamond_box" Level="9" SkillType="6" SkillValue="90" BuildSkillLv="9" SkillUp_resource="9,150000" SkillUp_item="0" SkillLearn_resource="8,150000" SkillLearn_item="0"/>
+	<RECORD ID="206010" Name="防御" Icon="diamond_box" Level="10" SkillType="6" SkillValue="100" BuildSkillLv="10" SkillUp_resource="9,200000" SkillUp_item="0" SkillLearn_resource="8,200000" SkillLearn_item="0"/>
+</RECORDS>

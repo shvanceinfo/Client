@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="101001" Name="九品勇士" Level="1" Icon="xunzhang1_yongshi" LvUp_resource="3,1600" LvUp_item="0" XunZhangData="1,180,5,22,6,11,13,3,14,3" ChengHao="chenghao0_9pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="0"/>
+	<RECORD ID="102001" Name="八品骑士" Level="2" Icon="xunzhang2_qishi" LvUp_resource="3,4600" LvUp_item="0" XunZhangData="1,371,5,46,6,23,13,7,14,7" ChengHao="chenghao1_8pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="0"/>
+	<RECORD ID="103001" Name="七品男爵" Level="3" Icon="xunzhang3_nanjue" LvUp_resource="3,12000" LvUp_item="0" XunZhangData="1,644,5,80,6,40,13,12,14,12" ChengHao="chenghao2_7pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="9009001"/>
+	<RECORD ID="104001" Name="六品子爵" Level="4" Icon="xunzhang4_zijue" LvUp_resource="3,34000" LvUp_item="0" XunZhangData="1,1203,5,150,6,75,13,23,14,23" ChengHao="chenghao3_6pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="9009001"/>
+	<RECORD ID="105001" Name="五品伯爵" Level="5" Icon="xunzhang5_bojue" LvUp_resource="3,64000" LvUp_item="0" XunZhangData="1,2526,5,316,6,158,13,47,14,47" ChengHao="chenghao4_5pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="9009001"/>
+	<RECORD ID="106001" Name="四品侯爵" Level="6" Icon="xunzhang6_houjue" LvUp_resource="3,240000" LvUp_item="0" XunZhangData="1,4624,5,578,6,289,13,87,14,87" ChengHao="chenghao5_4pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="9009001"/>
+	<RECORD ID="107001" Name="三品公爵" Level="7" Icon="xunzhang7_gongjue" LvUp_resource="3,520000" LvUp_item="0" XunZhangData="1,11056,5,1382,6,691,13,207,14,207" ChengHao="chenghao6_3pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="9009001"/>
+	<RECORD ID="108001" Name="二品亲王" Level="8" Icon="xunzhang8_qinwang" LvUp_resource="3,920000" LvUp_item="0" XunZhangData="1,22471,5,2809,6,1404,13,421,14,421" ChengHao="chenghao7_2pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="9009001"/>
+	<RECORD ID="109001" Name="铁血国王" Level="9" Icon="xunzhang9_guowang" LvUp_resource="3,1200000" LvUp_item="0" XunZhangData="1,39648,5,4956,6,2478,13,743,14,743" ChengHao="chenghao8_1pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="9009001"/>
+	<RECORD ID="110001" Name="至高皇帝" Level="10" Icon="xunzhang10_huangdi" LvUp_resource="0,0" LvUp_item="0" XunZhangData="1,59464,5,7433,6,3716,13,1115,14,1115" ChengHao="chenghao9_0pin" ChengHaoReward_resource="0" ChengHaoReward_item="0" gonggaoID="9009001"/>
+</RECORDS>

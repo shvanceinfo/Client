@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<GuideInfo ID="0" Trigger="0" level_lim="6,999" TipInfo="获得更强装备" ButtonText="立即装备" Function="900201"/>
+	<GuideInfo ID="1" Trigger="1" Params="4000301,4000302,4000303,4000310,4000320,4000330,4000340,4000350,4000360" level_lim="0,999" TipInfo="开启新手礼包" ButtonText="立即打开" Function="900201"/>
+	<GuideInfo ID="2" Trigger="2" level_lim="4,999" TipInfo="获得新技能" ButtonText="立即升级" Function="900301"/>
+	<GuideInfo ID="3" Trigger="3" level_lim="32,999" TipInfo="开启新天赋" ButtonText="立即升级" Function="900302"/>
+</RECORDS>

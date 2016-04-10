@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1" paixu="1" tequan_des="单次扫荡时间" xianshi="SD_jiasu"/>
+	<RECORD ID="2" paixu="2" tequan_des="每日购买体力次数" xianshi="TL_num"/>
+	<RECORD ID="3" paixu="3" tequan_des="竞技场购买挑战次数" xianshi="JJC_num"/>
+	<RECORD ID="4" paixu="4" tequan_des="哥布林次数购买次数" xianshi="GBL_num"/>
+	<RECORD ID="5" paixu="5" tequan_des="背包容量增加" xianshi="Bag_num"/>
+	<RECORD ID="6" paixu="6" tequan_des="关卡复活次数" xianshi="FH_num"/>
+	<RECORD ID="7" paixu="7" tequan_des="药水购买次数" xianshi="HPMP_num"/>
+	<RECORD ID="8" paixu="8" tequan_des="好友上限" xianshi="FriendNum"/>
+	<RECORD ID="9" paixu="9" tequan_des="好友体力赠送次数" xianshi="FriendTiLi_song"/>
+	<RECORD ID="10" paixu="10" tequan_des="好友体力领取次数" xianshi="FriendTiLi_ling"/>
+	<RECORD ID="11" paixu="11" tequan_des="好友一键赠送" xianshi="FriendFree_song"/>
+	<RECORD ID="12" paixu="12" tequan_des="好友一键领取" xianshi="FriendFree_ling"/>
+	<RECORD ID="13" paixu="13" tequan_des="好友全部同意" xianshi="FriendAgree_yes"/>
+	<RECORD ID="14" paixu="14" tequan_des="好友全部拒绝" xianshi="FriendAgree_no"/>
+	<RECORD ID="15" paixu="15" tequan_des="魔物悬赏每日追缉次数" xianshi="xuanshang_num"/>
+	<RECORD ID="16" paixu="16" tequan_des="魔物悬赏开启快速追缉" xianshi="xuanshang_kuaisu"/>
+	<RECORD ID="17" paixu="17" tequan_des="魔物悬赏开启一键追缉" xianshi="xuanshang_yijian"/>
+	<RECORD ID="18" paixu="18" tequan_des="潘神迷宫行动力上限" xianshi="MG_XDLmax"/>
+	<RECORD ID="19" paixu="19" tequan_des="潘神迷宫行动力购买次数" xianshi="MG_XDLbuy"/>
+</RECORDS>

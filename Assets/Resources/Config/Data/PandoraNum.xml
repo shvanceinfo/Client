@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1" TiaoZhan_resource="2,5" TiaoZhan_item="0" ChongZhi_resource="2,10" ChongZhi_item="0" Pandora_resource="2,0" Pandora_item="4000400,1"/>
+	<RECORD ID="2" TiaoZhan_resource="2,10" TiaoZhan_item="0" ChongZhi_resource="2,20" ChongZhi_item="0" Pandora_resource="2,5" Pandora_item="4000400,1"/>
+	<RECORD ID="3" TiaoZhan_resource="2,15" TiaoZhan_item="0" ChongZhi_resource="2,30" ChongZhi_item="0" Pandora_resource="2,10" Pandora_item="4000400,1"/>
+	<RECORD ID="4" TiaoZhan_resource="2,20" TiaoZhan_item="0" ChongZhi_resource="2,40" ChongZhi_item="0" Pandora_resource="2,15" Pandora_item="4000400,1"/>
+	<RECORD ID="5" TiaoZhan_resource="2,25" TiaoZhan_item="0" ChongZhi_resource="2,50" ChongZhi_item="0" Pandora_resource="2,20" Pandora_item="4000400,1"/>
+	<RECORD ID="6" TiaoZhan_resource="2,30" TiaoZhan_item="0" ChongZhi_resource="2,60" ChongZhi_item="0" Pandora_resource="2,25" Pandora_item="4000400,1"/>
+	<RECORD ID="7" TiaoZhan_resource="2,35" TiaoZhan_item="0" ChongZhi_resource="2,70" ChongZhi_item="0" Pandora_resource="2,30" Pandora_item="4000400,1"/>
+	<RECORD ID="8" TiaoZhan_resource="2,40" TiaoZhan_item="0" ChongZhi_resource="2,80" ChongZhi_item="0" Pandora_resource="2,35" Pandora_item="4000400,1"/>
+	<RECORD ID="9" TiaoZhan_resource="2,45" TiaoZhan_item="0" ChongZhi_resource="2,90" ChongZhi_item="0" Pandora_resource="2,40" Pandora_item="4000400,1"/>
+	<RECORD ID="10" TiaoZhan_resource="2,50" TiaoZhan_item="0" ChongZhi_resource="2,100" ChongZhi_item="0" Pandora_resource="2,45" Pandora_item="4000400,1"/>
+	<RECORD ID="11" TiaoZhan_resource="2,55" TiaoZhan_item="0" ChongZhi_resource="2,110" ChongZhi_item="0" Pandora_resource="2,50" Pandora_item="4000400,1"/>
+	<RECORD ID="12" TiaoZhan_resource="2,60" TiaoZhan_item="0" ChongZhi_resource="2,120" ChongZhi_item="0" Pandora_resource="2,55" Pandora_item="4000400,1"/>
+	<RECORD ID="13" TiaoZhan_resource="2,65" TiaoZhan_item="0" ChongZhi_resource="2,130" ChongZhi_item="0" Pandora_resource="2,60" Pandora_item="4000400,1"/>
+	<RECORD ID="14" TiaoZhan_resource="2,70" TiaoZhan_item="0" ChongZhi_resource="2,140" ChongZhi_item="0" Pandora_resource="2,65" Pandora_item="4000400,1"/>
+	<RECORD ID="15" TiaoZhan_resource="2,75" TiaoZhan_item="0" ChongZhi_resource="2,150" ChongZhi_item="0" Pandora_resource="2,70" Pandora_item="4000400,1"/>
+	<RECORD ID="16" TiaoZhan_resource="2,80" TiaoZhan_item="0" ChongZhi_resource="2,160" ChongZhi_item="0" Pandora_resource="2,75" Pandora_item="4000400,1"/>
+	<RECORD ID="17" TiaoZhan_resource="2,85" TiaoZhan_item="0" ChongZhi_resource="2,170" ChongZhi_item="0" Pandora_resource="2,80" Pandora_item="4000400,1"/>
+	<RECORD ID="18" TiaoZhan_resource="2,90" TiaoZhan_item="0" ChongZhi_resource="2,180" ChongZhi_item="0" Pandora_resource="2,85" Pandora_item="4000400,1"/>
+	<RECORD ID="19" TiaoZhan_resource="2,95" TiaoZhan_item="0" ChongZhi_resource="2,190" ChongZhi_item="0" Pandora_resource="2,90" Pandora_item="4000400,1"/>
+	<RECORD ID="20" TiaoZhan_resource="2,100" TiaoZhan_item="0" ChongZhi_resource="2,200" ChongZhi_item="0" Pandora_resource="2,95" Pandora_item="4000400,1"/>
+</RECORDS>

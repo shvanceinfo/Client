@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AIConfig>
+	<RECORD ID="300101" Jiguan_type="1" Delay="0" LifeTime="0.1" Dam_type="1" Cycle="0" EffectID="0" Prefab="Model/prefab/SkillRange/playerSkill/FSattack3_bao" jiguan_eff="Effect/Effect_Prefab/Role/Skill/fashi_gongji3_ShouJi"/>
+	<RECORD ID="300102" Jiguan_type="2" Delay="1.2" LifeTime="1.3" Dam_type="1" Cycle="0" EffectID="3" Prefab="Model/prefab/SkillRange/playerSkill/FSskill_huanxiang"/>
+	<RECORD ID="100102" Jiguan_type="3" Delay="0" LifeTime="0.1" Dam_type="2" Cycle="0.3" Dam_count="30,10" EffectID="0"/>
+</AIConfig>

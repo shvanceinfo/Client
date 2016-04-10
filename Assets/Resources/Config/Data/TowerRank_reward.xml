@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1001" name="1~10名" rankLeft="1" rankRight="10" RewardItem="4000201,1"/>
+	<RECORD ID="1005" name="11~50名" rankLeft="11" rankRight="50" RewardItem="4000202,1"/>
+	<RECORD ID="1006" name="51~200名" rankLeft="51" rankRight="200" RewardItem="4000203,1"/>
+	<RECORD ID="1007" name="201~500名" rankLeft="201" rankRight="500" RewardItem="4000204,1"/>
+	<RECORD ID="1008" name="501~1000名" rankLeft="501" rankRight="1000" RewardItem="4000205,1"/>
+	<RECORD ID="1009" name="1001名以后" rankLeft="1001" rankRight="200000" RewardItem="4000206,1"/>
+	<RECORD ID="2001" name="1~10名" rankLeft="1" rankRight="10" RewardItem="4000211,1"/>
+	<RECORD ID="2005" name="11~50名" rankLeft="11" rankRight="50" RewardItem="4000212,1"/>
+	<RECORD ID="2006" name="51~200名" rankLeft="51" rankRight="200" RewardItem="4000213,1"/>
+	<RECORD ID="2007" name="201~500名" rankLeft="201" rankRight="500" RewardItem="4000214,1"/>
+	<RECORD ID="2008" name="501~1000名" rankLeft="501" rankRight="1000" RewardItem="4000215,1"/>
+	<RECORD ID="2009" name="1001名以后" rankLeft="1001" rankRight="200000" RewardItem="4000216,1"/>
+	<RECORD ID="3001" name="1~10名" rankLeft="1" rankRight="10" RewardItem="4000221,1"/>
+	<RECORD ID="3005" name="11~50名" rankLeft="11" rankRight="50" RewardItem="4000222,1"/>
+	<RECORD ID="3006" name="51~200名" rankLeft="51" rankRight="200" RewardItem="4000223,1"/>
+	<RECORD ID="3007" name="201~500名" rankLeft="201" rankRight="500" RewardItem="4000224,1"/>
+	<RECORD ID="3008" name="501~1000名" rankLeft="501" rankRight="1000" RewardItem="4000225,1"/>
+	<RECORD ID="3009" name="1001名以后" rankLeft="1001" rankRight="200000" RewardItem="4000226,1"/>
+</RECORDS>

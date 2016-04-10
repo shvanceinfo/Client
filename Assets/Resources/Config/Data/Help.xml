@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="3" help_name="进阶">
+	    <node info="1.进阶可以将低等级装备变为高等级装备"/>
+		<node info="2.进阶能提升装备品质及等级，属性会根据装备等级变化"/>
+		<node info="3.进阶后会保留装备的强化等级，以及洗练属性"/>
+		<node info="4.进阶需要消耗对应是装备材料"/>
+	</RECORD>
+	<RECORD ID="2" help_name="洗炼">
+		<node info="1.洗炼可改变装备的洗练属性"/>
+		<node info="2.角色等级越高，洗练属性的条数越多"/>
+		<node info="3.洗练获得的属性，再次洗练只会累加属性值"/>
+		<node info="4.消耗重置石可将不满意的洗练属性重置为未洗练"/>
+	</RECORD>
+	<RECORD ID="4" help_name="镶嵌">
+		<node info="1.每种宝石均对应3种装备，如果宝石与装备不对应，是无法镶嵌的"/>
+		<node info="2.每件装备最多可镶嵌4颗宝石"/>
+		<node info="3.3颗同种宝石可以合成1颗高级宝石，合成100%成功"/>
+	</RECORD>
+	<RECORD ID="1" help_name="强化">
+		<node info="1.强化可以提高装备的基础属性"/>
+		<node info="2.强化消耗强化石，根据强化等级消耗不同数量的强化石"/>
+		<node info="3.强化等级越高，成功率越低，消耗的强化石越多"/>
+	</RECORD>
+	<RECORD ID="5" help_name="羽翼">
+		<node info="1.羽翼进阶可大幅度提升基础属性，获得超炫翅膀"/>
+		<node info="2.羽翼进阶消耗羽翼精华，每次进阶有几率成功"/>
+		<node info="3.进阶失败，随机获得1至3点幸运值，幸运值越高进阶成功率越高"/>
+		<node info="4.高阶羽翼进阶时，每日幸运值会清空"/>		
+	</RECORD>
+	<RECORD ID="6" help_name="宠物">
+		<node info="1.宠物进化可大幅度提升基础属性，获得更多萌宠选择跟随"/>
+		<node info="2.宠物进化消耗宠物精魄，每次进阶有几率成功"/>
+		<node info="3.进化失败，随机获得1至3点幸运值，幸运值越高进阶成功率越高"/>
+		<node info="4.进化高阶宠物时，每日幸运值会清空"/>	
+		<node info="5.人物附加最高阶宠物属性，选择跟随可展示任意已拥有的宠物"/>			
+	</RECORD>	
+	<RECORD ID="7" help_name="技能">
+		<node info="1.技能升级可大幅度提高主动技能伤害百分比加成及额外伤害"/>
+		<node info="2.技能升级消耗金币及符石"/>		
+	</RECORD>
+	<RECORD ID="8" help_name="天赋">
+		<node info="1.天赋升级可大幅度提升基础属性"/>
+		<node info="2.天赋升级消耗金币"/>		
+	</RECORD>	
+</RECORDS>

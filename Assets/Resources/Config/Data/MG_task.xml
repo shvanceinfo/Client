@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1040101" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,30" zuanshi_price="20" finish_type="6" finish_Des="强化{0}/1次" finish_value1="900401,1" functionID="900401" jiangliID="112007"/>
+	<RECORD ID="1040102" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="31,60" zuanshi_price="20" finish_type="6" finish_Des="强化{0}/3次" finish_value1="900401,3" functionID="900401" jiangliID="112007"/>
+	<RECORD ID="1040201" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,30" zuanshi_price="20" finish_type="6" finish_Des="洗炼{0}/1次" finish_value1="900403,1" functionID="900403" jiangliID="112001"/>
+	<RECORD ID="1040202" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="31,60" zuanshi_price="20" finish_type="6" finish_Des="洗炼{0}/3次" finish_value1="900403,3" functionID="900403" jiangliID="112001"/>
+	<RECORD ID="1040301" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,30" zuanshi_price="20" finish_type="6" finish_Des="通关任意普通副本{0}/3次" finish_value1="901801,3" functionID="901801" jiangliID="112002"/>
+	<RECORD ID="1040302" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="31,60" zuanshi_price="20" finish_type="6" finish_Des="通关任意普通副本{0}/5次" finish_value1="901801,5" functionID="901801" jiangliID="112002"/>
+	<RECORD ID="1040401" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,30" zuanshi_price="20" finish_type="6" finish_Des="攻打恶魔洞窟{0}/1次" finish_value1="900801,1" functionID="900801" jiangliID="112004"/>
+	<RECORD ID="1040402" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="31,60" zuanshi_price="20" finish_type="6" finish_Des="攻打恶魔洞窟{0}/3次" finish_value1="900801,3" functionID="900801" jiangliID="112004"/>
+	<RECORD ID="1040501" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,30" zuanshi_price="20" finish_type="6" finish_Des="清剿哥布林巢穴{0}/1次" finish_value1="900901,1" functionID="900901" jiangliID="112006"/>
+	<RECORD ID="1040502" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="31,60" zuanshi_price="20" finish_type="6" finish_Des="清剿哥布林巢穴{0}/3次" finish_value1="900901,3" functionID="900901" jiangliID="112006"/>
+	<RECORD ID="1040601" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,30" zuanshi_price="20" finish_type="6" finish_Des="合成任意物品{0}/1次" finish_value1="900601,1" functionID="900601" jiangliID="112003"/>
+	<RECORD ID="1040602" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="31,60" zuanshi_price="20" finish_type="6" finish_Des="合成任意物品{0}/3次" finish_value1="900601,3" functionID="900601" jiangliID="112003"/>
+	<RECORD ID="1040701" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,30" zuanshi_price="20" finish_type="6" finish_Des="参加{0}/1次组队副本" finish_value1="901502,1" functionID="901502" jiangliID="112005"/>
+	<RECORD ID="1040702" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="31,60" zuanshi_price="20" finish_type="6" finish_Des="参加{0}/2次组队副本" finish_value1="901502,2" functionID="901502" jiangliID="112005"/>
+	<RECORD ID="1040801" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,60" zuanshi_price="20" finish_type="6" finish_Des="参加{0}/1次世界BOSS活动" finish_value1="901503,1" functionID="901503" jiangliID="112008"/>
+	<RECORD ID="1040901" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,60" zuanshi_price="20" finish_type="2" finish_Des="与时光之城雅典娜对话" finish_value1="1002002" functionID="0" jiangliID="112008"/>
+	<RECORD ID="1041001" TaskType="4" quanzhong="100" End_limit="1,5" level_limit="10,60" zuanshi_price="20" finish_type="5" finish_Des="交付{0}/5个强化石" finish_value1="5000111,5" functionID="901301" jiangliID="112008"/>
+	<RECORD ID="1020101" TaskType="2" quanzhong="100" End_limit="1,1" level_limit="1,60" finish_Des="终点宝箱" jiangliID="139007"/>
+	<RECORD ID="1020102" TaskType="2" quanzhong="101" End_limit="1,2" level_limit="1,60" finish_Des="终点宝箱" jiangliID="139007"/>
+	<RECORD ID="1020103" TaskType="2" quanzhong="102" End_limit="1,3" level_limit="1,60" finish_Des="终点宝箱" jiangliID="139007"/>
+	<RECORD ID="1020104" TaskType="2" quanzhong="103" End_limit="1,4" level_limit="1,60" finish_Des="终点宝箱" jiangliID="139007"/>
+	<RECORD ID="1020105" TaskType="2" quanzhong="104" End_limit="1,5" level_limit="1,60" finish_Des="终点宝箱" jiangliID="139007"/>
+</RECORDS>

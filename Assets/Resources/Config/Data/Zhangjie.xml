@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1" zj_shunxu="1" zj_mingcheng="第一章：潘多拉魔盒" zj_nandu="1" bg_image="guanka_senlin_bg" jiangli="2000404,1,2000103,1,5000111,2,4000102,4"/>
+	<RECORD ID="2" zj_shunxu="2" zj_mingcheng="第二章：奥林匹斯诸神" zj_nandu="1" bg_image="guanka_dilao_bg" jiangli="2000404,2,2000103,2,5000111,3,4000103,1"/>
+	<RECORD ID="3" zj_shunxu="3" zj_mingcheng="第三章：诸神的黄昏" zj_nandu="1" bg_image="guanka_kongzhong_bg" jiangli="2000404,2,2000103,2,5000111,5,4000103,2,5000301,1"/>
+	<RECORD ID="4" zj_shunxu="4" zj_mingcheng="第四章：神域之殇" zj_nandu="1" bg_image="guanka_gaojiasuo_bg" jiangli="2000404,3,2000103,3,5000111,6,4000103,3,5000301,1"/>
+	<RECORD ID="5" zj_shunxu="5" zj_mingcheng="第五章：亚瑟王崛起" zj_nandu="1" bg_image="guanka_senlin_bg" jiangli="2000404,4,2000103,4,5000111,8,4000103,4,5000301,1"/>
+	<RECORD ID="6" zj_shunxu="6" zj_mingcheng="第六章：邪恶圣杯" zj_nandu="1" bg_image="guanka_dilao_bg" jiangli="2000404,5,2000103,5,5000111,10,4000103,5,5000301,2"/>
+	<RECORD ID="7" zj_shunxu="7" zj_mingcheng="第七章：十字军东征" zj_nandu="1" bg_image="guanka_gaojiasuo_bg" jiangli="2000404,6,2000103,6,5000111,12,4000103,6,5000301,2"/>
+	<RECORD ID="8" zj_shunxu="8" zj_mingcheng="第八章：堕落天使" zj_nandu="1" bg_image="guanka_gaojiasuo_bg" jiangli="2000404,6,2000103,6,5000111,12,4000103,6,5000301,2"/>
+	<RECORD ID="101" zj_shunxu="101" zj_mingcheng="第一章：潘多拉魔盒" zj_nandu="2" bg_image="guanka_senlin_bg" jiangli="2000404,1,2000103,1,5000111,2,4000102,4,"/>
+	<RECORD ID="102" zj_shunxu="102" zj_mingcheng="第二章：奥林匹斯诸神" zj_nandu="2" bg_image="guanka_dilao_bg" jiangli="2000404,2,2000103,2,5000111,3,4000103,1,"/>
+	<RECORD ID="103" zj_shunxu="103" zj_mingcheng="第三章：诸神的黄昏" zj_nandu="2" bg_image="guanka_kongzhong_bg" jiangli="2000404,2,2000103,2,5000111,5,4000103,2,5000301,1"/>
+	<RECORD ID="104" zj_shunxu="104" zj_mingcheng="第四章：神域之殇" zj_nandu="2" bg_image="guanka_gaojiasuo_bg" jiangli="2000404,3,2000103,3,5000111,6,4000103,3,5000301,1"/>
+	<RECORD ID="105" zj_shunxu="105" zj_mingcheng="第五章：亚瑟王崛起" zj_nandu="2" bg_image="guanka_senlin_bg" jiangli="2000404,4,2000103,4,5000111,8,4000103,4,5000301,1"/>
+	<RECORD ID="106" zj_shunxu="106" zj_mingcheng="第六章：邪恶圣杯" zj_nandu="2" bg_image="guanka_dilao_bg" jiangli="2000404,5,2000103,5,5000111,10,4000103,5,5000301,2"/>
+	<RECORD ID="107" zj_shunxu="107" zj_mingcheng="第七章：十字军东征" zj_nandu="2" bg_image="guanka_gaojiasuo_bg" jiangli="2000404,6,2000103,6,5000111,12,4000103,6,5000301,2"/>
+	<RECORD ID="108" zj_shunxu="108" zj_mingcheng="第八章：堕落天使" zj_nandu="2" bg_image="guanka_gaojiasuo_bg" jiangli="2000404,6,2000103,6,5000111,12,4000103,6,5000301,2"/>
+</RECORDS>

@@ -1,0 +1,810 @@
+//协议网站
+
+syntax = "proto2";
+package NetPackage;
+
+//客户端->服务端
+enum CeC2GType
+{
+	C2G_UNKOWN	= 0;
+	C2G_Ping 	= 1;
+	C2G_Login 	= 2;
+	C2G_CreateRole 	= 3;
+	C2G_SelectRole 	= 4;
+	C2G_EnterScene 	= 5;
+	C2G_AskMove 	= 6;
+	C2G_Logout 		= 7;
+	C2G_BuyGoods 	= 8;
+	C2G_UseGoods 	= 9;
+	C2G_PassGate 	= 10;
+	C2G_EquipGoods  = 11;
+	C2G_SaleGoods 	= 12;
+	C2G_BoxDropGoods 	= 13;
+	C2G_AskMoveGoods 	= 14;
+	C2G_AskIntensifyEquip 	= 15;
+	C2G_AskTransmitEquip 	= 16;
+	C2G_AskRelive 			= 17;
+	C2G_AskActiveSkillCard 	= 18;
+	C2G_AskRefreshActiveSkillCard 	= 19;
+	C2G_AskBuySkillPoint 	= 20;
+	C2G_ReportExp 			= 21;
+	C2G_ReportUseSkill 		= 22;
+	C2G_ReportOBjectAppear 	= 23;
+	C2G_ReportOBjectDisappear 	= 24;
+	C2G_ReportObjectAction 	= 25;
+	C2G_ReportObjectHurm 	= 26;
+	C2G_AskCombineGem 	= 27;		///宝石合成
+	//C2G_AskUseGem 	= 28;
+	C2G_AskWashEquip 	= 29;		///洗炼
+	C2G_AskInlayGem    	= 30;
+	C2G_AskChapterAward 	= 31;
+	C2G_AskUpgradeEquip 	= 32;
+	C2G_AskDecomposeEquip 	= 33;
+	C2G_AskGMSendAnnounce 	= 34;		//请求发送公告
+	C2G_AskChat 		= 35;
+	C2G_AskRankList 	= 36;
+	C2G_AskEMailList 	= 37;
+	C2G_AskReadEMail 	= 38;
+	C2G_AskGetEMailPrize= 39;
+	C2G_AskRemoveEMail 	= 40;
+	C2G_AskAchievementList 	= 41;
+	C2G_AskAchievementPrize = 42;
+	C2G_AskUseTitle 		= 43;
+	C2G_ReportAchievementSchedule 	= 44;
+	C2G_AskEnterTowerInstance 		= 45;
+	C2G_ReportTowerInstanceScore 	= 46;
+	C2G_AskTowerInstanceRank 	= 47;
+	C2G_AskTowerInstanceAward 	= 48;
+	C2G_AskBuyHPVessel 	= 49;
+	C2G_AskBuyMPVessel 	= 50;
+	C2G_AskShopTemp 	= 51;
+	C2G_AskBuyShopItem 	= 52;
+	C2G_AskChargeIOS 	= 53;
+	C2G_AskAddGoods 	= 54;
+	C2G_ReportHPVessel 	= 55;
+	C2G_ReportMPVessel 	= 56;
+	C2G_AskGMPassGate 	= 57;
+	C2G_AskGMChangeLevel= 58;
+	C2G_AskSystemNotice	= 59;				//请求系统公告
+	C2G_ReportBug		= 60;				//bug，建议，投诉反馈
+	C2G_AskEnterGoblin 	= 61;
+	C2G_AskGoblinTimes 	= 62;
+	C2G_AskGoblinMultiBenefit 	= 63;
+	C2G_AskBuyGoblinTimes 		= 64;
+	C2G_ReportProduce 	= 65;				//请求制作装备
+	C2G_AcceptTask 		= 66;				//接受任务
+	C2G_SubmitTask 		= 67;				//提交任务
+	C2G_GMAcceptTask	= 68;				//GM接受任务
+	C2G_GMSendAnnouncement 	= 69;			//汇报任务进度
+	C2G_AskWepon			= 70;			//请求激活武器技能（升级）
+	C2G_AskEquipWeaponSkill	= 71;			//请求装备技能
+	C2G_AskVipAward		= 72;				//请求获取技能书数据
+	C2G_AskBuyPower		= 73;				//请求购买体力
+	C2G_ReportScenario 	= 74;				//汇报剧情的进度
+	C2G_ReportHurt 		= 75;				//汇报伤害
+	C2G_AskCheckSkill 	= 76;				//请求检查技能CD
+	C2G_AskCultureWing 	= 77;				//请求翅膀培养
+	C2G_AskEvolutionWing= 78;				//翅膀进行升阶
+	C2G_AskArenaInfo 	= 79;				//请求竞技场信息
+	C2G_AskHeroList 	= 80;				//请求英雄榜列表
+	C2G_AskChallenge	= 81;				//请求挑战竞技场
+	C2G_ReportChallengeResult 	= 82;		//汇报竞技场战斗结果
+	C2G_AskBuyChallengeNum 	= 83;			//请求购买竞技场挑战次数
+	C2G_AskHonorShopInfo	= 84;			//请求荣誉商店信息
+	C2G_AskBuyHonorItem		= 85;			//请求购买荣誉商店物品
+	C2G_AskWingInfo			= 86;			//请求获得翅膀数据
+	C2G_AskClearChallengeCD	= 87;			//请求清除竞技场挑战CD
+	C2G_AskSyncPVPInfo 		= 88;			//请求同步PVP信息
+	C2G_AskUnsyncPVPInfo 	= 89;			//请求取消PVP信息同步
+	C2G_AskJoinPVPBattle	= 90;			//请求参加PVP战斗
+	C2G_AskEncouragePVPBattle 	= 91;		//请求鼓舞PVP战斗
+	C2G_AskReceiveHeroRankAward	= 92;		//求领取英雄榜排名奖
+	C2G_AskBeginSweep 			= 93;		//请求开始扫荡
+	C2G_AskStopSweep			= 94;		//请求停止扫荡
+	C2G_AskAccelerateSweep 		= 95;		//请求加速扫荡
+	C2G_AskUseItem 		= 96;				//请求使用物品
+	C2G_AskCreateTeam 	= 97;				//请求创建队伍
+	C2G_PreviewMulti	= 98;				//请求预览多人副本关卡
+	C2G_AskAddTeam 		= 99;				//请求加入多人副本组
+	C2G_QuickAddTeam 	= 100;				//请求快速加入副本
+	C2G_AskBeginFightMulti 	= 101;			//请求开始多人副本战斗
+	C2G_SendFormTeamMsg		= 102;			//请求发送多人组队消息
+	C2G_AskLeaveTeam 		= 103;			//请求离开多人副本队伍
+	C2G_ReportMultiPlayerDie= 104;			//多人副本汇报角色死亡
+	C2G_AskJoinActivity	= 105;				//请求加入活动
+	C2G_AskMedalLevel	= 106;				//请求勋章数据
+	C2G_AskMedalLevelUp	= 107;				//请求升级勋章
+	C2G_AskAddFriend 	= 108;				//请求添加好友
+	C2G_VipFriend 		= 109;				//好友VIP功能
+	C2G_AskFriendRecord	= 110;				//请求好友列表
+	C2G_AskUseItemInWorldBoss 	= 111;		//世界boss使用物品
+	C2G_AskSelectPlayer			= 112;
+	C2G_ReportAttackedTarget 	= 113;		//汇报打中某个对象
+	C2G_AskPetData		= 114;				//请求宠物信息
+	C2G_AskPetLevelUp	= 115;				//请求宠物进化
+	C2G_AskZhuiJi 		= 116;				//请求追缉
+	C2G_AskCurZhuiJiCount	= 117;			//取得当前追缉次数 
+	C2G_AskReceiveArenaAward= 118;			//请求获取竞技场奖励
+	C2G_SelectPet			= 124;			//选中的宠物ID
+	C2G_AskChannelList		= 125;			//请求游戏线路列表
+	C2G_AskChannelChangel	= 126;			//请求改变游戏线路
+	C2G_AskGuideComplate	= 127;			//发送新手引导完成
+	C2G_ChallengePandora	= 129;			//请求挑战潘多拉
+	C2G_ResetPandoraNum		= 130;			//重置潘多拉挑战次数
+	C2G_ChallengeAllPandora	= 131;			//全部挑战
+	C2G_OpenPandora	= 132;					//开启潘多拉宝盒
+	C2G_AskEquipPet	= 133;					//请求装备宠物装备
+}
+
+//服务端->客户端
+enum CeG2CType
+{
+	G2C_UNKOWN		= 0;
+	G2C_LoginRet 	= 1;
+	G2C_RoleList 	= 2;
+	G2C_RoleCreateRet 	= 3;
+	G2C_SelectRoleRet 	= 4;
+	G2C_EnterSeceneRet 	= 5;
+	G2C_BagInfo 		= 6;
+	G2C_EquipmentInfo 	= 7;			///delete
+	G2C_GemChange 		= 8;			///delete
+	G2C_RoleFightProperty 	= 9;
+	G2C_AssetChange 	= 10;
+	G2C_RoleLevelChange = 11;
+	G2C_RoleExpChange 	= 12;
+	G2C_RoleCurProperty = 13;
+	G2C_RoleChangeScene = 14;
+	G2C_ErrorMssage 	= 15;
+	G2C_RoleAppear 		= 16;
+	G2C_ObjectDisappear = 17;
+	G2C_ObjectMove 		= 18;
+	G2C_ObjectStopAction= 19;
+	G2C_RoleInfoChange 	= 20;
+	G2C_NotifyRoleMapScheduleList 	= 21;
+	G2C_NotifyDisplayGateIncome 	= 22;
+	G2C_NotifySkillPointChange 		= 23;
+	G2C_NotifyCurSkillInfo 			= 24;
+	G2C_NotifyCanActiveSkillCardList= 25;
+	G2C_NotifySkillReleased 		= 26;
+	G2C_NotifyObjectAppear 			= 27;
+	G2C_NotifyObjectDisappear 		= 28;
+	G2C_NotifyTimedCounter 	= 29;
+	G2C_NotifyObjectAction 	= 30;
+	G2C_NotifyObjectHurm 	= 31;
+	G2C_NotifyChatInfo 		= 32;
+	G2C_NotifyRankList 		= 33;
+	G2C_NotifyEMailList 	= 34;
+	G2C_NotifyPetEquip 		= 35;
+	G2C_NotifyAchievementChange 	= 36;
+	G2C_NotifyTitleChange 	= 37;
+	G2C_NotifyItemChange 	= 38;
+	G2C_NotifyShopTemp 		= 39;
+	G2C_NotifyChargeIOS 	= 40;
+	G2C_ResponseNotice 		= 41;				//系统公告、运维公告，客服信息的回复
+	G2C_NotifyGoblinRemainTimes	= 42;
+	G2C_NotifyTaskInfo 		= 43;				//GS通知任务信息
+	G2C_NotifySkillBookChange 	= 44;
+	G2c_NotifyEquipSkillData 	= 45;
+	G2C_NotifyPowerInfo			= 46;			//通知体力信息
+	G2C_NotifyWeaponSkillSchedule 	= 47;
+	G2C_NotifyWingInfo 		= 48;				//通知客户端翅膀数据
+	G2C_NotifyArenaInfo 	= 49;				//通知竞技场信息
+	G2C_NotifyHeroBankInfo 	= 50;				//通知英雄榜列表
+	G2C_NotifyChallengerInfo	= 51;			//通知可挑战对象变化
+	G2C_NotifyChallengeResult 	= 52;			//通知战报信息
+	G2C_NotifyHonorShop 	= 53;				//通知荣誉商店列表
+	G2C_NotifyChallenger 	= 54;				//通知挑战对象变化
+	GSNotifyPVPRank 		= 55;				//通知PVP排行榜
+	GSNotifyPVPLog 			= 56;				//通知PVP战报
+	GSNotifyAddPVPParticipator 	= 57;			//通知增加PVP参与者
+	GSNotifyRemovePVPParticipator 	= 58;		//通知移除PVP参与者
+	GSNotifySweepResult 	= 59;				//通知扫荡结果
+	GSNotifyMultiInfo 		= 60;				//通知多人副本信息
+	GSNotifyTeamInfo 		= 61;				//通知当前副本的队伍信息
+	GSNotifyStartCountDown 	= 62;				//通知多人副本开始倒计时
+	GSNotifyStartCountDownPlayerOffLine = 63;	//通知多人副本开始倒计时有玩家掉线
+	GSNotifyMultiResult 	= 64;				//通知多人副本开始倒计时
+	GSNotifyPlayerRelive 	= 65;				//通知多人副本有玩家复活了
+	GCNotifyTowerInfo		= 66;				//通知恶魔洞窟挑战信息
+	GCNotifyHistoryRank		= 67;
+	GCNotifyCurRank			= 68;
+	GCNotyfyWorldBossAwardList 	= 69;			//通知世界BOSS获奖名单
+	GCNotyfyMedalInfo		= 70;				//通知勋章数据ID
+	GSNotifyWorldBossOpen 	= 71;				//通知世界boss开始了
+	GSNotifyActivityClose 	= 72;				//通知活动结束了
+	GSNotifyAddFriendMessage= 73;				//好友操作返回结果
+	GSNotifyFriendList 		= 74;				//返回好友列表
+	GSNotifyAddFriendList	= 75;				//通知好友操作的另一方
+	GSNotifyWorldBossDamageList	= 76;			//通知世界BOSS伤害名单
+	GSNotifyWorldBossTemplateID	= 77;			//通知世界BOSS模板ID
+	GSNotifySelectResult	= 78;				//查询玩家结果
+	GSNotifyWorldBossUseItemResult	= 79;		//得到玩家在世界boss中buff的次数
+	GSNotifyPetData 		= 80;				//通知客户端当前宠物数据
+	GSNotifyZhuiJiCount 	= 81;				//通知客户端当前追缉次数
+	GSNotifyFuncOpenParam 	= 85;				//通知客户端功能开启参数信息
+	GSNotifyChannelCur	= 87;					//返回当前游戏线路
+	GSNotifyChannelList	= 88;					//返回频道列表
+	GSNotifyGuideList	= 89;					//返回新手引导列表
+	GSNotifyPandoraInfo = 90;					//潘多拉相关信息
+}
+
+//包头
+message CNetHead
+{
+	optional uint32 _length = 1;
+	optional uint32 _assistantCmd = 2;
+	optional string _body = 3;
+}
+
+//登入请求
+message CRequestLogin
+{
+	optional string _userName  = 1;
+	optional string _userPassword  = 2;
+	optional string _userGUID  = 3;
+	optional string _deviceToken  = 4;
+	optional bool _reConnect  = 5;
+}
+
+//登入回应
+message CRequestLoginRet
+{
+	optional string _userName  = 1;
+	optional string _userGUID  = 2;
+	optional int32 _flag  = 3;		//登入标识
+}
+
+//ping消息
+message CRequestPing
+{
+
+}
+
+//角色列表
+message CGSNotifyRoleBaseInfo
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional string m_n32RoleNickName  = 2;
+	optional int32 m_n32CareerID  = 3;
+	optional bool m_bGender  = 4;
+	optional uint32 m_un32CoatTypeID  = 5;
+	optional uint32 m_un32LegGuardId  = 6;
+	optional uint32 m_un32ShoeId  = 7;
+	optional uint32 m_un32NecklaceId  = 8;
+	optional uint32 m_un32RingId  = 9;
+	optional uint32 m_un32WeaponId  = 10;
+	optional uint32 m_un32Level  = 11;
+	optional uint32 m_un32Exp  = 12;
+	optional uint32 m_un32CurHP  = 13;
+	optional uint32 m_un32CurMP  = 14;
+	optional uint32 m_un32CurHPVessel  = 15;
+	optional uint32 m_un32CurMPVessel  = 16;
+	optional uint32 m_un32MaxHP  = 17;
+	optional uint32 m_un32MaxMP  = 18;
+	optional uint32 m_un32MaxHPVessel  = 19;
+	optional uint32 m_un32MaxMPVessel  = 20;
+	optional uint32 m_un32Max_packages  = 21;
+	optional uint32 wingID  = 22;
+	//TODO
+	//CharacterFightProperty m_fightProperty  = 23;
+}
+
+//选择角色
+message CGCAskSelectRole
+{
+	optional string _roleName  = 1;
+}
+
+//错误消息提示
+message CNetErrorMessage
+{
+	optional uint32 protocolId  = 1;
+	optional uint32 strLength  = 2;
+	optional int32 errorCode  = 3;
+	optional string errorMessage  = 4;
+}
+
+//改变场景
+message CGSNotifyChangeScene
+{
+	optional uint32 m_un32MapID  = 1;
+	optional uint32 m_un32SceneID  = 2;
+	optional uint32 m_un32ClientNO  = 3;
+	optional float m_fPosX  = 4;
+	optional float m_fPosY  = 5;
+	optional float m_fPosZ  = 6;
+}
+
+//角色进入视野
+message CGSNotifyRoleAppear
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional string m_n32RoleNickName  = 2;
+	optional int32 m_n32CareerID  = 3;
+	optional bool m_bGender  = 4;
+	optional uint32 m_un32WeaponTypeID  = 5;
+	optional uint32 m_un32CoatTypeID  = 6;
+	optional uint32 m_un32Level  = 7;
+	optional float m_fCurPosX  = 8;
+	optional float m_fCurPosY  = 9;
+	optional float m_fCurPosZ  = 10;
+	optional float m_fTarPosX  = 11;
+	optional float m_fTarPosY  = 12;
+	optional float m_fTarPosZ  = 13;
+	optional float m_fMoveSpeed  = 14;
+	optional uint32 m_un32CurTitleID  = 15;
+	optional uint32 m_un32CurHp  = 16;
+	optional uint32 m_u32WingID  = 17;
+	optional uint32 m_u32MedalID  = 18;
+	optional uint32 m_u32PetID  = 19;
+	//TODO
+	//CharacterFightProperty fightProperty  = 20;
+}
+
+//角色离开视野
+message CGSObjectDisappear
+{
+	optional uint32 ObjNum  = 1;
+	repeated uint32 m_un32ObjID  = 2[packed=true];
+}
+
+message CGCAskLogout
+{
+
+
+}
+
+//其它玩家移动
+message CGSObjectMove
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional float m_fCurPosX  = 2;
+	optional float m_fCurPosY  = 3;
+	optional float m_fCurPosZ  = 4;
+	optional float m_fTarPosX  = 5;
+	optional float m_fTarPosY  = 6;
+	optional float m_fTarPosZ  = 7;
+	optional float m_fMoveSpeed  = 8;
+}
+
+//请求移动
+message CGCAskMove
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional float m_fCurPosX  = 2;
+	optional float m_fCurPosY  = 3;
+	optional float m_fCurPosZ  = 4;
+	optional uint32 node_num  = 5;
+	optional float m_fTarPosX  = 6;
+	optional float m_fTarPosY  = 7;
+	optional float m_fTarPosZ  = 8;
+}
+
+//其它玩家外观，等级变化
+message CGSNotifyRoleProfileChange
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional uint32 m_un32WeaponTypeID  = 2;
+	optional uint32 m_un32CoatTypeID  = 3;
+	optional uint32 m_un32Level  = 4;
+}
+
+//请求过关
+message CGCReportPassGate
+{
+	optional uint32 m_un32MapID  = 1;
+	optional uint32 m_un32SceneID  = 2;
+	optional uint32 m_un32HPVessel  = 3;
+	optional uint32 m_un32MPVessel  = 4;
+	optional uint32 m_un32GotExpNum  = 5;
+	optional uint32 m_un32GotSilverNum  = 6;
+	optional uint32 m_un32UseSecond  = 7;
+	optional bool m_bPickAllTempGoods  = 8;
+}
+
+//请求开宝箱
+message CGCAskTreasureBoxDropGoods
+{
+	optional uint32 m_un32BoxID  = 1;
+	optional bool m_isShowAward  = 2;
+}
+
+//请求进入场景
+message CGCAskEnterScene
+{
+	optional int32 m_n32MapID = 1;
+	optional int32 m_n32SceneID = 2;
+	optional bool m_bEnterByUI = 3;
+	optional uint32 m_un32HPVessel = 4;
+	optional uint32 m_un32MPVessel = 5;
+	optional uint32 m_un32GotExp = 6;
+	optional uint32 m_un32GotSilver = 7;
+}
+
+//解析已经通关的地图列表TODO
+message CGSNotifyRoleMapScheduleList
+{
+	optional uint32 lineNum  = 1;
+	optional uint32 mapID  = 2;
+}
+
+//其它玩家外观/等级变化TODO
+message CGSNotifyRoleFightProperty
+{
+
+}
+
+//资产通知TODO
+message CGSNotifyAssetChange
+{
+
+}
+
+//资产等级TODO
+message CGSNotifyLevelChange
+{
+
+}
+
+//经验TODO
+message CGSNotifyExpChange
+{
+
+}
+
+//血量/经验TODO
+message CGSNotifyCurProperty
+{
+
+}
+
+//经验TODO
+message CGSNotifyDisplayGateIncome
+{
+
+}
+
+//请求复活
+message CGCAskRelive
+{
+	optional bool _reliveType  = 1;
+	optional bool _assetType  = 2;
+	optional uint32 m_un32AssetNum  = 3;
+}
+
+//GCReportExp
+message CGCReportExp
+{
+	optional uint32 m_un32GotExp  = 1;
+}
+
+//使用技能通知
+message CGCReportUseSkill
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional uint32 m_un32SkillID  = 2;
+	optional float m_fPosX  = 3;
+	optional float m_fPosY  = 4;
+	optional float m_fPosZ  = 5;
+	optional float m_fDirX  = 6;
+	optional float m_fDirY  = 7;
+	optional float m_fDirZ  = 8;
+}
+
+//其它玩家使用技能
+message CGSNotifySkillReleased
+{
+	optional uint32 m_un32ObjectID  = 1;
+	optional uint32 m_un32SkillID  = 2;
+	optional float m_fPosX  = 3;
+	optional float m_fPosY  = 4;
+	optional float m_fPosZ  = 5;
+	optional float m_fDirX  = 6;
+	optional float m_fDirY  = 7;
+	optional float m_fDirZ  = 8;
+}
+
+//对象出现
+message CGCReportOBjectAppear
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional uint32 m_un32TempID  = 2;
+	optional float m_fPosX  = 3;
+	optional float m_fPosY  = 4;
+	optional float m_fPosZ  = 5;
+	optional float m_fDirX  = 6;
+	optional float m_fDirY  = 7;
+	optional float m_fDirZ  = 8;
+}
+
+//收到对象出现
+message CGSNotifyObjectAppear
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional uint32 m_un32TempID  = 2;
+	optional float m_fPosX  = 3;
+	optional float m_fPosY  = 4;
+	optional float m_fPosZ  = 5;
+	optional float m_fDirX  = 6;
+	optional float m_fDirY  = 7;
+	optional float m_fDirZ  = 8;
+}
+
+//对象消亡
+message CGCReportOBjectDisappear
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional int32 m_n32Reason  = 2;
+}
+
+//收到对象
+message CGSNotifyObjectDisappear
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional int32 m_n32Reason  = 2;
+}
+
+//对象行为
+message CGCReportObjectAction
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional int32 m_n32ActionCate  = 2;
+	optional float m_fDirX  = 3;
+	optional float m_fDirY  = 4;
+	optional float m_fDirZ  = 5;
+	optional float m_fPosX  = 6;
+	optional float m_fPosY  = 7;
+	optional float m_fPosZ  = 8;
+}
+
+//广播对象行为
+message CGSNotifyObjectAction
+{
+	optional uint32 m_un32ObjID  = 1;
+	optional int32 m_n32ActionCate  = 2;
+	optional float m_fDirX  = 3;
+	optional float m_fDirY  = 4;
+	optional float m_fDirZ  = 5;
+	optional float m_fPosX  = 6;
+	optional float m_fPosY  = 7;
+	optional float m_fPosZ  = 8;
+}
+
+//对怪物伤害
+message CGCReportObjectHurm
+{
+	optional bool  m_bHost  = 1;
+	optional uint32 m_un32ObjID  = 2;
+	optional int32 m_n32HPValue  = 3;
+	optional int32 m_n32CurHP  = 4;
+	optional int32 m_n32Effect  = 5;
+}
+
+//广播对象怪物伤害 但是只有主机需要处理
+message CGSNotifyObjectHurm
+{
+	optional bool m_bHost  = 1;
+	optional uint32 m_un32ObjID  = 2;
+	optional int32 m_n32HPValue  = 3;
+	optional int32 m_n32HP  = 4;
+	optional int32 m_n32Effect  = 5;
+}
+
+//请求进入塔 45
+message CGCAskEnterTowerInstance
+{
+	//请求进入爬塔副本的ID
+	optional uint32 m_un32TowerId  = 1;
+	//是否从当前波数进入:1是0否
+	optional bool m_bCurWave  = 2;
+}
+
+//汇报成绩 46
+message CGCReportTowerInstanceScore
+{
+	//爬塔的波数ID
+	optional uint32 m_un32TowerId  = 1;
+}
+
+//排名 47
+message CGCAskTowerInstanceRank
+{
+	//1请求爬塔基本信息\2请求自己昨日排名\3请求今日爬塔排名
+	optional int32 m_un16Type  = 1;
+}
+
+//奖品
+message CGCAskTowerInstanceAward
+{
+	//请求的奖励关卡ID
+	optional uint32 m_u32TowerID  = 1;
+	//请求的奖励类型:0代表领取目标奖励\1代表昨日恶魔排名\2代表地狱排名\3代表炼狱排名
+	optional uint32 m_u16TowerType  = 2;
+}
+
+//请求邮件列表
+message CGCAskEMailList
+{
+
+}
+
+//请求阅读邮件
+message GCAskReadEMail
+{
+	optional uint32 m_un32EMailID  = 1;
+}
+
+//请求邮件奖品
+message CGCAskGetEMailPrize
+{
+	optional uint32 m_un32EMailID  = 1;
+}
+
+//请求删除邮件
+message CGCAskRemoveEMail
+{
+	optional uint32 m_un32EMailID  = 1;
+}
+
+//通知排行列表
+message CGSNotifyRankList
+{
+	optional int32 m_n8RankCate  = 1;
+	optional int32 m_n32SelfRank  = 2;
+	optional int32 m_n32SelfRankValue  = 3;
+	optional int32 m_n32RankNum  = 4;
+}
+
+//通知邮件列表TODO
+message CGSNotifyEMailList
+{
+	optional uint32 m_un32EMailNum  = 1;
+}
+
+//发送创建角色消息TODO
+message CGCSendCreateRole
+{
+	//职业ID
+	optional uint32 _u32VocationID  = 1;
+	optional bool _byteGender  = 2;
+	//用户昵称
+	optional string _nickName  = 3;
+	optional bool _byteVerify  = 4;
+	//processCreateRole createRole  = 5;
+}
+
+//发送创建角色消息
+message CGCAskRankList
+{
+	optional uint32 m_n8RankCate  = 1;
+}
+
+message CGCAsChargeIOS
+{
+	optional bool m_bIsDebug  = 1;
+	optional uint32 m_strLen  = 2;
+	optional string m_szAppleReceipt  = 3;
+}
+
+message CGCNotifyChargeIOS
+{
+	optional int32 m_nResult  = 1;
+	optional uint32 m_strLen  = 2;
+	optional string m_szAppleReceipt  = 3;
+}
+
+//发送制作消息
+message CGCReportProcuce
+{
+	//制作书ID
+	optional uint32 _bookID  = 1;
+	//是否使用钻石
+	optional bool _bUseDiamond  = 2;
+}
+
+//请求章节奖励
+message CGCAskChapterAward
+{
+	optional int32 _chapterNum  = 1;
+	optional bool _hardChapter  = 2;
+}
+
+//请求勋章信息
+message CGCAskMedalInfo
+{
+
+}
+
+//请求勋章升级
+message CGCAskMedalLevelUp
+ {
+
+ }
+ 
+ //基本好友功能108
+message CGCAskAddFriend
+{
+	enum FriendSendType
+	{
+		UNKONW = 0;
+		///<summary>
+		///1:添加好友
+		///</summary>
+		AddFriend = 1;
+		///<summary>
+		///2:拒绝好友
+		///</summary>
+		Not = 2;
+		///<summary>
+		///3:同意好友申请
+		///</summary>
+		Ok = 3;
+		///<summary>
+		///4:删除好友
+		///</summary>
+		DeleteFriend = 4;
+		///<summary>
+		///5:赠送好友体力.
+		///</summary>
+		SendAward = 5;
+		///<summary>
+		///.6:接收好友体力
+		///</summary>
+		ReceiveAward = 6;
+	}
+	optional FriendSendType _FriendOpt  = 1;
+	optional string _roleName  = 2;
+}
+
+//好友VIP功能109
+message CGCVipFriend
+{
+	enum FriendSendType
+	{
+		UNKONW = 0;
+		///<summary>
+		///1:添加好友
+		///</summary>
+		AddFriend = 1;
+		///<summary>
+		///2:拒绝好友
+		///</summary>
+		Not = 2;
+		///<summary>
+		///3:同意好友申请
+		///</summary>
+		Ok = 3;
+		///<summary>
+		///4:删除好友
+		///</summary>
+		DeleteFriend = 4;
+		///<summary>
+		///5:赠送好友体力.
+		///</summary>
+		SendAward = 5;
+		///<summary>
+		///.6:接收好友体力
+		///</summary>
+		ReceiveAward = 6;
+	}
+	optional FriendSendType _FriendOpt  = 1;
+}
+
+//请求好友列表110
+message CGCAskFriendRecord
+{
+
+}
+
+//请求查询玩家
+message CGCAskSelectPlayer
+{
+	optional string _byte  = 1;
+}
+
+//请求新手引导完成保存
+message CGCAskGuideComplate
+{
+	optional uint32 GroupId = 1;
+	optional bool u8Finish  = 2;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<RECORDS>
+	<RECORD ID="101001" Param="1" Name="强化石" PandoraDrop_item="5000111" PandoraDrop_num="1" PandoraDrop_weight="1000" PandoraLimit_all="0" PandoraLimit_person="0" PandoraDrop_lv="1" PandoraDrop_vip="0" gonggaoID="0"/>
+	<RECORD ID="102001" Param="2" Name="羽翼精华" PandoraDrop_item="5000301" PandoraDrop_num="10" PandoraDrop_weight="100" PandoraLimit_all="0" PandoraLimit_person="0" PandoraDrop_lv="1" PandoraDrop_vip="0" gonggaoID="0"/>
+	<RECORD ID="103001" Param="3" Name="潘多拉魔盒" PandoraDrop_item="4000400" PandoraDrop_num="1" PandoraDrop_weight="1000" PandoraLimit_all="0" PandoraLimit_person="5" PandoraDrop_lv="1" PandoraDrop_vip="0" gonggaoID="0"/>
+	<RECORD ID="104001" Param="4" Name="紫色洗练石" PandoraDrop_item="5000403" PandoraDrop_num="10" PandoraDrop_weight="100" PandoraLimit_all="0" PandoraLimit_person="0" PandoraDrop_lv="1" PandoraDrop_vip="0" gonggaoID="9010001"/>
+	<RECORD ID="105001" Param="5" Name="重置石" PandoraDrop_item="5000501" PandoraDrop_num="1" PandoraDrop_weight="100" PandoraLimit_all="0" PandoraLimit_person="0" PandoraDrop_lv="1" PandoraDrop_vip="0" gonggaoID="0"/>
+	<RECORD ID="106001" Param="6" Name="进阶石" PandoraDrop_item="5000601" PandoraDrop_num="1" PandoraDrop_weight="100" PandoraLimit_all="0" PandoraLimit_person="0" PandoraDrop_lv="1" PandoraDrop_vip="0" gonggaoID="9010001"/>
+	<RECORD ID="107001" Param="7" Name="幸运石" PandoraDrop_item="5000701" PandoraDrop_num="1" PandoraDrop_weight="500" PandoraLimit_all="0" PandoraLimit_person="0" PandoraDrop_lv="1" PandoraDrop_vip="0" gonggaoID="0"/>
+	<RECORD ID="108001" Param="8" Name="悬赏令" PandoraDrop_item="5000801" PandoraDrop_num="1" PandoraDrop_weight="100" PandoraLimit_all="0" PandoraLimit_person="0" PandoraDrop_lv="1" PandoraDrop_vip="0" gonggaoID="0"/>
+	<RECORD ID="109001" Param="9" Name="6级攻击宝石" PandoraDrop_item="3000106" PandoraDrop_num="1" PandoraDrop_weight="1" PandoraLimit_all="10000" PandoraLimit_person="500" PandoraDrop_lv="80" PandoraDrop_vip="8" gonggaoID="9010001"/>
+	<RECORD ID="110001" Param="10" Name="6级防御宝石" PandoraDrop_item="3000206" PandoraDrop_num="1" PandoraDrop_weight="1" PandoraLimit_all="10000" PandoraLimit_person="500" PandoraDrop_lv="80" PandoraDrop_vip="8" gonggaoID="9010001"/>
+	<RECORD ID="111001" Param="11" Name="6级坚守宝石" PandoraDrop_item="3000406" PandoraDrop_num="1" PandoraDrop_weight="1" PandoraLimit_all="10000" PandoraLimit_person="500" PandoraDrop_lv="80" PandoraDrop_vip="8" gonggaoID="9010001"/>
+	<RECORD ID="112001" Param="12" Name="6级狂暴宝石" PandoraDrop_item="3000306" PandoraDrop_num="1" PandoraDrop_weight="1" PandoraLimit_all="10000" PandoraLimit_person="500" PandoraDrop_lv="80" PandoraDrop_vip="8" gonggaoID="9010001"/>
+</RECORDS>

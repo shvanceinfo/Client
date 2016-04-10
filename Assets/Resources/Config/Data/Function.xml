@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="900101" param="100" functionName="角色" UIUrl="bottom/func/active/role" Rank="1" Location="5" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" functionIcon="main_property" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="900201" param="200" functionName="背包" UIUrl="bottom/func/active/package" Rank="2" Location="5" OpenType="1" OpenValue="1" noticeType="0" noticeText="恭喜您开启了【背包】功能，背包中可以查看获得的物品" functionIcon="main_package" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="900501" param="300" functionName="任务" UIUrl="bottom/func/active/task" Rank="8" Location="5" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" functionIcon="main_task" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901201" param="400" functionName="系统" UIUrl="bottom/func/active/system" Rank="11" Location="5" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" functionIcon="main_system" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901301" param="500" functionName="商城" UIUrl="top_left/shop" Rank="1" Location="3" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" functionIcon="main_shop" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901401" param="600" functionName="邮件" UIUrl="top_left/Email" Rank="2" Location="3" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901801" param="700" functionName="普通副本" Rank="0" Location="0" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" FeedBackText="普通副本通关有几率获得"/>
+	<RECORD ID="902201" param="800" functionName="龙之宝藏" UIUrl="top_right/allFunPanel/allFunction/longzhibaozang" Rank="111" Location="2" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" functionIcon="main_dragon" FeedBackText="参与幸运抽奖有几率获得"/>
+	<RECORD ID="902601" param="900" functionName="VIP" UIUrl="top_left/vip" Rank="1" Location="1" OpenType="1" OpenValue="1" noticeType="0" noticeText="0" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="902701" param="1000" functionName="活跃度" Rank="0" Location="2" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="902801" param="1100" functionName="商城-购买钻石界面" Rank="0" Location="3" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="903001" param="1200" functionName="分线" Rank="0" Location="1" OpenType="1" OpenValue="1" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="902301" param="1300" functionName="三界霸主" UIUrl="top_right/allFunPanel/allFunction/VIPFB" Rank="100" Location="2" OpenType="2" OpenValue="3" noticeType="1" noticeText="功能已开放" functionIcon="main_VIPFB" FeedBackText="参与巅峰对决有几率获得"/>
+	<RECORD ID="900301" param="1400" functionName="技能" UIUrl="bottom/func/active/skill" Rank="5" Location="5" OpenType="1" OpenValue="4" noticeType="1" functionIcon="main_skill" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="900701" param="1500" functionName="羽翼" UIUrl="bottom/func/active/wing" Rank="6" Location="5" OpenType="1" OpenValue="10" noticeType="1" noticeText="0" functionIcon="main_wing" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901802" param="1600" functionName="精英副本" Rank="0" Location="0" OpenType="1" OpenValue="12" noticeType="0" noticeText="0" FeedBackText="精英副本通关有几率获得"/>
+	<RECORD ID="901601" param="1700" functionName="好友" UIUrl="bottom/func/active/friend" Rank="9" Location="5" OpenType="1" OpenValue="14" noticeType="1" noticeText="功能已开放" functionIcon="main_friend" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="900401" param="1800" functionName="强化（装备）" UIUrl="bottom/func/active/equip" Rank="3" Location="5" OpenType="1" OpenValue="15" noticeType="1" noticeText="0" functionIcon="main_equip" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901001" param="1900" functionName="竞技场" UIUrl="top_right/allFunPanel/allFunction/divine" Rank="108" Location="2" OpenType="1" OpenValue="16" noticeType="1" noticeText="0" functionIcon="main_arena" FeedBackText="挑战竞技场战斗能大量获得"/>
+	<RECORD ID="901701" param="2000" functionName="公会信息" UIUrl="bottom/func/active/guild" Rank="10" Location="5" OpenType="1" OpenValue="18" noticeType="1" noticeText="功能已开放" functionIcon="main_guild" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901702" param="2100" functionName="公会建设列表" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901703" param="2200" functionName="公会建设-公会大厅升级" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901704" param="2300" functionName="公会建设-公会旗帜升级" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901705" param="2400" functionName="公会建设-公会技能塔升级" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901706" param="2500" functionName="公会建设-公会商城升级" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901707" param="2600" functionName="公会建筑-公会大厅" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901708" param="2700" functionName="公会建筑-公会旗帜" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901709" param="2800" functionName="公会建筑-公会技能塔" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901710" param="2900" functionName="公会建筑-公会商城" Rank="0" Location="0" OpenType="1" OpenValue="18" noticeType="0" noticeText="功能已开放" FeedBackText="公会商城可兑换"/>
+	<RECORD ID="901101" param="3000" functionName="排行榜" UIUrl="top_right/allFunPanel/allFunction/ladder" Rank="112" Location="2" OpenType="1" OpenValue="20" noticeType="0" noticeText="功能已开放" functionIcon="main_ladder" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901501" param="3100" functionName="活动列表" UIUrl="top_right/allFunPanel/allFunction/event" Rank="109" Location="2" OpenType="1" OpenValue="20" noticeType="0" noticeText="功能已开放" functionIcon="main_huodong" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="901503" param="3200" functionName="魔化奥丁" Rank="0" Location="2" OpenType="1" OpenValue="20" noticeType="1" noticeText="功能已开放" functionIcon="huodon_BOSS" FeedBackText="击杀魔化奥丁有几率获得"/>
+	<RECORD ID="900402" param="3300" functionName="进阶" Rank="0" Location="5" OpenType="1" OpenValue="22" noticeType="1" noticeText="功能已开放" functionIcon="equip_jinjie" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="902101" param="3400" functionName="神秘商店" UIUrl="top_right/allFunPanel/allFunction/shenmi_shop" Rank="110" Location="2" OpenType="1" OpenValue="22" noticeType="1" noticeText="功能已开放" functionIcon="main_shenmi_shop" FeedBackText="刷新神秘商店有几率获得"/>
+	<RECORD ID="901502" param="3500" functionName="组队副本" UIUrl="top_right/allFunPanel/allFunction/dungeon" Rank="107" Location="2" OpenType="1" OpenValue="24" noticeType="1" noticeText="功能已开放" functionIcon="main_dungeon" FeedBackText="组队副本通关有几率获得"/>
+	<RECORD ID="900801" param="3600" functionName="恶魔洞窟" UIUrl="top_right/allFunPanel/allFunction/devilCave" Rank="106" Location="2" OpenType="1" OpenValue="26" noticeType="1" noticeText="功能已开放" functionIcon="main_emodongku" FeedBackText="恶魔洞窟宝箱有几率获得"/>
+	<RECORD ID="900901" param="3700" functionName="哥布林" UIUrl="top_right/allFunPanel/allFunction/golden_goblin" Rank="105" Location="2" OpenType="1" OpenValue="28" noticeType="1" noticeText="功能已开放" functionIcon="main_goblin" FeedBackText="清剿黄金哥布林能大量获得"/>
+	<RECORD ID="902401" param="3800" functionName="宠物升级" UIUrl="bottom/func/active/pet" Rank="7" Location="5" OpenType="1" OpenValue="30" noticeType="1" noticeText="功能已开放" functionIcon="main_pet" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="900302" param="3900" functionName="天赋" Rank="0" Location="5" OpenType="1" OpenValue="32" noticeType="1" noticeText="功能已开放" functionIcon="main_tianfu" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="900404" param="4000" functionName="镶嵌" Rank="0" Location="5" OpenType="1" OpenValue="34" noticeType="1" noticeText="功能已开放" functionIcon="equip_xiangqian" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="900601" param="4100" functionName="熔炉合成" UIUrl="bottom/func/active/smelter" Rank="4" Location="5" OpenType="1" OpenValue="34" noticeType="1" noticeText="功能已开放" functionIcon="main_ronglu" FeedBackText="使用熔炉合成可获得"/>
+	<RECORD ID="901901" param="4200" functionName="剧情副本" UIUrl="top_right/allFunPanel/allFunction/juqingFB" Rank="104" Location="2" OpenType="1" OpenValue="36" noticeType="1" noticeText="功能已开放" functionIcon="main_juqingFB" FeedBackText="剧情副本通关有几率获得"/>
+	<RECORD ID="902501" param="4300" functionName="潘多拉副本" UIUrl="top_right/allFunPanel/allFunction/panduola" Rank="103" Location="2" OpenType="1" OpenValue="38" noticeType="1" noticeText="功能已开放" functionIcon="main_panduola" FeedBackText="击杀潘多拉魔盒有几率获得"/>
+	<RECORD ID="900403" param="4400" functionName="洗练" Rank="0" Location="5" OpenType="1" OpenValue="40" noticeType="1" noticeText="功能已开放" functionIcon="equip_xilian" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="902402" param="4500" functionName="宠物装备" Rank="0" Location="0" OpenType="1" OpenValue="40" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="902901" param="4600" functionName="魔物悬赏" UIUrl="top_right/allFunPanel/allFunction/xuanshang" Rank="102" Location="2" OpenType="1" OpenValue="42" noticeType="1" noticeText="功能已开放" functionIcon="main_xuanshang" FeedBackText="魔物悬赏几率产出羽翼精华"/>
+	<RECORD ID="900602" param="4700" functionName="勋章" Rank="0" Location="5" OpenType="1" OpenValue="45" noticeType="1" noticeText="功能已开放" functionIcon="package_xunzhang" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="902403" param="4800" functionName="宠物技能" Rank="0" Location="0" OpenType="1" OpenValue="50" noticeType="0" noticeText="功能已开放" FeedBackText="该功能不产出道具"/>
+	<RECORD ID="902001" param="4900" functionName="潘神的迷宫" UIUrl="top_right/allFunPanel/allFunction/migong" Rank="101" Location="2" OpenType="1" OpenValue="50" noticeType="1" noticeText="功能已开放" functionIcon="main_migong" FeedBackText="参与潘神的迷宫有几率获得"/>
+</RECORDS>

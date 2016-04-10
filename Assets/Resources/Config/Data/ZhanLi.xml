@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AIConfig>
+	<RECORD ID="1" name="生命上限" factor="0.125"/>
+	<RECORD ID="3" name="魔法上限" factor="0"/>
+	<RECORD ID="5" name="攻击" factor="1"/>
+	<RECORD ID="6" name="防御" factor="2"/>
+	<RECORD ID="7" name="命中" factor="2"/>
+	<RECORD ID="8" name="闪避" factor="2"/>
+	<RECORD ID="13" name="破击" factor="2"/>
+	<RECORD ID="14" name="格挡" factor="2"/>
+	<RECORD ID="9" name="暴击" factor="2"/>
+	<RECORD ID="12" name="韧性" factor="2"/>
+	<RECORD ID="10" name="必杀" factor="2"/>
+	<RECORD ID="11" name="守护" factor="2"/>
+	<RECORD ID="4" name="魔法回复" factor="0"/>
+	<RECORD ID="2" name="生命回复" factor="0"/>
+	<RECORD ID="15" name="击倒" factor="0"/>
+	<RECORD ID="16" name="击倒抵抗" factor="0"/>
+	<RECORD ID="17" name="冰伤害" factor="0"/>
+	<RECORD ID="18" name="冰抗性" factor="0"/>
+	<RECORD ID="19" name="冰免疫" factor="0"/>
+	<RECORD ID="20" name="火伤害" factor="0"/>
+	<RECORD ID="21" name="火抗性" factor="0"/>
+	<RECORD ID="22" name="火免疫" factor="0"/>
+	<RECORD ID="23" name="毒伤害" factor="0"/>
+	<RECORD ID="24" name="毒抗性" factor="0"/>
+	<RECORD ID="25" name="毒免疫" factor="0"/>
+	<RECORD ID="26" name="雷伤害" factor="0"/>
+	<RECORD ID="27" name="雷抗性" factor="0"/>
+	<RECORD ID="28" name="雷免疫" factor="0"/>
+</AIConfig>

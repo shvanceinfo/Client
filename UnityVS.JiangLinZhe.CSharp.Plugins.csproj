@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{955B5D7A-74F2-0975-7BAE-79D4E16EE02D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>UnityVS.JiangLinZhe.CSharp.Plugins</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MonoProfile>unity</MonoProfile>
+    <UnityPath>H:\Unity4.6\Editor</UnityPath>
+    <MonoPath>$(UnityPath)\Data\Mono</MonoPath>
+    <LibraryAssembly>Assembly-CSharp-firstpass.dll</LibraryAssembly>
+    <TargetFrameworkDirectory>$(MonoPath)\lib\mono\$(MonoProfile)</TargetFrameworkDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>$(TargetFrameworkDirectory)\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>$(TargetFrameworkDirectory)\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>$(TargetFrameworkDirectory)\System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>$(TargetFrameworkDirectory)\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="MVC">
+      <HintPath>Assets\Plugins\MVC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\UnityToXcodeMsgInterface.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\EdgeDetectEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+    <None Include="Assets\IGSoft_Resources\aFX_Bao\Ian&apos;s Fire Pack\Shaders\Add_Layer.shader" />
+    <None Include="Assets\IGSoft_Resources\aFX_Bao\Ian&apos;s Fire Pack\Shaders\Add_Layer1.shader" />
+    <None Include="Assets\IGSoft_Resources\aFX_Bao\JMO Assets01\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+    <None Include="Assets\IGSoft_Resources\aFX_Bao\ShurikenMagic\Shaders\SM_TransparentRim.shader" />
+    <None Include="Assets\IGSoft_Resources\aFX_Bao\Xffect_free\Resources\Shaders\AdvanceShader\xft_displacement_screen.shader" />
+    <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
+    <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended Tint.shader" />
+    <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
+    <None Include="Assets\NGUI\ReadMe - 3.5.3.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Light.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\output\log.txt" />
+    <None Include="Assets\Resources\Config\Component\Prefab_Path.xml" />
+    <None Include="Assets\Resources\Config\Component\Ui_Path.xml" />
+    <None Include="Assets\Resources\Config\Data\AI.xml" />
+    <None Include="Assets\Resources\Config\Data\ArenaPos.xml" />
+    <None Include="Assets\Resources\Config\Data\AssetBundles.xml" />
+    <None Include="Assets\Resources\Config\Data\DropOut.xml" />
+    <None Include="Assets\Resources\Config\Data\Equipment.xml" />
+    <None Include="Assets\Resources\Config\Data\Equipmentforge.xml" />
+    <None Include="Assets\Resources\Config\Data\EquipmentIdentify.xml" />
+    <None Include="Assets\Resources\Config\Data\EquipmentPart.xml" />
+    <None Include="Assets\Resources\Config\Data\Formula.xml" />
+    <None Include="Assets\Resources\Config\Data\Fuhuo.xml" />
+    <None Include="Assets\Resources\Config\Data\Function.xml" />
+    <None Include="Assets\Resources\Config\Data\GameLine.xml" />
+    <None Include="Assets\Resources\Config\Data\Gbl_goumai.xml" />
+    <None Include="Assets\Resources\Config\Data\Gem.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiBase.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiBuild.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiBuildCentre.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiBuildFlag.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiBuildShop.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiBuildSkill.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiEvent.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiLog.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiOfficer.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiShop.xml" />
+    <None Include="Assets\Resources\Config\Data\GongHuiSkill.xml" />
+    <None Include="Assets\Resources\Config\Data\Guide.xml" />
+    <None Include="Assets\Resources\Config\Data\GuideInfo.xml" />
+    <None Include="Assets\Resources\Config\Data\Help.xml" />
+    <None Include="Assets\Resources\Config\Data\HonorPVP.xml" />
+    <None Include="Assets\Resources\Config\Data\HonorRank.xml" />
+    <None Include="Assets\Resources\Config\Data\HonorRank_reward.xml" />
+    <None Include="Assets\Resources\Config\Data\HonorShop.xml" />
+    <None Include="Assets\Resources\Config\Data\Huodong.xml" />
+    <None Include="Assets\Resources\Config\Data\Item.xml" />
+    <None Include="Assets\Resources\Config\Data\Jiguan.xml" />
+    <None Include="Assets\Resources\Config\Data\LeachDirty.txt" />
+    <None Include="Assets\Resources\Config\Data\LineMaxPerson.xml" />
+    <None Include="Assets\Resources\Config\Data\Loot.xml" />
+    <None Include="Assets\Resources\Config\Data\LuckStone.xml" />
+    <None Include="Assets\Resources\Config\Data\Map.xml" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\City.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\City2.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\CZ1.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\CZ2.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\CZ3.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\DXC1.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\DXC2.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\DXC3.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\DXC4.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\emodongku.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\gebulincaoxue.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\GJS1.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\GJS2.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\GJS3.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\GJS4.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\GJS5.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\GJS6.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\jingjichang.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\panduola.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\shijieBOSS.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\SL1.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\SL2.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\SL3.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\TKC1.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\TKC2.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\TKC3.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\TKC4.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\TKC5.txt" />
+    <None Include="Assets\Resources\Config\Data\MapGrid\xuanshang_map.txt" />
+    <None Include="Assets\Resources\Config\Data\MapTips.xml" />
+    <None Include="Assets\Resources\Config\Data\MG_jiangli.xml" />
+    <None Include="Assets\Resources\Config\Data\MG_map.xml" />
+    <None Include="Assets\Resources\Config\Data\MG_task.xml" />
+    <None Include="Assets\Resources\Config\Data\ModelPos.xml" />
+    <None Include="Assets\Resources\Config\Data\Monsterdata.xml" />
+    <None Include="Assets\Resources\Config\Data\MonsterInstance.xml" />
+    <None Include="Assets\Resources\Config\Data\NPC.xml" />
+    <None Include="Assets\Resources\Config\Data\PandoraDrop.xml" />
+    <None Include="Assets\Resources\Config\Data\PandoraMap.xml" />
+    <None Include="Assets\Resources\Config\Data\PandoraNum.xml" />
+    <None Include="Assets\Resources\Config\Data\PetBase.xml" />
+    <None Include="Assets\Resources\Config\Data\Plot.xml" />
+    <None Include="Assets\Resources\Config\Data\PreloadEffects.xml" />
+    <None Include="Assets\Resources\Config\Data\PublicData.xml" />
+    <None Include="Assets\Resources\Config\Data\Role.xml" />
+    <None Include="Assets\Resources\Config\Data\Skill_tianfu.xml" />
+    <None Include="Assets\Resources\Config\Data\Skilldata.xml" />
+    <None Include="Assets\Resources\Config\Data\SkillEffect.xml" />
+    <None Include="Assets\Resources\Config\Data\SkillExpression.xml" />
+    <None Include="Assets\Resources\Config\Data\Task.xml" />
+    <None Include="Assets\Resources\Config\Data\TaskDropOut.xml" />
+    <None Include="Assets\Resources\Config\Data\TiLi.xml" />
+    <None Include="Assets\Resources\Config\Data\Tips.xml" />
+    <None Include="Assets\Resources\Config\Data\Tower.xml" />
+    <None Include="Assets\Resources\Config\Data\TowerRank_reward.xml" />
+    <None Include="Assets\Resources\Config\Data\VIP.xml" />
+    <None Include="Assets\Resources\Config\Data\VIP_duibi.xml" />
+    <None Include="Assets\Resources\Config\Data\Wing.xml" />
+    <None Include="Assets\Resources\Config\Data\XDL_price.xml" />
+    <None Include="Assets\Resources\Config\Data\Xuanshang.xml" />
+    <None Include="Assets\Resources\Config\Data\Xuelanyao.xml" />
+    <None Include="Assets\Resources\Config\Data\Xunzhang.xml" />
+    <None Include="Assets\Resources\Config\Data\Zhangjie.xml" />
+    <None Include="Assets\Resources\Config\Data\ZhanLi.xml" />
+    <None Include="Assets\Resources\Config\Language\name.txt" />
+    <None Include="Assets\Resources\Config\Language\zh_cn.txt" />
+    <None Include="Assets\Resources\Shader\AlphaSelfIllum.shader" />
+    <None Include="Assets\Resources\Shader\Backface Rendered Bumped Diffuse.shader" />
+    <None Include="Assets\Resources\Shader\BeHitEffect.shader" />
+    <None Include="Assets\Resources\Shader\BumpedOutlined.shader" />
+    <None Include="Assets\Resources\Shader\DiffuseWithRimLightSpace.shader" />
+    <None Include="Assets\Resources\Shader\GlobalFog.shader" />
+    <None Include="Assets\Resources\Shader\Highlight.shader" />
+    <None Include="Assets\Resources\Shader\Mobile-Particle-Add-Overlay.shader" />
+    <None Include="Assets\Resources\Shader\Particle Add-Overlay.shader" />
+    <None Include="Assets\Resources\Shader\Particle AddTest.shader" />
+    <None Include="Assets\Resources\Shader\Particle Alpha Blend-Overlay.shader" />
+    <None Include="Assets\Resources\Shader\particleDepth.shader" />
+    <None Include="Assets\Resources\Shader\RimLightSpce.shader" />
+    <None Include="Assets\Resources\Shader\RimLightSpceWithTransparentCutout.shader" />
+    <None Include="Assets\Resources\Shader\SilhouettedOutlined.shader" />
+    <None Include="Assets\Resources\UI\Loading\load Atlas.txt" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\UVersionControl\README.txt" />
+    <None Include="Assets\Plugins\LitJson.dll" />
+    <None Include="Assets\Plugins\MVC.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>

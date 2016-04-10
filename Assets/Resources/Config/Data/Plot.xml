@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+		<!-- 降临村第一个任务，与基兰交谈，找雅典娜完成任务 -->
+		<Plot  ID="100001" TaskID="700100001" triggerType="1">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="%p [00FF00]深渊之主狄摩高根[-]向世界伸出了魔爪，混乱、无序的深渊力量正侵蚀着大地……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="虽然不知道你在说什么，但觉得很厉害的样子！"/>
+			<Step ID="3" plotType="2" delay="3" diaCon="蕴含深渊力量的[00FF00]潘多拉魔盒[-]已打开"/>
+			<Step ID="4" plotType="2" delay="3" diaCon="“贪婪、杀戮、恐惧、痛苦、疾病、欲望”肆虐大地"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="1001001" delay="3" diaCon="%p 仔细感觉[00FF00]希望之力[-]的存在？"/>
+			<Step ID="6" plotType="2" isLeft="0" NPC="%p" delay="5" diaCon="我能做些什么呢？"/>
+			<Step ID="7" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="去了解[00FF00]潘多拉魔盒[-]吧，记得找雅典娜，她可是行家。"/>
+		</Plot>
+		<!-- 骸骨魔，进入 -->
+		<Plot  ID="100101" TaskID="700100101" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001001" delay="5" diaCon="人类！为何打扰伟大的[00FF00]骸骨魔[-]的沉睡，你打算迎接我的愤怒和毁灭了吗？"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="骸骨魔，击杀你，就能证明我的勇气和实力。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001001" delay="5" diaCon="傲慢而愚蠢的人类，站在我的面前即是勇气，不过到此为止了……"/>
+		</Plot>
+		<!-- 美杜莎巢穴，进入 -->
+		<Plot  ID="100201" TaskID="700100201" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001004" delay="5" diaCon="嘶…嘶…凡人！为何闯入[00FF00]戈耳工美杜莎[-]的领地！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]女神雅典娜[-]指引我，摘下你的头颅！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001004" delay="5" diaCon="雅典娜！又是这个无耻的神邸，辱没雅典娜神庙的是海神，却诅咒于我！"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001004" delay="5" diaCon="可恨！我的仇恨在燃烧！所有我看到的都要永恒的石化。"/>
+		</Plot>
+		<!-- 美杜莎巢穴，离开 -->
+		<Plot  ID="100202" TaskID="700100201" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001004" delay="5" diaCon="嘶…嘶…人类！你确实强大，但那只是我的分身！我会带着仇恨归来！"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001004" delay="5" diaCon="嘶…嘶…我会让你的鲜血流满河流，让你的骨肉腐烂山谷，让你的灵魂烈焰焚烧！"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我 %p ，潘多拉魔盒的封印者，恭候你的大驾！"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="你灵巧地割下美杜莎分身的头颅"/>
+		</Plot>
+		<!-- 时空封印术，降临村 -->
+		<Plot  ID="100203" TaskID="700100202" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="封印[00FF00]深渊之主狄摩高根[-]的恶魔之门，消耗了我大部分的力量，我需要准备一段时间施展[00FF00]时空封印术[-]！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="麻烦您了，尊敬的[00FF00]时空守护者[-]，基兰先生！"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="基兰没有理会，开始施展时空封印术"/>
+		</Plot>
+		<!-- 血腥屠夫帕吉，进入 -->
+		<Plot  ID="100301" TaskID="700100301" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001006" delay="5" diaCon="哦……人类！好久没有活着的访客来临，我能听到一些小心脏在跳动……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="肮脏的地狱生物！我的骨头可坚硬地很，小心你的牙齿！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001006" delay="5" diaCon="哦……新鲜的客人！我会对着你的粪便，怀念你坚硬的骨头的……桀…桀…"/>
+		</Plot>
+		<!-- 血腥屠夫帕吉，离开 -->
+		<Plot  ID="100302" TaskID="700100301" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="如何？尊敬的[00FF00]血腥屠夫帕吉[-]先生，我 [00FF00]降临者 %p [-]的骨头是不是很坚硬？"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001006" delay="5" diaCon="咳咳……真是令人颤栗的坚硬骨头，降临者 %p，你想从我这里得到什么？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001006" delay="5" diaCon="冒险者留下的装备？还是我私人收藏的宝贝，人皮鼓、骷髅酒杯、骨刀、牙齿项链……"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我，只需要[00FF00]地狱之门[-]的位置！"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001006" delay="5" diaCon="[00FF00]地狱之门[-]就在遗迹的更深处，我帕吉也很厌恶[00FF00]地狱三头犬刻耳柏洛斯[-]，它是个真正的混蛋！"/>
+		</Plot>
+		<!-- 地狱三头犬，进入 -->
+		<Plot  ID="100401" TaskID="700100401" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001007" delay="5" diaCon="吼…吼…陌生人的味道，伟大的冥王哈迪斯，您预言的食物终于来了！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="伟大的[00FF00]刻耳柏洛斯[-]，我[00FF00] %p [-]请求穿越地狱之门……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001007" delay="5" diaCon="真香…食物的力量越强大，味道就越鲜美。快，来到我的面前，证明作为伟大[00FF00]刻耳柏洛斯[-]的食物的资格！"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001007" delay="5" diaCon="只需要一条胳膊…额…或者再加一条腿，伟大的[00FF00]刻耳柏洛斯[-]就会让你通过地狱之门……"/>
+			<Step ID="5" plotType="2" delay="5" diaCon="黑暗中，传来哗哗地口水声……"/>
+		</Plot>
+		<!-- 地狱三头犬，离开 -->
+		<Plot  ID="100402" TaskID="700100401" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001007" delay="5" diaCon="美杜莎的死亡凝视！卑鄙无耻的人类，我要让你永受地狱之火的炙烤…吼…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="呵呵……贪食的[00FF00]地狱三头犬[-]，在石化中沉睡吧！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001007" delay="5" diaCon="吼…吼…伟大的[00FF00]刻耳柏洛斯[-]记住你了——降临者[00FF00] %p [-]！"/>
+		</Plot>
+		<!-- 城中，雅典娜对话 -->
+		<Plot  ID="100403" TaskID="700100402" triggerType="1">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]女神雅典娜[-]，地狱之门间隙吹出的阴风让我浑身发抖，即使[00FF00]地狱三头犬[-]的火焰也不能让我温暖。"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="地狱是[00FF00]死灵之地[-]，活人会受到无尽的[00FF00]冥气侵袭[-]，直到肉身腐烂，灵魂暴露……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="那我该如何应对呢？"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="降临者 %p 时间紧迫，我也无法点燃你的小宇宙！去寻求[00FF00]时光守护者[-]的帮助吧！"/>
+		</Plot>
+		<!-- 城中，时光守护者对话 -->
+		<Plot  ID="100404" TaskID="700100402" triggerType="2">
+			<Step ID="1" plotType="2" delay="5" diaCon="基兰吟唱咒语，你的身体炽光照耀"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="感谢您，[00FF00]基兰先生[-]！我感觉身体内充斥着温暖的力量！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="去吧！[00FF00] %p [-]向地狱进发，夺回[00FF00]潘多拉魔盒[-]……"/>
+		</Plot>
+		<!-- 熔岩地狱，炎魔，进入 -->
+		<Plot  ID="100501" TaskID="700100501" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001008" delay="5" diaCon="凡人，你不能进入主人的领地！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的炎魔先生，无意踏入您伟大主人的领地，我马上离开！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001008" delay="5" diaCon="卑微的人类，要尊称吾为[00FF00]火焰君主[-]，冒犯伟大的[00FF00]魔瑞亚[-]，准备承受吾之愤怒吧！"/>
+		</Plot>
+		<!-- 熔岩地狱，炎魔，离开 -->
+		<Plot  ID="100502" TaskID="700100501" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001008" delay="5" diaCon="卑微的人类！伟大的[00FF00]魔瑞亚[-]，决定先放过你，伟大的主人似乎对你起了兴趣！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="主人？是[00FF00]哈迪斯[-]吗？他拿走了[00FF00]潘多拉魔盒[-]？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001008" delay="5" diaCon="无礼的降临者，来自[00FF00]深渊的无序者[-]，难道对伟大的[00FF00]冥王哈迪斯[-]一点尊重都没有吗？"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001008" delay="5" diaCon="伟大的主人，您将希望压在这种人身上，赌注是不是太大了……"/>
+		</Plot>
+		<!-- 冥王哈迪斯，进入 -->
+		<Plot  ID="100601" TaskID="700100601" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001009" delay="5" diaCon="欢迎你！来自深渊的降临者，你似乎背负着惊人的隐秘…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬而伟大的冥王，灵魂的放牧者，我 希望的降临者 %p 请求您归还[00FF00]潘多拉魔盒[-]……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001009" delay="5" diaCon="降临者[00FF00] %p [-]，我能感受到那股与地狱格格不入的温暖力量，但你能否肩负使命，令人迟疑。请证明给我这样的老头子看吧！"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="冥王哈迪斯转身走向死亡冥殿的深处"/>
+		</Plot>
+		<!-- 冥王哈迪斯，离开 -->
+		<Plot  ID="100602" TaskID="700100601" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001009" delay="5" diaCon="美杜莎的头颅？真是有趣的想法，石化能力确实能让我沉睡片刻…太久没有感受情人美杜莎的拥抱了…"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001009" delay="5" diaCon="降临者[00FF00] %p [-]，你的力量太弱小，倒是有那么一点小聪明。"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬而伟大的冥王，灵魂的放牧者，我是否通过了你的考验……"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="冥王哈迪斯凝神思索中"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001009" delay="5" diaCon="油腔滑调的[00FF00] %p [-]，你的未来值得期待！拿去吧！"/>
+			<Step ID="6" plotType="2" delay="5" diaCon="哈迪斯交给你潘多拉魔盒"/>
+	</Plot>
+		<!-- 基兰引导潘多拉魔盒的希望之力 -->
+		<Plot  ID="100603" TaskID="700100602" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="[00FF00] %p [-]，站在原地，我将要引导潘多拉魔盒底层封印的[00FF00]希望之力[-]，好好感受希望的力量吧！"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="潘多拉魔盒打开，炽光如流水灌注与你"/>
+		</Plot>
+		<!-- 特洛伊战争，进入 -->
+		<Plot  ID="100701" TaskID="700100701" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001005" delay="5" diaCon="碾碎！把一切都碾碎！[00FF00]特洛伊城破[-]在即，军团冲锋！冲锋！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="战场上居然充满着甜腻的气味，奇怪！火焰与鲜血的味道却没有……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001005" delay="5" diaCon="吼…外来者，特洛伊的奸细，抓住他…"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="无论什么时候，什么地方，战争都不可避免，必须抓紧时间找到[00FF00]欲望之力[-]的承载之物……"/>
+		</Plot>
+		<!-- 金苹果的来历，雅典娜城镇 -->
+		<Plot  ID="100702" TaskID="700100702" triggerType="1">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的女神雅典娜，[00FF00]金苹果[-]究竟是什么，能引发特洛伊战争？"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="在忒提斯与佩琉斯的婚礼上，不和女神将[00FF00]金苹果[-]扔在宴会上。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="[00FF00]金苹果[-]，只献给最美丽的女神，引起[00FF00]天后赫拉、美神阿芙罗狄忒[-]的争夺。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]金苹果[-]与封印潘多拉魔盒的[00FF00]欲望之力[-]有什么关系？"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="[00FF00] %p [-]，我怀疑欲望之力就附着在[00FF00]金苹果[-]上，所以战场上充满着甜腻的气味！"/>
+		</Plot>
+		<!-- 战神阿瑞斯，进入 -->
+		<Plot  ID="100801" TaskID="700100801" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001013" delay="5" diaCon="啊！我美丽的[00FF00]女神阿芙罗狄忒[-]，我愿意为你写诗！"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001013" delay="5" diaCon="你是我心中的日月！啊，你身上有玫瑰花的清香！我愿意溶入你柔波似的心胸……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]阿瑞斯[-]，想不到你如此文艺…传说中的战神不过如此…"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001013" delay="5" diaCon="来自深渊的降临者，想不到吾的名号已传播深渊，算是意外的惊喜，吾会尽量收束神力，留你小命……"/>
+		</Plot>
+		<!-- 战神阿瑞斯，离开 -->
+		<Plot  ID="100802" TaskID="700100801" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]阿瑞斯[-]，交出[00FF00]金苹果[-]，它已经引发了太多的争端…"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001013" delay="5" diaCon="作为睿智的战神，早已看出[00FF00]金苹果[-]的厄运，如今它已被[00FF00]神王宙斯[-]镇压，不会引发更多的事件…"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="什么？愚蠢的莽夫，沾染[00FF00]欲望之力[-]的金苹果只会让[00FF00]神王宙斯[-]堕落。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001013" delay="5" diaCon="不可能，见鬼的[00FF00]欲望之力[-]？我阿瑞斯接触过它，不仍然是响当当的战神！"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="哼！你陷入对[00FF00]女神阿芙罗狄忒[-]的迷恋，难道这就是响当当的战神？"/>
+			<Step ID="6" plotType="2" delay="5" diaCon="战神阿瑞斯陷入沉思"/>
+		</Plot>
+		<!-- 谋划奥林匹斯山，雅典娜 -->
+		<Plot  ID="100803" TaskID="700100802" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="[00FF00] %p [-]，奥林匹斯山有三大阻碍：[00FF00]米诺陶洛斯[-]的迷宫、[00FF00]海妖塞壬[-]的魅惑、[00FF00]斯芬克斯[-]的谜语。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]米诺陶洛斯[-]的迷宫？是克里特迷宫与牛头怪吗？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="不错，曾经的克里特岛国王米诺斯篡权为王，向[00FF00]海神波塞冬[-]祈求王的证明，波塞冬赐予他一头巨大的白色公牛。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="[00FF00]海神波塞冬[-]要求米诺斯在神迹祭祀时，将白色公牛献祭回他。贪婪是一切的原罪。"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="米诺斯失信了？"/>
+			<Step ID="6" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="米诺斯贪婪公牛的美丽，欺骗波塞冬，宰杀另一头公牛献祭。贪婪与欺骗，让愤怒的波塞冬诅咒米诺斯的妻子帕西菲。"/>
+			<Step ID="7" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="帕西菲患上了嗜兽癖，喜欢与野兽交姌，巧合之下与那头白色公牛姌合，怀孕生下牛头怪米诺陶洛斯，它便是迷宫的主人。"/>
+			<Step ID="8" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="贪婪！欺骗！诅咒！诡异的丑闻造就诡异的怪物！"/>
+		</Plot>
+		<!-- 米诺陶洛斯，进入 -->
+		<Plot  ID="100901" TaskID="700100901" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001019" delay="5" diaCon="哞…哞…又到了贡献祭品的日子了？怎么今年的祭品只有一个？"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="呵呵……[00FF00]米诺陶洛斯[-]，请让我穿越克里特迷宫，登上奥林匹斯山，我需要觐见[00FF00]神王宙斯[-]……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001019" delay="5" diaCon="穿越[00FF00]克里特迷宫[-]？[00FF00]神王宙斯[-]让我镇守于此，正是考验你们这些觐见的凡人，失败者就是祭品！"/>
+		</Plot>
+		<!-- 米诺陶洛斯，离开 -->
+		<Plot  ID="100902" TaskID="700100901" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001019" delay="5" diaCon="不可能，凡人怎么能穿越[00FF00]克里特迷宫[-]……你应该迷失其中，最后成为我的祭品才对……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="只需要一只小小的牛蝇，跟着它，自然能找到你，来到[00FF00]克里特迷宫[-]的中心……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001019" delay="5" diaCon="讨厌的虫子，竟然利用牛蝇！哞…算你通过了迷宫考验……"/>
+		</Plot>
+		<!-- 海妖传说，与雅典娜对话 -->
+		<Plot  ID="100903" TaskID="700100902" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="塞壬是从河神埃克罗厄斯的血液中诞生的妖精。她在海岸线附近游弋，用自己的音乐天赋吸引过往的水手使他们遭遇灭顶之灾。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="难道没有应对[00FF00]海妖塞壬[-]的方法吗？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="雅典城居民常用“听话不回答，[00FF00]海妖塞壬[-]就会吃掉你的脑子”来教育不听话的小孩，因为传说中[00FF00]海妖塞壬[-]喜欢吃掉天生聋子的人类。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="[00FF00]英雄奥德修斯[-]率领船队经过海妖领地时，曾命令水手用蜡封住耳朵，然后安全离开。降临者，明白应对[00FF00]海妖塞壬[-]的方法了吗？"/>
+		</Plot>
+		<!-- 海妖塞壬，进入 -->
+		<Plot  ID="101001" TaskID="700101001" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001022" delay="5" diaCon="勇士请听我歌唱一曲“给你送去葡萄醇…酝酿已久的美酒…散发出…大海男儿常有的香味…”"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="你无辜而疑惑地望着海妖塞壬"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001022" delay="5" diaCon="可恶地人类，竟然是天生的聋子，我要吃掉你的脑子……"/>
+		</Plot>
+		<!-- 海妖塞壬，离开 -->
+		<Plot  ID="101002" TaskID="700101001" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="听说[00FF00]海妖塞壬[-]的歌曲是世界上最动听的声音，可惜没机会听到……"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001022" delay="5" diaCon="阴险狡诈的人类，居然装聋子……一定是可恶的[00FF00]奥德修斯[-]传开了我的弱点"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001022" delay="5" diaCon="呵…呵…你通过了魅惑考验……"/>
+		</Plot>
+		<!-- 斯芬克斯，与雅典娜对话 -->
+		<Plot  ID="101003" TaskID="700101002" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="奥林匹斯山最后一关，是由[00FF00]天后赫拉[-]派[00FF00]斯芬克司[-]坐在悬崖上，拦住登山的人。"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="用谜语询问登山的人，猜不中者就会被它吃掉。谜语很简单，只要能抵挡它的神力侵袭。"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]女神雅典娜[-]，请问我应该怎么抵挡呢？"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="1001002" delay="5" diaCon="呵呵……[00FF00] %p [-]，你无需抵挡，因为澎湃的[00FF00]希望之力[-]会帮你抗拒一切神力的干扰……"/>
+		</Plot>
+		<!-- 斯芬克斯，进入 -->
+		<Plot  ID="101101" TaskID="700101101" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001021" delay="5" diaCon="睿智的外来者，我们都是有文学修养的生灵，所以文斗吧！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]斯芬克斯[-]，怎样文斗？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001021" delay="5" diaCon="猜谜吧！请听题，什么动物早晨四条腿，中午两条腿，晚上三条腿走路，腿最多时最无能？"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="斯芬克斯得意的望着你"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="人！"/>
+			<Step ID="6" plotType="1" isLeft="1" NPC="2001021" delay="5" diaCon="傲慢的外来者，跟伟大的[00FF00]斯芬克斯[-]耍聪明，如果你能走到我的面前，就算你赢了！"/>
+		</Plot>
+		<!-- 斯芬克斯，离开 -->
+		<Plot  ID="101102" TaskID="700101101" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001021" delay="5" diaCon="强大的外来者，你赢得了胜利，我会按照传统跳崖自尽的……"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="斯芬克斯面色惨白的望着你"/>
+		</Plot>
+		<!-- 城镇与基兰讨论宙斯的弱点 -->
+		<Plot  ID="101201" TaskID="700101201" triggerType="1">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="宙斯风流喜爱美女，但他的最爱不是结为发妻的姐姐[00FF00]天后赫拉[-]，也不是他化身为白色公牛前去诱惑的[00FF00]欧罗巴公主帕西菲[-]。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]欧罗巴公主帕西菲[-]，难道[00FF00]米诺陶洛斯[-]也是宙斯的孩子……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="你说的没错，不过宙斯的最爱却是一位克里特美少年[00FF00]伽倪墨得斯[-]。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="居然是少年？"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="宙斯化身少女与[00FF00]伽倪墨得斯[-]日日欢好，引起[00FF00]天后赫拉[-]的妒忌，天后赫拉施法将[00FF00]伽倪墨得斯[-]变成一个水瓶。"/>
+			<Step ID="6" plotType="2" delay="5" diaCon="基兰递给你一个精致的水瓶"/>
+		</Plot>
+		<!-- 神王宙斯，进入 -->
+		<Plot  ID="101202" TaskID="700101201" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001023" delay="5" diaCon="来自深渊的降临者，你的气味令人不愉快，离开奥林匹斯神殿……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的宇宙之王、众神之父，我 降临者[00FF00] %p [-]请求你交出欲望之力的载体[00FF00]金苹果[-]！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001023" delay="5" diaCon="[00FF00]金苹果[-]是特洛伊战争的起源，吾已将之封印，离开神殿，深渊的奸细……"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="宙斯转身走向宫殿深处"/>
+		</Plot>
+		<!-- 神王宙斯，离开 -->
+		<Plot  ID="101203" TaskID="700101201" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001023" delay="5" diaCon="水瓶……我心爱的[00FF00]伽倪墨得斯[-]，我感受都了你的气息……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="宙斯！交出[00FF00]金苹果[-]，以[00FF00]伽倪墨得斯[-]交换……"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="宙斯沉默地看着你，缓缓递上金苹果"/>
+		</Plot>
+		<!-- 城镇，完成任务基兰封印金苹果 -->
+		<Plot  ID="101204" TaskID="700101201" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1001001" delay="5" diaCon="[00FF00] %p [-]，站在原地，我将封印金苹果的[00FF00]欲望之力[-]，体会潘多拉魔盒的变化吧！"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="金苹果化为流光，镌刻在魔盒上"/>
+		</Plot>
+		<!-- 时光之城，雷神索尔 -->
+		<Plot  ID="101205" TaskID="700101202" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="你就是[00FF00]时光守护者[-]赞誉有加的降临者[00FF00] %p [-]，为何你的周围满是深渊的气息？"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]雷神·索尔[-]先生，我携带着沾染深渊气息的[00FF00]潘多拉魔盒[-]，正为封印其它情绪力量而奋斗。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="[00FF00]时光守护者[-]基兰先生也认为[00FF00]亚斯格特[-]的诸神沾染了深渊的情绪之力？"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="是的，[00FF00]时光守护者[-]认为[00FF00]芬里斯狼[-]即将冲破封印，开启诸神的黄昏！"/>
+		</Plot>
+		<!-- 芬里斯狼，进入 -->
+		<Plot  ID="101301" TaskID="700101301" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001026" delay="5" diaCon="嗷呜……阴险的诸神，我要吃掉你们！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]芬里斯狼[-]你这是作茧自缚，只要你归还“猫的脚步声、岩石中的树根、女人的胡子、鱼的肺、熊的脚腱、鸟的唾液”带来的力量，锁链自然就解开……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001026" delay="5" diaCon="归还？诸神给予我锁链，就给予我87.8倍[00FF00]芬里斯狼[-]的力量，这世界公平的很！"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="芬里斯狼双目血红地看着你"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001026" delay="5" diaCon="诸神囚禁我，诅咒我，何时给过我安宁，复仇只是起始，黄昏方是终结！"/>
+			<Step ID="6" plotType="2" delay="5" diaCon="芬里斯狼挣断链锁进入森林深处"/>
+		</Plot>
+		<!-- 芬里斯狼，离开 -->
+		<Plot  ID="101302" TaskID="700101301" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001026" delay="5" diaCon="诸神的走狗，不给我恢复力量的时间吗？"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]芬里斯狼[-]，你已经被深渊的情绪之力感染，请待在[00FF00]亚萨园[-]，我会封印情绪之力。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001026" delay="5" diaCon="[00FF00]情绪之力[-]吗？就是那种痛苦地鞭挞滋味吗？我还真是十分享受啊……"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="芬里斯狼眼神皎洁地看着你"/>
+		</Plot>
+		<!-- 冰霜巨人，进入 -->
+		<Plot  ID="101401" TaskID="700101401" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001027" delay="5" diaCon="好热！好痛苦！我需要更多的冰晶！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="你不是[00FF00]冰霜巨人[-]吗？怎么会感到炎热呢？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001027" delay="5" diaCon="我？[00FF00]冰霜巨人[-]？无知的人类，我是诸神之父，巨人之祖，怎么会是弱小的[00FF00]冰霜巨人[-]？"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001027" delay="5" diaCon="我只是需要给自己的痛苦降温，你的嘲笑激怒了我，付出死亡的代价吧！"/>
+		</Plot>
+		<!-- 冰霜巨人，离开 -->
+		<Plot  ID="101402" TaskID="700101401" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001027" delay="5" diaCon="咦……痛苦似乎削弱了，人类，你能拔除我身上的[00FF00]痛苦之力吗[-]？"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="你高举潘多拉魔盒吸收伊米尔的痛苦"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001027" delay="5" diaCon="尊敬的人类，请留下你的姓名，伊米尔从来都是知恩图报的巨人……"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="%p" delay="5" diaCon="我 降临者[00FF00] %p [-]！"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001027" delay="5" diaCon="[00FF00]芬里斯[-]那头小狼，如今已进入[00FF00]火神洛基[-]的神域，[00FF00]尼伯龙根之戒[-]是所有痛苦的根源……"/>
+		</Plot>
+		<!-- 尼伯龙根之戒，雷神·索尔完成任务 -->
+		<Plot  ID="101403" TaskID="700101402" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="尼伯龙根的亡灵笑声，永远地回荡在持有者的耳边－－直到持有者鲜血流尽，痛苦的诅咒永生永世。"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="%p" delay="5" diaCon="痛苦的诅咒？不是[00FF00]主神奥丁[-]惩罚众人争夺黄金宝藏的死亡诅咒吗？怎么与痛苦相关……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="心中的欲念不亡…凡触宝藏之人终将沉沦，受尽世间最难堪的惩罚…死亡只是最轻松的痛苦……"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="%p" delay="5" diaCon="难怪[00FF00]尼伯龙根之戒[-]成为痛苦之力的载体……"/>
+		</Plot>
+		<!-- 追缉魔狼，遇雷神·索尔，进入 -->
+		<Plot  ID="101501" TaskID="700101501" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]雷神·索尔[-]？你不是在时光之城吗？为何出现在[00FF00]霜之小径[-]，阻挡我的去路！"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001059" delay="5" diaCon="我亲手封印了我的弟弟洛基，如今怎能再阻碍他的自由！"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]火神洛基[-]若挣脱封印的监牢，[00FF00]诸神的黄昏[-]必将开始……"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001059" delay="5" diaCon="若我连自己的弟弟都无法保护，这世界再好又怎样，那诸神陨落又怎样？不如让[00FF00]黄昏之日[-]更早地到来吧！"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="虽然敬佩你的兄弟情谊，但我必须打醒你的助纣为虐。"/>
+		</Plot>
+		<!-- 追缉魔狼，遇雷神·索尔，离开 -->
+		<Plot  ID="101502" TaskID="700101501" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]雷神·索尔[-]，你还是遵从时光守护者的意愿，呆在时光之城吧……"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001059" delay="5" diaCon="降临者[00FF00] %p [-]，或许你能阻止[00FF00]诸神的黄昏[-]吧……我会回到时光之城，但我有个小小请求……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="想必是关于[00FF00]火神洛基[-]吧，请放心，我会剥离他身上的[00FF00]痛苦之力[-]……"/>
+		</Plot>
+		<!-- 尘世巨蟒，进入 -->
+		<Plot  ID="101601" TaskID="700101601" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001028" delay="5" diaCon="陌生人，立刻离开[00FF00]尘世巨蟒[-]的领地，否则承受永恒时间的惩罚…嘶嘶…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]米德加尔德[-]，如果安然地做你的苯环，我自然离去，可你为何掩藏[00FF00]芬里斯狼[-]的踪迹……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001028" delay="5" diaCon="护卫自己的哥哥，怎能叫掩藏，我有何过错！"/>
+		</Plot>
+		<!-- 尘世巨蟒，立刻 -->
+		<Plot  ID="101602" TaskID="700101601" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001028" delay="5" diaCon="嘶嘶…降临者[00FF00] %p [-]，你确实强大，可父神已然苏醒，等待[00FF00]诸神的黄昏[-]，痛苦的陨落吧！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="哼！我自会封印[00FF00]痛苦之力[-]，结束这一切的纷争……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001028" delay="5" diaCon="嘶…嘶…"/>
+		</Plot>
+		<!-- 诸神的黄昏，城内与索尔交谈 -->
+		<Plot  ID="101603" TaskID="700101602" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="预言一切始于黑暗之神霍德尔用槲寄生之剑杀死光明之神巴尔德，世界将经历三个寒冷而漫长的冬季。"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="巨人国度、妖精之乡、中庭、诸神国度、死人之国都将爆发可怕的战争，兄弟父子相残，世风道德堕落败坏。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="然后天地失去了光明，永久地陷入昏暗的傍晚，这便是[00FF00]诸神的黄昏[-]……"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我们只要阻止[00FF00]火神洛基[-]挣脱永罚的锁链，光明之神巴尔德便不会被杀死，[00FF00]诸神的黄昏[-]便不会开启……"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="我们抗争命运，可命运总是兜兜转转地回到原点……"/>
+		</Plot>
+		<!-- 鹰身女妖，进入 -->
+		<Plot  ID="101701" TaskID="700101701" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001018" delay="5" diaCon="哇…哇…看看，快来看看，我们的客人，多么富有的装备！啧啧…看这流光的武器…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="一群吵闹的鸟人，离开我的视线，莫要挡住我的前路……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001018" delay="5" diaCon="哇…哇…装备、武器，我的，都是我的……"/>
+		</Plot>
+		<!-- 鹰身女妖，离开 -->
+		<Plot  ID="101702" TaskID="700101701" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001018" delay="5" diaCon="伟大的主人[00FF00]火神洛基[-]会为我们报仇的……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="洛基果然就在附近吗，我正在寻找他的位置……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001018" delay="5" diaCon="哇…哇…主人不会放过你的……"/>
+		</Plot>
+		<!-- 火神洛基，城内与索尔交谈 -->
+		<Plot  ID="101703" TaskID="700101702" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="如果说[00FF00]火神洛基[-]还有弱点的话，那就是源于本性的贪玩了！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="贪玩？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="洛基信仰混沌的理论，认为混乱是最公平正义的，为此他有着一套独有的说法，或许这是对诸神的憎恨所致吧……"/>
+		</Plot>
+		<!-- 火神洛基，进入 -->
+		<Plot  ID="101801" TaskID="700101801" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001029" delay="5" diaCon="来自深渊的客人，时光守护者看重的降临者[00FF00] %p [-]，欢迎来到好客的洛基的家中……"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001029" delay="5" diaCon="哦…真是不好意思，你看到的只有腐朽的树根，风化的岩石，以及我这个被锁链捆绑的落魄家伙……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]火神洛基[-]，你已经挣脱了封印，何必装作可怜，交出[00FF00]尼伯龙根之戒[-]，它只会让你更痛苦……"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001029" delay="5" diaCon="嘿嘿……为何这么严肃？降临者，脸上来点笑容吧！"/>
+			<Step ID="5" plotType="2" delay="5" diaCon="洛基带着奇异的笑容，举起锋利小刀"/>
+			<Step ID="6" plotType="1" isLeft="1" NPC="2001029" delay="5" diaCon="可笑的世界充满着痛苦与自私，让我们来一场鲜血与头颅的宴会，看看那群自以为是的神灵的表情……"/>
+		</Plot>
+		<!-- 火神洛基，离开 -->
+		<Plot  ID="101802" TaskID="700101801" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001029" delay="5" diaCon="[00FF00] %p [-]，你知道吗？我相信……那些杀不死你的，只会让你变得更怪异。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]火神洛基[-]，我知道[00FF00]痛苦之力[-]折磨着你，请放开心神，接受我的帮助，驱逐沾染你的情绪力量。"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="你高举潘多拉魔盒吸收火神洛基的痛苦"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00] %p [-]，你以为一切就结束了吗？好戏才刚刚开始，[00FF00]尼伯龙根之戒[-]已献给奥丁，让我们看看睿智的主神如何堕落在痛苦之中吧！嘿嘿…嘿嘿…"/>
+		</Plot>
+		<!-- 扭曲树妖，进入 -->
+		<Plot  ID="101901" TaskID="700101901" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001016" delay="5" diaCon="痛苦！痛苦…扭曲！扭曲…我要缠绕你的骨头，我要吸收你的血肉…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="好邪恶的树妖，这就是传说中的扭曲森林吗？"/>
+		</Plot>
+		<!-- 受折磨的古树，进入 -->
+		<Plot  ID="102001" TaskID="700102001" triggerType="3">
+			<Step ID="1" plotType="2" isLeft="0" NPC="0" delay="5" diaCon="突然森林中的古树拔地而起"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001025" delay="5" diaCon="活人…我闻到了血肉的气味，来吧，小宝贝成为树人的肥料吧！"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="知识古树……还以为是温文尔雅的老树，想不到如此不堪，[00FF00]痛苦之力[-]果然害人不浅。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001025" delay="5" diaCon="愚昧的凡人，我只是释放一点小心的食欲而已……"/>
+		</Plot>
+		<!-- 受折磨的古树，离开 -->
+		<Plot  ID="102002" TaskID="700102001" triggerType="4">
+			<Step ID="1" plotType="2" isLeft="0" NPC="0" delay="5" diaCon="你高举潘多拉魔盒吸收知识古树的痛苦"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001025" delay="5" diaCon="我好像做了一场噩梦！奇怪，为何我的双手满是血腥……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]知识古树茂凯[-]先生，您终于恢复了意识！"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="你讲述了痛苦之力的灾难"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001025" delay="5" diaCon="呜…原来是深渊的情绪力量，[00FF00]火神洛基[-]只是让我触碰了[00FF00]尼伯龙根之戒[-]，我就迷失。"/>
+			<Step ID="6" plotType="1" isLeft="1" NPC="2001025" delay="5" diaCon="只要将[00FF00]扭曲森林[-]恢复正常，前往[00FF00]亚斯格特[-]的道路就会显现。"/>
+		</Plot>
+		<!-- 毒液之龙法夫尼尔，进入 -->
+		<Plot  ID="102201" TaskID="700102201" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001032" delay="5" diaCon="又是小偷？又想抢夺巨龙[00FF00]法夫尼尔[-]的黄金宝藏……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="巨龙[00FF00]法夫尼尔[-]，我无意抢夺你的宝藏，只想前往[00FF00]亚斯格特[-]。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001032" delay="5" diaCon="谎言！伟大的[00FF00]主神奥丁[-]的神谕，明令禁止凡人前往[00FF00]亚斯格特[-]，你以此为借口，明显是个小偷！吼……"/>
+		</Plot>
+		<!-- 夺戒之谋，与雷神·索尔讨论 -->
+		<Plot  ID="102301" TaskID="700102302" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="[00FF00]主神奥丁[-]曾以一人之力冒险闯入冥界，为人类取得古文字，从而拥有大量知识，因此而失去一只眼睛。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="这只眼睛能做什么文章？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="[00FF00]主神奥丁[-]失去的眼睛，并非不能视物，而是对世界上的光线太过敏感，所以不得不用眼罩遮上……"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="你是说，我可以用强光来消弱[00FF00]主神奥丁[-]的战斗力……"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="1002006" delay="5" diaCon="或许吧！不过[00FF00] %p [-]，不可将希望全寄与此，[00FF00]痛苦之力[-]带来的影响无法预估。"/>
+		</Plot>
+		<!-- 魔化奥丁，进入 -->
+		<Plot  ID="102401" TaskID="700102401" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001033" delay="5" diaCon="来自遥远深渊的降临者，你也要争夺[00FF00]尼伯龙根之戒[-]的黄金宝藏吗？"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的至高神、死者之王、战神、权力之神、魔法之神、智慧之神，我[00FF00] %p [-]无意争夺黄金宝藏，我的目的只是封印[00FF00]尼伯龙根之戒[-]的痛苦之力！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001033" delay="5" diaCon="哼！冠冕堂皇的理由，想不到深渊的势力如此猖獗，竟然威胁[00FF00]亚斯格特[-]诸神！"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我降临者[00FF00] %p [-]，秉承[00FF00]希望之力[-]的意志降临，接受时光守护者的引导，决意完成为封印[00FF00]潘多拉魔盒[-]的情绪之力的使命！"/>
+		</Plot>
+		<!-- 魔化奥丁，离开 -->
+		<Plot  ID="102402" TaskID="700102401" triggerType="4">
+			<Step ID="1" plotType="2" delay="5" diaCon="你夺取尼伯龙根，吸收主神奥丁的痛苦"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001033" delay="5" diaCon="吾以为借用深渊的[00FF00]痛苦之力[-]，治好换取智慧泉水而损失的眼睛，吾的国王便没有遗憾，不再痛苦……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001033" delay="5" diaCon="万万没想到，为了眼睛差点丢失自我，差点引发[00FF00]诸神的黄昏[-]的开端。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]主神奥丁[-]，我希望带走[00FF00]尼伯龙根之戒[-]，与[00FF00]时光守护者基兰[-]共同封印深渊的[00FF00]痛苦之力[-]！"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001033" delay="5" diaCon="带走吧……[00FF00]尼伯龙根之戒[-]对[00FF00]亚斯格特[-]诸神而言，只是永恒的诅咒、无尽的争端……"/>
+		</Plot>
+		<!-- 幽暗墓园，进入 -->
+		<Plot  ID="102501" TaskID="700102501" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001034" delay="5" diaCon="陌生人，为了破坏死者与生者的约定，踏入沉睡者的[00FF00]幽暗墓园[-]？"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我降临者[00FF00] %p [-]，无意打破沉睡者的宁静，只希望取走大不列颠王位的证明[00FF00]石中剑[-]……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001034" delay="5" diaCon="[00FF00]石中剑[-]是亡者的遗物，生人无权拿走，离开死者的墓园，否则迎接死者的愤怒……"/>
+		</Plot>
+		<!-- 幽暗墓园，离开 -->
+		<Plot  ID="102502" TaskID="700102501" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001034" delay="5" diaCon="陌生人，不要在打扰死者的沉睡！[00FF00]石中剑[-]已被[00FF00]吸血鬼德库拉[-]取走……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]吸血鬼德库拉[-]在哪里？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001034" delay="5" diaCon="[00FF00]吸血鬼德库拉[-]在墓园深处的[00FF00]吸血鬼巢穴[-]……"/>
+		</Plot>
+		<!-- 吸血鬼巢穴，进入 -->
+		<Plot  ID="102601" TaskID="700102601" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001035" delay="5" diaCon="鲜血……饥饿……陌生人，成为我的力量吧……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]吸血鬼德库拉[-]交出[00FF00]石中剑[-]，我不会与你为敌……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001035" delay="5" diaCon="咯…咯…奉献你的血液，或许我会仁慈的赐予你——永生！"/>
+		</Plot>
+		<!-- 吸血鬼巢穴，离开 -->
+		<Plot  ID="102602" TaskID="700102601" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001035" delay="5" diaCon="我讨厌你们这群带着圣光的人类……希望也罢，光明也罢，都令人恶心"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="只要交出[00FF00]石中剑[-]，我就立刻离开……"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="吸血鬼德库拉交给你石中剑"/>
+		</Plot>
+		<!-- 时光之城，与亚瑟王交谈 -->
+		<Plot  ID="102603" TaskID="700102603" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="勇敢的亚瑟，不必慌乱，你是注定成为大不列颠之王的男人……一定还有别的办法迫使贵族们承认你的王位……"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="年轻的亚瑟陷入沉思"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002004" delay="5" diaCon="还有一个方式，持有[00FF00]王者之剑[-]，成为无冕之王的屠龙勇士！"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="屠龙勇士吗？我想获得[00FF00]王者之剑[-]是当务之急……"/>
+		</Plot>
+		<!-- 银龙洞穴，进入 -->
+		<Plot  ID="102801" TaskID="700102801" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001036" delay="5" diaCon="美丽的银龙基哈拉似乎迎来了一群了不起的客人……"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001036" delay="5" diaCon="勇敢…正义…或者说贪婪…自不量力…"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="基哈拉银色的双瞳注视着你"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="邪恶的银龙！只有击杀你才能助亚瑟成为掌管大不列颠的王！"/>
+		</Plot>
+		<!-- 银龙洞穴，离开 -->
+		<Plot  ID="102802" TaskID="700102801" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001036" delay="5" diaCon="啊…痛苦的死亡，你们这群追逐荣誉的残忍人类，我诅咒你们…"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="银龙痛苦地哀嚎着"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001036" delay="5" diaCon="哈…哈…亚瑟，你永远无法成为王，你的爱人将背叛，你的灵魂将折磨，你的人民将杀戮…"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="不过是死亡年的哀怨，亚瑟是注定为王的男人…"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001036" delay="5" diaCon="哈…哈…你以为[00FF00]石中剑[-]为何被污染？去问问亚瑟的爱人，年轻的女巫莫甘娜，这只是诅咒的起始…"/>
+		</Plot>
+		<!-- 与亚瑟王就莫甘娜的女巫身份交谈 -->
+		<Plot  ID="102803" TaskID="700102801" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002004" delay="5" diaCon="降临者[00FF00] %p [-]，我的挚友！请求你前往调查莫甘娜的身份，邪恶的女巫在大不列颠是永恒的禁忌…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我亲爱的[00FF00]亚瑟王[-]，砸烂那些贵族的丑恶嘴脸，成为大不列颠最传奇的国王！莫甘娜的事情由我来处理…"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002004" delay="5" diaCon="感谢你，我的挚友！国内的局势需要文档，莫甘娜就拜托你了！"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="亚瑟对你躬身行骑士礼"/>
+		</Plot>
+		<!-- 女巫之森，与巫师学徒和残忍卡尔对话 -->
+		<Plot  ID="102901" TaskID="700102901" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001037" delay="5" diaCon="陌生人，离开！[00FF00]女巫之森[-]不欢迎恶意的客人！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="博学的巫师，我无意敌对[00FF00]女巫之森[-]，只想询问[00FF00]莫甘娜[-]的消息…"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="巫师学徒陷入诡异的沉默"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="突然壮硕高大的牛头人到来"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001015" delay="5" diaCon="陌生人，我们不认识[00FF00]莫甘娜[-]，离开或者死亡！"/>
+			<Step ID="6" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="看来，只能动手了……"/>
+		</Plot>
+		<!-- 魔法塔，与莫甘娜交谈，进入 -->
+		<Plot  ID="103001" TaskID="700103001" triggerType="3">
+			<Step ID="1" plotType="2" delay="5" diaCon="远处低沉沙哑的声音响起"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001038" delay="5" diaCon="陌生人，我很讨厌你的气息，一股深渊的臭味……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我降临者[00FF00] %p [-]，是希望之化身，身上的气味在深渊混乱之治下，的确算是恶臭。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001038" delay="5" diaCon="离开巫师的领地，我们不愿搀和深渊的事端。"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我只想寻找[00FF00]亚瑟王[-]的爱人[00FF00]莫甘娜[-]……"/>
+			<Step ID="6" plotType="1" isLeft="1" NPC="2001038" delay="5" diaCon="恭喜你找到了，可惜你却无法离开了。"/>
+		</Plot>
+		<!-- 魔法塔，与莫甘娜交谈，离开 -->
+		<Plot  ID="103002" TaskID="700103001" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]莫甘娜[-]，回头吧，[00FF00]亚瑟王[-]还在等着你！"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001038" delay="5" diaCon="回头？觉醒的魔力就像时代的诅咒，别人是高高在上的大魔法师，而我却是人人唾骂的女巫……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="力量从来没有正义邪恶，如果你造福与人类，自然是受尊敬的大魔法师。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001038" delay="5" diaCon="我已无法回头，承受杀戮之力的[00FF00]邪恶圣杯[-]，正是我送给了亚瑟王的忠心骑士[00FF00]格拉海德[-]！"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="不好！[00FF00]亚瑟王[-]会被[00FF00]杀戮之力[-]吞噬……"/>
+		</Plot>
+		<!-- 与时光守护者交谈 -->
+		<Plot  ID="103003" TaskID="700103002" triggerType="1">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]时光守护者[-]，难道情绪力量会有很多个载体？"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="深渊之主[00FF00]狄摩高根[-]，投入世界的潘多拉魔盒，蕴含的是情绪力量的魔种……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="就像花草的种子，它们一样能够发芽、成长，甚至结出更多的种子……"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="所以[00FF00]杀戮之力[-]有很多个载体并不奇怪？"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="哎……封印深渊情绪之力的前路愈发艰辛了！ [00FF00] %p [-]，先去拯救陷入杀戮的[00FF00]亚瑟王[-]……"/>
+		</Plot>
+		<!-- 与兰斯洛特交谈，进入副本 -->
+		<Plot  ID="103101" TaskID="700103101" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001039" delay="5" diaCon="[00FF00]亚瑟[-]，我的王！我可以献出我所有的忠诚，请您不要猜忌王后[00FF00]格尼薇尔[-]。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="咦？[00FF00]亚瑟王[-]已经有了新的王后，可怜的[00FF00]莫甘娜[-]，或许追逐力量才能抚慰她的伤痛。"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="高尚的[00FF00]兰斯洛特[-]，附着杀戮之力的邪恶圣杯已经沾染了[00FF00]亚瑟王[-]，请让开，我是帮助他的人。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001039" delay="5" diaCon="圣杯是光明的、纯洁的，你这欲抢夺圣杯的卑鄙盗贼，受死吧！"/>
+		</Plot>
+		<!-- 与兰斯洛特交谈，离开副本 -->
+		<Plot  ID="103102" TaskID="700103101" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001039" delay="5" diaCon="[00FF00]格尼薇尔[-]，对不起，我没能守护好前往王宫的路！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="骑士，我承认你的勇敢，但你的坚决只是迂腐！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001039" delay="5" diaCon="我发誓抗击一切错误！这是我的骑士宣言！闯入者，我的兄弟会击败你的！"/>
+		</Plot>
+		<!-- 与时光守护者交谈 -->
+		<Plot  ID="103103" TaskID="700103102" triggerType="1">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]时光守护者[-]，我能感受到[00FF00]兰斯洛特[-]没有沾染丝毫的[00FF00]杀戮之力[-]……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="而我却要重伤他，甚至于杀死他……我的所作所为究竟是正义还是邪恶？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="降临者，世界是没办法简单地分辨正义与邪恶的…立场和出发点的对立导致敌对，诸如“恶魔说我们世界猪，我们说恶魔深渊狗”。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="古老的东方智者曾言“道不同不相为谋”即是如此，我们要坚信正义，努力向前……"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="感谢您的指点，尊敬的[00FF00]时光守护者[-]！我必然完成我的使命——封印深渊的情绪力量！"/>
+		</Plot>
+		<!-- 与格拉海德交谈，进入副本 -->
+		<Plot  ID="103201" TaskID="700103201" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="0" NPC="2001040" delay="5" diaCon="勇士，听说你打败了[00FF00]第一骑士兰斯洛特[-]，不知能否打败我的箭！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]格拉海德[-]先生，我尊重荣耀的骑士，但你们现在所做的事情是错误的。"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="2001040" delay="5" diaCon="错误？！我发誓帮助任何向我求助的人！"/>
+		</Plot>
+		<!-- 与格拉海德交谈，离开副本 -->
+		<Plot  ID="103202" TaskID="700103201" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="0" NPC="2001040" delay="5" diaCon="你居然能躲过我的箭？[00FF00]兰斯洛特[-]输的不冤……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]格拉海德[-]先生，若没有[00FF00]希望之力[-]护身，我也无法躲过你的箭…"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="2001040" delay="5" diaCon="骑士胜利而不骄傲，失败而不焦躁。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="2001040" delay="5" diaCon="你战胜我也用，圣杯已交给[00FF00]兰马洛克[-]，现在已呈献给我王！"/>
+		</Plot>
+		<!-- 与兰马洛克交谈，进入副本 -->
+		<Plot  ID="103301" TaskID="700103301" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="0" NPC="2001041" delay="5" diaCon="听说有人强闯王宫，[00FF00]兰斯洛特、格拉海德[-]皆战败，不知我的长枪能否与你一战！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]兰斯洛特、格拉海德[-]是难得的强者，他们只是对无谓的战斗不上心而已。"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="2001041" delay="5" diaCon="呵呵……我与你一战，却是想见识你的实力，战吧！"/>
+		</Plot>
+		<!-- 与兰马洛克交谈，离开副本 -->
+		<Plot  ID="103302" TaskID="700103301" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="0" NPC="2001041" delay="5" diaCon="强者，告诉我你的名字，我的实力不如你……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我降临者[00FF00] %p [-]，情绪之力的封印者。"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="2001041" delay="5" diaCon="[00FF00]格拉海德[-]带来的圣杯蕴含奇异的力量，可与传说中的圣洁不同，或许便是你说的情绪之力吧。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="2001041" delay="5" diaCon="[00FF00] %p [-]，拜托你阻止这种怪异的力量侵染我们的王！"/>
+		</Plot>
+		<!-- 与时光守护者交谈 -->
+		<Plot  ID="103303" TaskID="700103302" triggerType="1">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]时光守护者[-]，一路上，我遇到的骑士都没有沾染[00FF00]杀戮之力[-]，圣杯是不是没有被侵染？"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="如果[00FF00]兰马洛克[-]是正直的骑士，那么圣杯毫无疑问就是[00FF00]杀戮之力[-]的载体。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="有个可能，来自深渊的情绪之力，已经全部苏醒产生智慧。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="难道它们放弃侵染骑士们，是想全力魔化[00FF00]亚瑟王[-]，直接动乱大不列颠？"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="想来，这就是它们的计划了。[00FF00] %p [-]，戒备被全力魔化的[00FF00]亚瑟王[-]，他一定非常强大！"/>
+		</Plot>
+		<!-- 与悔恨骑士交谈，进入副本 -->
+		<Plot  ID="103401" TaskID="700103401" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001042" delay="5" diaCon="他们都败了，马革裹尸、战死沙场是骑士的宿命，与来自深渊的恶魔战斗，兄弟们的牺牲是伟大的。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="来自深渊的恶魔？虽然你们没有被[00FF00]杀戮之力[-]侵染，但它们的蛊惑却欺骗了你们。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001042" delay="5" diaCon="欺骗？呵呵……你侵入王城，护卫的骑士与士兵们没有损伤，战场的虚伪真令人恶心……"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="多说无益，那便战吧！"/>
+		</Plot>
+		<!-- 与特里斯坦交谈，进入副本 -->
+		<Plot  ID="103501" TaskID="700103501" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001043" delay="5" diaCon="力量，真是美妙的力量！我感觉每一次呼吸，自己都在变强！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]杀戮之力[-]居然侵染了你，呵呵，看来它们侵染[00FF00]亚瑟王[-]的过程并不顺利。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001043" delay="5" diaCon="侵染，说的真难听，我的伙伴，我只是在提升他的能力。"/>
+			<Step ID="4" plotType="2" delay="5" diaCon="特里斯坦的声音变得如金戈交击"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="你是[00FF00]杀戮之力[-]?"/>
+			<Step ID="6" plotType="1" isLeft="1" NPC="2001044" delay="5" diaCon="哦，想不到[00FF00]希望之力[-]居然是最先生出灵智的，不过来自深渊的你与我们为敌，真是不智。"/>
+			<Step ID="7" plotType="1" isLeft="1" NPC="2001044" delay="5" diaCon="永恒的深渊之主[00FF00]狄摩高根[-]会将你撕碎，等待你的将是无尽的折磨和痛苦……"/>
+		</Plot>
+		<!-- 与魔化的亚瑟王交谈，进入副本 -->
+		<Plot  ID="103601" TaskID="700103601" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001045" delay="5" diaCon="嘿…嘿…[00FF00] %p [-]，真是怀念与你一同夺取[00FF00]石中剑[-]，击杀[00FF00]银龙基哈拉[-]的日子……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="不知道该称呼你[00FF00]亚瑟王[-]，还是[00FF00]杀戮之力[-]？"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="亚瑟王的声音变得如金戈交击"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001046" delay="5" diaCon="[00FF00]希望之力[-]，你真是个严肃的家伙，为什么就不能让我多表演一会传奇的王者呢？"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]亚瑟[-]！还记得让我调查的[00FF00]莫甘娜[-]吗？你不想知道结果吗？"/>
+			<Step ID="6" plotType="1" isLeft="1" NPC="2001046" delay="5" diaCon="啊！该死的[00FF00]希望之力[-]，我的头好痛，我要杀了你……"/>
+		</Plot>
+		<!-- 与亚瑟王交谈，离开副本 -->
+		<Plot  ID="103602" TaskID="700103601" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001045" delay="5" diaCon="[00FF00] %p [-]，我的挚友，我的兄弟！感谢你帮助我挣脱杀戮的深渊……"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="亚瑟王躬身行骑士礼"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]亚瑟[-]！我的兄弟，帮助你是我应该的选择，相信易地而处，你也会如此。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001045" delay="5" diaCon="[00FF00] %p [-]，可惜我未能留下圣杯，全部的[00FF00]杀戮之力[-]感染了我，并将圣杯送给了某个存在，不知你需要如何封印[00FF00]杀戮之力[-]？"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]亚瑟[-]，原谅我鲁莽的请求，[00FF00]杀戮之力[-]一定转移至[00FF00]石中剑[-]当中……"/>
+			<Step ID="6" plotType="2" delay="5" diaCon="亚瑟王将石中剑递给你"/>
+		</Plot>
+		<!-- 封印石中剑，与时光守护者城内 -->
+		<Plot  ID="103603" TaskID="700103602" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="降临者，举起[00FF00]潘多拉魔盒[-]，释放你的[00FF00]希望之力[-]！"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="石中剑中传出杀戮的怒吼"/>
+			<Step ID="3" plotType="3" isLeft="1" NPC="1002001" delay="5" diaCon="[00FF00] %p [-]，时光之城中新来了一位[00FF00]炽天使[-]，他希望获得我的帮助，但我太累了，你去帮我看看吧。"/>
+		</Plot>
+		<!-- 与炽天使交谈，十字军东征伊始，时光之城内 -->
+		<Plot  ID="103604" TaskID="700103603" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002005" delay="5" diaCon="十字军暴徒假借天父之名，在贪婪和杀戮的驱使下，在魔鬼和恶魔的诱惑下，引发这场战争……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="天父没有阻止他们吗？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002005" delay="5" diaCon="天父的旨意似乎被什么力量扭曲，无法传达，这也是我想请求[00FF00]时光守护者[-]帮助的原因。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="既然如此，我先去[00FF00]君士坦丁堡[-]调查一番，这股力量很可能是来自深渊的情绪力量。"/>
+		</Plot>
+		<!-- 君士坦丁堡，与东征将军克莱蒙对话 -->
+		<Plot  ID="103701" TaskID="700103701" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001047" delay="5" diaCon="勇敢的年轻人，参军吧！天主在号召我们，遥远的东方，邪徒正占领圣地[00FF00]耶路撒冷[-]，那里遍地黄金、玛瑙和翡翠，是属于我们的人间天堂！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我降临者[00FF00] %p [-]，是受命前来阻止你们这群受蒙蔽的羔羊，贪婪的暴徒！"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001047" delay="5" diaCon="天父已降下恩旨，仁慈的父愿我们夺回人间的圣地[00FF00]耶路撒冷[-]，凡阻前路者，均为永世罪人！"/>
+		</Plot>
+		<!-- 与时光守护者交谈，讨论君士坦丁堡的诡异力量 -->
+		<Plot  ID="103702" TaskID="700103702" triggerType="1">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="尊敬的[00FF00]时光守护者[-]，[00FF00]君士坦丁堡[-]的征兵将军似乎一直在称赞[00FF00]耶路撒冷[-]的财富，歌颂人间天堂之名！"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="人们总是向往着财富，因为金钱能带来名声和享乐，利用人性的贪婪制作战争。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="如果战争爆发并长久持续，世界上便会产生大量的[00FF00]贪婪、杀戮、恐惧、痛苦、疾病、欲望[-]之力，情绪之力产生智慧后，目前很难判断是什么在挑起战争。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="不管何种情绪力量，都必须阻止。我还是继续调查，获得更多的信息。"/>
+		</Plot>
+		<!-- 与堕落天使亚列交谈，进入副本 -->
+		<Plot  ID="103801" TaskID="700103801" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001048" delay="5" diaCon="迷途之羔羊！你真是令人厌恶，沾染着炽天使的气息，甚至还有深渊的味道……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="你就是炽天使所言的堕落者、背弃者？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001048" delay="5" diaCon="天父罪与我等，兄弟罪与我等，岂不知你们尊人类为上，何尝不是背弃我等！"/>
+		</Plot>
+		<!-- 与堕落天使亚列交谈，离开副本 -->
+		<Plot  ID="103802" TaskID="700103801" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001048" delay="5" diaCon="我之败，非战之罪，我尊重[00FF00]魔鬼撒旦[-]的要求，我们的目的只是挑起战争，消灭人类，获得更多的灵魂！"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001048" delay="5" diaCon="至于你，降临者，我们的目标并不冲突，我们不愿与你战斗。"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="不冲突？你们挑拨的战斗是所有深渊情绪力量的温床，若不阻止你们，恐怕[00FF00]深渊领主狄摩高根[-]很快就会降临……"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001048" delay="5" diaCon="既然注定为敌人，那么下一次见面就是你的灭亡之日。"/>
+		</Plot>
+		<!-- 与地狱将军屠夫对话，进入副本 -->
+		<Plot  ID="103901" TaskID="700103901" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001049" delay="5" diaCon="哦…似乎一个有趣的灵魂到来了。我闻一下，嗯，有恶心的天使味道，还有讨厌的深渊气息…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="屠夫？你让我想起远古遗迹的[00FF00]血腥屠夫帕吉[-]，一个唠叨的家伙。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001049" delay="5" diaCon="帕吉？只是一个失败者而已，你现在面对的是来自[00FF00]地狱的将军[-]。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="哦…希望你跟帕吉一样有趣……"/>
+		</Plot>
+		<!-- 与地狱将军屠夫对话，进入副本 -->
+		<Plot  ID="103902" TaskID="700103901" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001049" delay="5" diaCon="降临者，你的实力令人尊敬，不过[00FF00]魔鬼撒旦[-]的大军不会失败……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="呵呵……我会打败你们的[00FF00]魔鬼撒旦[-]，勒令它退回地狱……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001049" delay="5" diaCon="猖狂的人类，你的大话笑死我了。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001049" delay="5" diaCon="希望你见到[00FF00]魔鬼撒旦[-]不会颤栗，他的分身就在附近，如果你想见识的话……"/>
+		</Plot>
+		<!-- 与炽天使交谈，讨论魔鬼撒旦 -->
+		<Plot  ID="103903" TaskID="700103901" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002005" delay="5" diaCon="[00FF00] %p [-]，[00FF00]魔鬼撒旦[-]曾是天父座下的第一大天使，它是[00FF00]路西法[-]的别称……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]路西法[-]很强大吗？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002005" delay="5" diaCon="天父用自身一半的力量创造了[00FF00]路西法[-]，虽然你将面对的只是[00FF00]路西法[-]的分身，也不容小觑。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="哦？那又战胜[00FF00]路西法[-]的方法吗？"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="1002005" delay="5" diaCon="[00FF00]隆基努斯之枪[-]能够轻易地刺穿[00FF00]路西法[-]的防御，但武器已经落入[00FF00]地狱魔龙[-]之手。"/>
+		</Plot>
+		<!-- 与地狱魔龙交谈，进入副本 -->
+		<Plot  ID="104001" TaskID="700104001" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001050" delay="5" diaCon="渺小的凡人，听说你要打败我？"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="看起来与其它大蜥蜴没区别…为何能得到[00FF00]路西法[-]的青睐…"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001050" delay="5" diaCon="吼…吼…渺小的凡人，你的赞美听起来甚是讨厌，就跟你身上的气味一样……"/>
+		</Plot>
+		<!-- 与地狱魔龙交谈，离开副本 -->
+		<Plot  ID="104002" TaskID="700104001" triggerType="4">
+			<Step ID="1" plotType="2" delay="5" diaCon="你夺取了隆基努斯之枪"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001050" delay="5" diaCon="混蛋…你打坏了我的分身…居然还抢夺我的武器……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="呵呵，听说[00FF00]隆基努斯之枪[-]能伤害你的本体[00FF00]路西法[-]，为了防止复仇，还是带着[00FF00]隆基努斯之枪[-]防身。"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001050" delay="5" diaCon="混蛋…狡猾的凡人，我的本体会撕碎你，让你承受永世的惩罚……"/>
+			<Step ID="5" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我会去找你的本体的……"/>
+		</Plot>
+		<!-- 与炽天使交谈，讨论乌尔班二世 -->
+		<Plot  ID="104003" TaskID="700104002" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="光明的[00FF00]炽天使[-]，请问您有什么吩咐？"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="1002005" delay="5" diaCon="尊敬的降临者[00FF00] %p [-]，吩咐不敢当，只希望你阻止[00FF00]乌尔班二世[-]时，放过他手下的圣殿骑士团，他们是正义的，只是履行守护骑士的诺言。"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我尊重正直的骑士，如果遇到圣殿骑士团的成员，一定手下留情。"/>
+		</Plot>
+		<!-- 与雅克·德·莫莱交谈，进入副本 -->
+		<Plot  ID="104101" TaskID="700104101" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001051" delay="5" diaCon="闲人止步，这里是庄严的大教堂……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我降临者[00FF00] %p [-]，希望拜见教皇[00FF00]乌尔班二世[-]。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001051" delay="5" diaCon="教皇已经宣布，[00FF00]十字军东征[-]的战备期间，不会见任何客人。"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="看来我只能硬闯了……"/>
+			<Step ID="5" plotType="1" isLeft="1" NPC="2001051" delay="5" diaCon="威胁大教堂！圣殿骑士团戒备……"/>
+		</Plot>
+		<!-- 与乌尔班二世交谈，进入关卡 -->
+		<Plot  ID="104201" TaskID="700104201" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001052" delay="5" diaCon="天父的子民，遇到了困难吗？我们都是神的羔羊，说出你的问题，神会宽恕你的！"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="我降临者[00FF00] %p [-]，希望教皇大人停止[00FF00]十字军东征[-]，这是一场贪婪的邪恶战争……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001052" delay="5" diaCon="[00FF00]十字军东征[-]是遵从天父的旨意，夺回人间天堂。你这邪徒却想阻止，哼，难怪！居然有着深渊的气息……"/>
+		</Plot>
+		<!-- 与乌尔班二世交谈，离开关卡 -->
+		<Plot  ID="104202" TaskID="700104201" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001052" delay="5" diaCon="伟大的主人是不会放过你的，可惜圣杯献给了主人，否则你死定了。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]炽天使[-]说你背叛了天父，想不到不仅背叛，还投靠了[00FF00]魔鬼撒旦[-]……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001052" delay="5" diaCon="呵呵…无所谓背叛，只不过筹码的高低罢了。天父不允我人间永生，撒当允我，我为何不能投靠…"/>
+		</Plot>
+		<!-- 与比蒙巨兽贝希摩斯交谈，进入关卡 -->
+		<Plot  ID="104301" TaskID="700104301" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001053" delay="5" diaCon="吾的肌肉结实如石头，骨骼坚硬如铜铁。吾是地狱之[00FF00]强欲君王贝希摩斯。[-]"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="你就是传说中天父创世用粘土制作的怪物？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001053" delay="5" diaCon="无耻的谣言！吾生于此，长于此，关天父何干？难道这个世界就是他开创的？"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001053" delay="5" diaCon="吾憎恶谎言，也憎恶深渊……"/>
+		</Plot>
+		<!-- 与死之天使度玛交谈，进入副本 -->
+		<Plot  ID="104401" TaskID="700104401" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001054" delay="5" diaCon="来吧，死者的魂灵，来到你们的主人面前……"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="蛊惑人心，我可还没有死亡……"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001054" delay="5" diaCon="生命是几十年的痛苦旅程，只有死亡才是最终的归属，是永恒的欢愉…来吧，让我领你进入死者的国度…"/>
+		</Plot>
+		<!-- 与死之天使度玛交谈，离开副本 -->
+		<Plot  ID="104402" TaskID="700104401" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001054" delay="5" diaCon="降临者，看来我没有引导你死亡的能力……"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001054" delay="5" diaCon="不过来自混乱深渊的你，与撒旦合作的[00FF00]贪婪之力[-]是死敌，你们的气息对立，我会见证你们的厮杀与陨落……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="[00FF00]贪婪之力[-]！哼！我的目标就是封印它，终结这场贪婪的[00FF00]十字军东征[-]！"/>
+		</Plot>
+		<!-- 与地狱血魔交谈，进入副本 -->
+		<Plot  ID="104501" TaskID="700104501" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001055" delay="5" diaCon="哦…新鲜的血液，带着深渊的怪味和天使的恶臭，算得上一份大餐了。"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001055" delay="5" diaCon="来吧，让我尝尝，希望你是带着醇香的A型血，其它的我可不喜欢，B型腥味太浓，O型没啥味道，AB型味道太杂……"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="呵呵，想尝我的鲜血，打过我再说吧……"/>
+		</Plot>
+		<!-- 与地狱血魔交谈，离开副本 -->
+		<Plot  ID="104502" TaskID="700104501" triggerType="4">
+			<Step ID="1" plotType="2" delay="5" diaCon="地狱血魔咂嘴，舔舐流出的血液"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="怎么样，自己的血液滋味如何？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001055" delay="5" diaCon="我当然是醇香的A型血，可惜吃不到你，想必你一定是更稀有美味的血型吧！"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001055" delay="5" diaCon="罢了，罢了，伟大的[00FF00]憎恨之王梅菲斯特[-]会将你斩杀，到时再尝你的鲜血吧！"/>
+		</Plot>
+		<!-- 与憎恨之王交谈，进入副本 -->
+		<Plot  ID="104601" TaskID="700104601" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001056" delay="5" diaCon="降临者，你似乎杀害了很多憎恶？我可怜的族人…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="哼！可恨的憎恶，它们以人类为食，血腥残暴，当然见一个杀一个。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001056" delay="5" diaCon="人吃猪羊，憎恶吃人，这是大自然的规律，谁也无法避免啊！"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="强词夺理！杀害有智慧的善良生物就是罪孽。"/>
+		</Plot>
+		<!-- 与地狱魔狼交谈，进入副本 -->
+		<Plot  ID="104701" TaskID="700104701" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001057" delay="5" diaCon="呜呜…入侵者，我要报告主人…"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="又是三头的生物？奇怪的地狱。"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="2001057" delay="5" diaCon="骷髅兵，阻止入侵者，我去报告主人…"/>
+		</Plot>
+		<!-- 与炽天使交谈，计划击败路西法 -->
+		<Plot  ID="104702" TaskID="700104701" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002005" delay="5" diaCon="[00FF00]魔鬼撒旦[-]是曾经的晨曦之星[00FF00]路西法[-]，他不愿承认圣子的地位，堕落成魔鬼。"/>
+			<Step ID="2" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="请问，如何战胜他？"/>
+			<Step ID="3" plotType="1" isLeft="1" NPC="1002005" delay="5" diaCon="[00FF00] %p [-]，唯一能重伤[00FF00]魔鬼撒旦[-]的正是沾染圣子血液的[00FF00]隆基努斯之枪[-]！"/>
+		</Plot>
+		<!-- 与路西法交谈，进入副本 -->
+		<Plot  ID="104802" TaskID="700104801" triggerType="3">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001058" delay="5" diaCon="吾讨厌所有的人类，伟大而纯粹的天使族不应跪拜肮脏的人类！"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001058" delay="5" diaCon="人类要么死亡，要么堕入永恒的深渊，这是吾与[00FF00]贪婪之力[-]的约定…"/>
+			<Step ID="3" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="人类或许不堪，但人类的品德与谦逊值得赞扬！"/>
+			<Step ID="4" plotType="1" isLeft="0" NPC="%p" delay="5" diaCon="而你，[00FF00]路西法[-]，享受着人类的信仰，却又视人类如敝履，你才是真正的贪婪无度！"/>
+		</Plot>
+		<!-- 与路西法交谈，离开副本 -->
+		<Plot  ID="104803" TaskID="700104801" triggerType="4">
+			<Step ID="1" plotType="1" isLeft="1" NPC="2001058" delay="5" diaCon="想不到吾竟然败在了人类的手上！"/>
+			<Step ID="2" plotType="1" isLeft="1" NPC="2001058" delay="5" diaCon="你想要这邪恶的[00FF00]贪婪圣杯[-]，是吗？"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="路西法将圣杯扔给你"/>
+			<Step ID="4" plotType="1" isLeft="1" NPC="2001058" delay="5" diaCon="吾非常想知道你能不能承受贪婪的欲望…"/>
+		</Plot>
+		<!-- 与时光守护者交谈 -->
+		<Plot  ID="104804" TaskID="700104801" triggerType="2">
+			<Step ID="1" plotType="1" isLeft="1" NPC="1002001" delay="5" diaCon="[00FF00] %p [-]，拿出蕴含[00FF00]贪婪之力[-]的圣杯，我们合力封印它。"/>
+			<Step ID="2" plotType="2" delay="5" diaCon="基兰与你高举潘多拉魔盒"/>
+			<Step ID="3" plotType="2" delay="5" diaCon="贪婪哀嚎着落入潘多拉魔盒"/>
+		</Plot>
+</RECORDS>

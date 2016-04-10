@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1" paixuID="1" zhuiji_type="1" value="30" zhuiji_item="5000801" zhuiji_num="1,2,3,4,5,6,7,8,9,10,11,12,13" zhuiji_resources="2" zhuiji_resources_num="0,0,0,0,0,0,0,0,0,0,0,0,0" monster_dec="比蒙巨兽为远古魔兽，它们的寿命长达数十万年，甚至比诸神活的还久。由于和比蒙巨兽同一时代的生物都已经灭亡，所以一直是个传说。" map_ID="600100010"/>
+	<RECORD ID="2" paixuID="2" zhuiji_type="1" value="30" zhuiji_item="5000801" zhuiji_num="1,2,3,4,5,6,7,8,9,10,11,12,13" zhuiji_resources="2" zhuiji_resources_num="0,0,0,0,0,0,0,0,0,0,0,0,0" monster_dec="地狱使魔并不是“真正”的魔鬼，而是魔王使用混乱魔法“提升”的其他生物。他们的灵魂有着不稳定的、狂怒的、不可预知的混乱本性。" map_ID="600200010"/>
+	<RECORD ID="3" paixuID="3" zhuiji_type="1" value="30" zhuiji_item="5000801" zhuiji_num="1,2,3,4,5,6,7,8,9,10,11,12,13" zhuiji_resources="2" zhuiji_resources_num="0,0,0,0,0,0,0,0,0,0,0,0,0" monster_dec="毁灭魔王的仆从，它们会疯狂的冲进敌阵中，用尖角把敌人钉死，挥舞巨大的手臂轧碎敌人，或者将敌人踩成肉浆。" map_ID="600300010"/>
+	<RECORD ID="4" paixuID="4" zhuiji_type="1" value="30" zhuiji_item="5000801" zhuiji_num="1,2,3,4,5,6,7,8,9,10,11,12,13" zhuiji_resources="2" zhuiji_resources_num="0,0,0,0,0,0,0,0,0,0,0,0,0" monster_dec="长期在深渊中生长，让它拥有了巨大的身体和无穷的力量。心灵被暗影邪恶所侵蚀，坚硬的甲克能抵抗强大的冲击，坚实的爪钳让它无坚不摧！" map_ID="600400010"/>
+</RECORDS>

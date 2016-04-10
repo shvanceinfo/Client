@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="110001" Name="公会商城1级" Icon="diamond_box" Level="1" ShopUp_resource="9,100000" ShopUp_item="0" ShopUp_time="60" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至2级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110002" Name="公会商城2级" Icon="diamond_box" Level="2" ShopUp_resource="9,500000" ShopUp_item="0" ShopUp_time="120" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至3级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110003" Name="公会商城3级" Icon="diamond_box" Level="3" ShopUp_resource="9,1000000" ShopUp_item="0" ShopUp_time="180" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至4级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110004" Name="公会商城4级" Icon="diamond_box" Level="4" ShopUp_resource="9,5000000" ShopUp_item="0" ShopUp_time="240" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至5级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110005" Name="公会商城5级" Icon="diamond_box" Level="5" ShopUp_resource="9,10000000" ShopUp_item="0" ShopUp_time="300" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至6级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110006" Name="公会商城6级" Icon="diamond_box" Level="6" ShopUp_resource="9,20000000" ShopUp_item="0" ShopUp_time="360" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至7级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110007" Name="公会商城7级" Icon="diamond_box" Level="7" ShopUp_resource="9,50000000" ShopUp_item="0" ShopUp_time="420" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至8级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110008" Name="公会商城8级" Icon="diamond_box" Level="8" ShopUp_resource="9,100000000" ShopUp_item="0" ShopUp_time="480" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至9级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110009" Name="公会商城9级" Icon="diamond_box" Level="9" ShopUp_resource="9,200000000" ShopUp_item="0" ShopUp_time="540" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城提升至10级，公会商城出售道具更加丰富。"/>
+	<RECORD ID="110010" Name="公会商城10级" Icon="diamond_box" Level="10" ShopUp_resource="9,500000000" ShopUp_item="0" ShopUp_time="600" CurLvDesc="公会商城升级后公会商城出售的道具更加丰富！" NextLvDesc="公会商城已经升至最高级。"/>
+</RECORDS>

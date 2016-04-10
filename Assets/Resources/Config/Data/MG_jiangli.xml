@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1" jiangliID="112001" End_limit="1,2" level_limit="1,30" ResoursID="1,50000,0"/>
+	<RECORD ID="2" jiangliID="112001" End_limit="1,2" level_limit="31,60" ResoursID="1,100000,0"/>
+	<RECORD ID="3" jiangliID="112001" End_limit="1,2" level_limit="61,100" ResoursID="1,200000,0"/>
+	<RECORD ID="4" jiangliID="112002" End_limit="1,2" level_limit="1,30" ResoursID="3,20,0"/>
+	<RECORD ID="5" jiangliID="112002" End_limit="1,2" level_limit="31,60" ResoursID="3,50,0"/>
+	<RECORD ID="6" jiangliID="112002" End_limit="1,2" level_limit="61,100" ResoursID="3,100,0"/>
+	<RECORD ID="7" jiangliID="112003" End_limit="1,2" level_limit="1,30" ResoursID="4,20,0"/>
+	<RECORD ID="8" jiangliID="112003" End_limit="1,2" level_limit="31,60" ResoursID="4,50,0"/>
+	<RECORD ID="9" jiangliID="112003" End_limit="1,2" level_limit="61,100" ResoursID="4,100,0"/>
+	<RECORD ID="10" jiangliID="112004" End_limit="1,2" level_limit="1,30" ResoursID="5,5000,0"/>
+	<RECORD ID="11" jiangliID="112004" End_limit="1,2" level_limit="31,60" ResoursID="5,10000,0"/>
+	<RECORD ID="12" jiangliID="112004" End_limit="1,2" level_limit="61,100" ResoursID="5,20000,0"/>
+	<RECORD ID="13" jiangliID="112005" End_limit="1,2" level_limit="1,30" ResoursID="" ItemID="2000001,1"/>
+	<RECORD ID="14" jiangliID="112005" End_limit="1,2" level_limit="31,60" ResoursID="" ItemID="2000001,2"/>
+	<RECORD ID="15" jiangliID="112005" End_limit="1,2" level_limit="61,100" ResoursID="" ItemID="2000001,3"/>
+	<RECORD ID="16" jiangliID="112006" End_limit="1,2" level_limit="1,30" ResoursID="7,10,0"/>
+	<RECORD ID="17" jiangliID="112006" End_limit="1,2" level_limit="31,60" ResoursID="7,20,0"/>
+	<RECORD ID="18" jiangliID="112006" End_limit="1,2" level_limit="61,100" ResoursID="7,30,0"/>
+	<RECORD ID="19" jiangliID="112007" End_limit="1,2" level_limit="1,30" ResoursID="" ItemID="5000111,1"/>
+	<RECORD ID="20" jiangliID="112007" End_limit="1,2" level_limit="31,60" ResoursID="" ItemID="5000111,2"/>
+	<RECORD ID="21" jiangliID="112007" End_limit="1,2" level_limit="61,100" ResoursID="" ItemID="5000111,3"/>
+	<RECORD ID="22" jiangliID="112008" End_limit="1,2" level_limit="1,30" ResoursID="" ItemID="5000801,1"/>
+	<RECORD ID="23" jiangliID="112008" End_limit="1,2" level_limit="31,60" ResoursID="" ItemID="5000801,2"/>
+	<RECORD ID="24" jiangliID="112008" End_limit="1,2" level_limit="61,100" ResoursID="" ItemID="5000801,3"/>
+	<RECORD ID="25" jiangliID="139001" End_limit="3,999" level_limit="1,30" ResoursID="1,50000,0"/>
+	<RECORD ID="26" jiangliID="139001" End_limit="3,999" level_limit="31,60" ResoursID="1,100000,0"/>
+	<RECORD ID="27" jiangliID="139001" End_limit="3,999" level_limit="61,100" ResoursID="1,200000,0"/>
+	<RECORD ID="28" jiangliID="139002" End_limit="3,999" level_limit="1,30" ResoursID="3,20,0"/>
+	<RECORD ID="29" jiangliID="139002" End_limit="3,999" level_limit="31,60" ResoursID="3,50,0"/>
+	<RECORD ID="30" jiangliID="139002" End_limit="3,999" level_limit="61,100" ResoursID="3,100,0"/>
+	<RECORD ID="31" jiangliID="139003" End_limit="3,999" level_limit="1,30" ResoursID="4,20,0"/>
+	<RECORD ID="32" jiangliID="139003" End_limit="3,999" level_limit="31,60" ResoursID="4,50,0"/>
+	<RECORD ID="33" jiangliID="139003" End_limit="3,999" level_limit="61,100" ResoursID="4,100,0"/>
+	<RECORD ID="34" jiangliID="139004" End_limit="3,999" level_limit="1,30" ResoursID="5,5000,0"/>
+	<RECORD ID="35" jiangliID="139004" End_limit="3,999" level_limit="31,60" ResoursID="5,10000,0"/>
+	<RECORD ID="36" jiangliID="139004" End_limit="3,999" level_limit="61,100" ResoursID="5,20000,0"/>
+	<RECORD ID="37" jiangliID="139005" End_limit="3,999" level_limit="1,30" ResoursID="" ItemID="2000001,1"/>
+	<RECORD ID="38" jiangliID="139005" End_limit="3,999" level_limit="31,60" ResoursID="" ItemID="2000001,2"/>
+	<RECORD ID="39" jiangliID="139005" End_limit="3,999" level_limit="61,100" ResoursID="" ItemID="2000001,3"/>
+	<RECORD ID="40" jiangliID="139006" End_limit="3,999" level_limit="1,30" ResoursID="7,10,0"/>
+	<RECORD ID="41" jiangliID="139006" End_limit="3,999" level_limit="31,60" ResoursID="7,20,0"/>
+	<RECORD ID="42" jiangliID="139006" End_limit="3,999" level_limit="61,100" ResoursID="7,30,0"/>
+	<RECORD ID="43" jiangliID="139007" End_limit="3,999" level_limit="1,30" ResoursID="" ItemID="5000111,1"/>
+	<RECORD ID="44" jiangliID="139007" End_limit="3,999" level_limit="31,60" ResoursID="" ItemID="5000111,2"/>
+	<RECORD ID="45" jiangliID="139007" End_limit="3,999" level_limit="61,100" ResoursID="" ItemID="5000111,3"/>
+	<RECORD ID="46" jiangliID="139008" End_limit="3,999" level_limit="1,30" ResoursID="" ItemID="5000801,1"/>
+	<RECORD ID="47" jiangliID="139008" End_limit="3,999" level_limit="31,60" ResoursID="" ItemID="5000801,2"/>
+	<RECORD ID="48" jiangliID="139008" End_limit="3,999" level_limit="61,100" ResoursID="" ItemID="5000801,3"/>
+	<RECORD ID="49" jiangliID="139009" End_limit="3,999" level_limit="1,30" ResoursID="" ItemID="5000601,1"/>
+	<RECORD ID="50" jiangliID="139009" End_limit="3,999" level_limit="31,60" ResoursID="" ItemID="5000601,2"/>
+	<RECORD ID="51" jiangliID="139009" End_limit="3,999" level_limit="61,100" ResoursID="" ItemID="5000601,3"/>
+</RECORDS>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="108001" Name="公会大厅1阶" Icon="diamond_box" Level="1" CentreUp_resource="9,100000" CentreUp_item="0" CentreUp_time="60" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至2级，公会成员至25人，公会旗帜可升至2阶，公会商城可升至2级，公会技能塔可升至2级。"/>
+	<RECORD ID="108002" Name="公会大厅2阶" Icon="diamond_box" Level="2" CentreUp_resource="9,500000" CentreUp_item="0" CentreUp_time="120" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至3级，公会成员至30人，公会旗帜可升至3阶，公会商城可升至3级，公会技能塔可升至3级。"/>
+	<RECORD ID="108003" Name="公会大厅3阶" Icon="diamond_box" Level="3" CentreUp_resource="9,1000000" CentreUp_item="0" CentreUp_time="180" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至4级，公会成员至35人，公会旗帜可升至4阶，公会商城可升至4级，公会技能塔可升至4级。"/>
+	<RECORD ID="108004" Name="公会大厅4阶" Icon="diamond_box" Level="4" CentreUp_resource="9,5000000" CentreUp_item="0" CentreUp_time="240" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至5级，公会成员至40人，公会旗帜可升至5阶，公会商城可升至5级，公会技能塔可升至5级。"/>
+	<RECORD ID="108005" Name="公会大厅5阶" Icon="diamond_box" Level="5" CentreUp_resource="9,10000000" CentreUp_item="0" CentreUp_time="300" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至6级，公会成员至45人，公会旗帜可升至6阶，公会商城可升至6级，公会技能塔可升至6级。"/>
+	<RECORD ID="108006" Name="公会大厅6阶" Icon="diamond_box" Level="6" CentreUp_resource="9,20000000" CentreUp_item="0" CentreUp_time="360" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至7级，公会成员至50人，公会旗帜可升至7阶，公会商城可升至7级，公会技能塔可升至7级。"/>
+	<RECORD ID="108007" Name="公会大厅7阶" Icon="diamond_box" Level="7" CentreUp_resource="9,50000000" CentreUp_item="0" CentreUp_time="420" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至8级，公会成员至55人，公会旗帜可升至8阶，公会商城可升至8级，公会技能塔可升至8级。"/>
+	<RECORD ID="108008" Name="公会大厅8阶" Icon="diamond_box" Level="8" CentreUp_resource="9,100000000" CentreUp_item="0" CentreUp_time="480" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至9级，公会成员至60人，公会旗帜可升至9阶，公会商城可升至9级，公会技能塔可升至9级。"/>
+	<RECORD ID="108009" Name="公会大厅9阶" Icon="diamond_box" Level="9" CentreUp_resource="9,200000000" CentreUp_item="0" CentreUp_time="540" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="升级后可提升公会等级至10级，公会成员至65人，公会旗帜可升至10阶，公会商城可升至10级，公会技能塔可升至10级。"/>
+	<RECORD ID="108010" Name="公会大厅10阶" Icon="diamond_box" Level="10" CentreUp_resource="9,500000000" CentreUp_item="0" CentreUp_time="600" CurLvDesc="公会大厅升级后可提升公会成员上限，公会旗帜升阶上限，公会商城等级上限，公会技能塔等级上限。" NextLvDesc="公会大厅已经升至最高级。"/>
+</RECORDS>

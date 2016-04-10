@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="104001" Name="公会大厅" Icon="diamond_box" GongHuiLv="1" BuildInitLv="1" BuildUpButton="升级" BuildUpOpen="900101" BuildInButton="进入" BuildInOpen="900101"/>
+	<RECORD ID="104002" Name="公会旗帜" Icon="diamond_box" GongHuiLv="1" BuildInitLv="1" BuildUpButton="升级" BuildUpOpen="900101" BuildInButton="进入" BuildInOpen="900101"/>
+	<RECORD ID="104003" Name="技能塔" Icon="diamond_box" GongHuiLv="2" BuildInitLv="1" BuildUpButton="升级" BuildUpOpen="900101" BuildInButton="进入" BuildInOpen="900101"/>
+	<RECORD ID="104004" Name="公会商城" Icon="diamond_box" GongHuiLv="3" BuildInitLv="1" BuildUpButton="升级" BuildUpOpen="900101" BuildInButton="进入" BuildInOpen="900101"/>
+</RECORDS>

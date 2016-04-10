@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AIConfig>
+	<RECORD ID="1" goumai_num="1" zuanshi_price="5" XDL_num="1"/>
+	<RECORD ID="2" goumai_num="2" zuanshi_price="6" XDL_num="1"/>
+	<RECORD ID="3" goumai_num="3" zuanshi_price="7" XDL_num="1"/>
+	<RECORD ID="4" goumai_num="4" zuanshi_price="8" XDL_num="1"/>
+	<RECORD ID="5" goumai_num="5" zuanshi_price="9" XDL_num="1"/>
+	<RECORD ID="6" goumai_num="6" zuanshi_price="10" XDL_num="1"/>
+	<RECORD ID="7" goumai_num="7" zuanshi_price="11" XDL_num="1"/>
+	<RECORD ID="8" goumai_num="8" zuanshi_price="12" XDL_num="1"/>
+	<RECORD ID="9" goumai_num="9" zuanshi_price="13" XDL_num="1"/>
+	<RECORD ID="10" goumai_num="10" zuanshi_price="14" XDL_num="1"/>
+	<RECORD ID="11" goumai_num="11" zuanshi_price="15" XDL_num="1"/>
+	<RECORD ID="12" goumai_num="12" zuanshi_price="16" XDL_num="1"/>
+	<RECORD ID="13" goumai_num="13" zuanshi_price="17" XDL_num="1"/>
+	<RECORD ID="14" goumai_num="14" zuanshi_price="18" XDL_num="1"/>
+	<RECORD ID="15" goumai_num="15" zuanshi_price="19" XDL_num="1"/>
+	<RECORD ID="16" goumai_num="16" zuanshi_price="20" XDL_num="1"/>
+	<RECORD ID="17" goumai_num="17" zuanshi_price="21" XDL_num="1"/>
+	<RECORD ID="18" goumai_num="18" zuanshi_price="22" XDL_num="1"/>
+	<RECORD ID="19" goumai_num="19" zuanshi_price="23" XDL_num="1"/>
+	<RECORD ID="20" goumai_num="20" zuanshi_price="24" XDL_num="1"/>
+</AIConfig>

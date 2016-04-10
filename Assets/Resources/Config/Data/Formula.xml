@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="5000402" Name="[35f8f2]蓝色洗练石[-]" Type="1" TypeRank="12" materialID="5000401" materialNum="3" productPrice="5000" Successrate="1000" LuckStoneUsed="0" productID="5000402" gonggaoID="0"/>
+	<RECORD ID="5000403" Name="[df09c3]紫色洗练石[-]" Type="1" TypeRank="13" materialID="5000402" materialNum="3" productPrice="10000" Successrate="1000" LuckStoneUsed="0" productID="5000403" gonggaoID="9004001"/>
+</RECORDS>

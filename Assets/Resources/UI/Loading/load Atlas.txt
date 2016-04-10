@@ -1,0 +1,28 @@
+{"frames": {
+
+"loading_back.png":
+{
+	"frame": {"x":2,"y":5,"w":343,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":343,"h":1},
+	"sourceSize": {"w":343,"h":1}
+},
+"loading_forg.png":
+{
+	"frame": {"x":2,"y":2,"w":343,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":343,"h":1},
+	"sourceSize": {"w":343,"h":1}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "load Atlas.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":8},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7568b0a63cd1f76418742b2345dd06d5:bcd8bad51e26ab322fc6b312d4775ffe:03a588ff6d168146600a3c96ca0f8580$"
+}
+}

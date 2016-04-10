@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SkillConfig>
+	<skill ID="1" name="加攻" lastTime="5" buffType="5" AddStateType="5" AddStateValue="500" AddDamageType="0" AddDamageValue="0" speedRate="1" limitAttack="0" effectPre="Effect/Effect_Prefab/Role/Skill/zhanyishalu" effPos="2"/>
+	<skill ID="2" name="加防" lastTime="5" buffType="6" AddStateType="6" AddStateValue="500" AddDamageType="0" AddDamageValue="0" speedRate="1" limitAttack="0" effectPre="Effect/Effect_Prefab/Role/Skill/yongqihudun" effPos="2"/>
+	<skill ID="3" name="眩晕" lastTime="2" buffType="7" AddStateType="0" AddStateValue="0" AddDamageType="0" AddDamageValue="0" speedRate="1" limitAttack="1" effectPre="Effect/Effect_Prefab/Monster/xuanyun" effPos="0"/>
+	<skill ID="4" name="冰冻" lastTime="2" buffType="8" AddStateType="0" AddStateValue="0" AddDamageType="1" AddDamageValue="0" speedRate="1" limitAttack="0" effPos="0"/>
+	<skill ID="5" name="减速" lastTime="3" buffType="9" AddStateType="0" AddStateValue="0" AddDamageType="0" AddDamageValue="0" speedRate="0.5" limitAttack="0" effectPre="Effect/ShuXingBuff/ice_DOT" triggerEffectPre="Effect/ShuXingBuff/ice_BaoZha" effPos="1"/>
+	<skill ID="6" name="必杀" lastTime="15" buffType="1" buffIcon="gebulin_bisha" AddStateType="0" AddStateValue="0" AddDamageType="0" AddDamageValue="0" speedRate="1" limitAttack="0" effPos="0"/>
+	<skill ID="7" name="贪婪" lastTime="15" buffType="2" buffIcon="gebulin_shuangbei" AddStateType="0" AddStateValue="0" AddDamageType="0" AddDamageValue="0" speedRate="1" limitAttack="0" effPos="0"/>
+	<skill ID="8" name="吝啬" lastTime="15" buffType="3" buffIcon="gebulin_lingse" AddStateType="0" AddStateValue="0" AddDamageType="0" AddDamageValue="0" speedRate="1" limitAttack="0" effPos="0"/>
+	<skill ID="9" name="闪现" lastTime="15" buffType="4" buffIcon="gebulin_shanshuo" AddStateType="0" AddStateValue="0" AddDamageType="0" AddDamageValue="0" speedRate="1" limitAttack="0" effPos="0"/>
+	<skill ID="10" name="火属性效果" lastTime="3" buffType="10" AddStateType="0" AddStateValue="0" AddDamageType="2" AddDamageValue="0" speedRate="1" limitAttack="0" effectPre="Effect/ShuXingBuff/Fire_buff" triggerEffectPre="Effect/ShuXingBuff/Fire_BaoZha" effPos="0"/>
+	<skill ID="11" name="中毒" lastTime="3" buffType="11" AddStateType="2" AddStateValue="0" AddDamageType="3" AddDamageValue="0" speedRate="1" limitAttack="0" effectPre="Effect/ShuXingBuff/Du_DOT" triggerEffectPre="Effect/ShuXingBuff/Du_BaoZha" effPos="1"/>
+	<skill ID="12" name="雷击" lastTime="3" buffType="12" AddStateType="0" AddStateValue="0" AddDamageType="4" AddDamageValue="0" speedRate="1" limitAttack="0" effectPre="Effect/ShuXingBuff/Lightning_buff" triggerEffectPre="Effect/ShuXingBuff/Lightning_BaoZha" effPos="0"/>
+	<skill ID="13" name="格挡" lastTime="3" buffType="0" AddStateType="13" AddStateValue="999" AddDamageType="0" AddDamageValue="0" speedRate="1" limitAttack="0" effPos="0"/>
+</SkillConfig>

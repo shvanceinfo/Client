@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<!--
+		ID   		没有实际含义
+		MapID 		表示需要分线的场景地图		
+		Name		场景名称
+		InitLine 	初始线路数量
+		MaxNum  	线路承受最大人数数量
+		HotNum		爆满人次（min，max），大于等于min值并且小于max值时(前端显示使用)
+		LiuChangNum	流畅人次（min，max），大于等于min值并且小于max值时(前端显示使用)
+		FreeNum 	空闲人次（min，max），大于等于min值并且小于max值时(前端显示使用)
+		MaxLine		最大生成的线路数量
+		ExtraPlayerNum    额外增加的人次数量
+		
+	-->
+<RECORDS>
+	<RECORD ID="1" MapID="100000001" Name="降临村"   InitLine="8"	MaxNum="25"  HotNum="20,25" LiuChangNum="10,20" FreeNum="0,10" MaxLine="100" ExtraPlayerNum="50"/>
+	<RECORD ID="2" MapID="100000002" Name="时光之城" InitLine="8"	MaxNum="25"  HotNum="20,25" LiuChangNum="10,20" FreeNum="0,10" MaxLine="100" ExtraPlayerNum="50"/>
+	<RECORD ID="3" MapID="300400010" Name="世界BOSS" InitLine="8" 	MaxNum="25" HotNum="20,25" LiuChangNum="10,20" FreeNum="0,10" MaxLine="100" ExtraPlayerNum="50"/>
+</RECORDS>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<RECORDS>
+	<RECORD ID="1001" Name="10%成功率" Successrate="100" LuckStoneUsed="5000701,1" Diamond="10"/>
+	<RECORD ID="1002" Name="20%成功率" Successrate="200" LuckStoneUsed="5000701,2" Diamond="20"/>
+	<RECORD ID="1003" Name="30%成功率" Successrate="300" LuckStoneUsed="5000701,3" Diamond="30"/>
+	<RECORD ID="1004" Name="40%成功率" Successrate="400" LuckStoneUsed="5000701,4" Diamond="40"/>
+	<RECORD ID="1005" Name="50%成功率" Successrate="500" LuckStoneUsed="5000701,5" Diamond="50"/>
+	<RECORD ID="1006" Name="60%成功率" Successrate="600" LuckStoneUsed="5000701,6" Diamond="60"/>
+	<RECORD ID="1007" Name="70%成功率" Successrate="700" LuckStoneUsed="5000701,7" Diamond="70"/>
+	<RECORD ID="1008" Name="80%成功率" Successrate="800" LuckStoneUsed="5000701,8" Diamond="80"/>
+	<RECORD ID="1009" Name="90%成功率" Successrate="900" LuckStoneUsed="5000701,9" Diamond="90"/>
+</RECORDS>

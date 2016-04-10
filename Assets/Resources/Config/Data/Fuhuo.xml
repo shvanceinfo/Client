@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="1" VIP="0" dia_price="60"/>
+	<RECORD ID="2" VIP="1" dia_price="100"/>
+	<RECORD ID="3" VIP="2" dia_price="180"/>
+	<RECORD ID="4" VIP="3" dia_price="300"/>
+	<RECORD ID="5" VIP="4" dia_price="460"/>
+	<RECORD ID="6" VIP="5" dia_price="660"/>
+	<RECORD ID="7" VIP="6" dia_price="900"/>
+	<RECORD ID="8" VIP="7" dia_price="1180"/>
+	<RECORD ID="9" VIP="8" dia_price="1500"/>
+	<RECORD ID="10" VIP="9" dia_price="1860"/>
+	<RECORD ID="11" VIP="9" dia_price="2260"/>
+	<RECORD ID="12" VIP="10" dia_price="2700"/>
+</RECORDS>

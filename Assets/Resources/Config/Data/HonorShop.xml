@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD TabID="1" TabName="装备" ID="100001" name="强化石" sort="1" dispIdx="1" itemID="5000111" getItemNum="1" honorLv="10001" honorPrice="5" limitNum="2"/>
+	<RECORD TabID="2" TabName="道具" ID="100002" name="羽翼精华" sort="2" dispIdx="2" itemID="5000301" getItemNum="1" honorLv="10001" honorPrice="30" limitNum="2"/>
+	<RECORD TabID="2" TabName="道具" ID="100003" name="1000金币卡" sort="2" dispIdx="3" itemID="2000103" getItemNum="1" honorLv="10001" honorPrice="10" limitNum="2"/>
+	<RECORD TabID="2" TabName="道具" ID="100004" name="绿色洗练石" sort="2" dispIdx="4" itemID="5000401" getItemNum="1" honorLv="10001" honorPrice="10" limitNum="2"/>
+	<RECORD TabID="2" TabName="道具" ID="100005" name="蓝色洗练石" sort="2" dispIdx="5" itemID="5000402" getItemNum="1" honorLv="10001" honorPrice="20" limitNum="2"/>
+	<RECORD TabID="2" TabName="道具" ID="100006" name="紫色洗练石" sort="2" dispIdx="6" itemID="5000403" getItemNum="1" honorLv="10001" honorPrice="30" limitNum="2"/>
+	<RECORD TabID="2" TabName="道具" ID="100007" name="重置石" sort="2" dispIdx="7" itemID="5000501" getItemNum="1" honorLv="10001" honorPrice="50" limitNum="2"/>
+	<RECORD TabID="3" TabName="宝石" ID="100008" name="1级宝石箱" sort="3" dispIdx="8" itemID="4000101" getItemNum="1" honorLv="10001" honorPrice="2" limitNum="2"/>
+	<RECORD TabID="3" TabName="宝石" ID="100009" name="2级宝石箱" sort="3" dispIdx="9" itemID="4000102" getItemNum="1" honorLv="10001" honorPrice="3" limitNum="2"/>
+	<RECORD TabID="3" TabName="宝石" ID="100010" name="3级宝石箱" sort="3" dispIdx="10" itemID="4000103" getItemNum="1" honorLv="10001" honorPrice="6" limitNum="2"/>
+</RECORDS>

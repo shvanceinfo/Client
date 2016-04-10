@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="100001" name="强化石" sort="1" itemNum="1" itemID="5000111" getItemNum="1" ItemMax="10" GongHuiShopLv="1" ResourceType="8" ResourceNum="10"/>
+	<RECORD ID="100002" name="羽毛" sort="1" itemNum="2" itemID="5000201" getItemNum="1" ItemMax="10" GongHuiShopLv="1" ResourceType="8" ResourceNum="20"/>
+	<RECORD ID="100003" name="羽翼精华" sort="1" itemNum="3" itemID="5000301" getItemNum="1" ItemMax="10" GongHuiShopLv="2" ResourceType="8" ResourceNum="30"/>
+	<RECORD ID="100004" name="金币卡" sort="1" itemNum="4" itemID="2000101" getItemNum="1" ItemMax="10" GongHuiShopLv="2" ResourceType="8" ResourceNum="40"/>
+	<RECORD ID="100005" name="进阶石" sort="1" itemNum="5" itemID="5000601" getItemNum="1" ItemMax="10" GongHuiShopLv="3" ResourceType="8" ResourceNum="50"/>
+	<RECORD ID="100006" name="幸运石" sort="1" itemNum="6" itemID="5000701" getItemNum="1" ItemMax="10" GongHuiShopLv="3" ResourceType="8" ResourceNum="60"/>
+	<RECORD ID="100007" name="断虹剑图纸" sort="1" itemNum="7" itemID="6200641" getItemNum="1" ItemMax="10" GongHuiShopLv="5" ResourceType="8" ResourceNum="70"/>
+	<RECORD ID="100008" name="巨神弓图纸" sort="1" itemNum="8" itemID="6200642" getItemNum="1" ItemMax="10" GongHuiShopLv="5" ResourceType="8" ResourceNum="80"/>
+	<RECORD ID="100009" name="炽光法杖图纸" sort="1" itemNum="9" itemID="6200643" getItemNum="1" ItemMax="10" GongHuiShopLv="5" ResourceType="8" ResourceNum="90"/>
+</RECORDS>

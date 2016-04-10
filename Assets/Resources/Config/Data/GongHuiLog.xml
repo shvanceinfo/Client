@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RECORDS>
+	<RECORD ID="107001" Log="[25da13]【成员变动】[-]成员[5bdf24]%p[-]加入公会。"/>
+	<RECORD ID="107002" Log="[25da13]【成员变动】[-]成员[5bdf24]%p[-]离开公会。"/>
+	<RECORD ID="107003" Log="[25da13]【成员变动】[-]成员[5bdf24]%p[-]职位变更为%Career。"/>
+	<RECORD ID="107004" Log="[25da13]【成员变动】[-]成员[5bdf24]%p[-]被请离公会。"/>
+	<RECORD ID="207001" Log="[ffab40]【公会成就】[-]降临者[5bdf24]%p[-]创建公会，成为首席会长大人！"/>
+	<RECORD ID="207002" Log="[ffab40]【公会成就】[-][5bdf24]%p[-]研究公会技能，公会实力更加强大了！"/>
+	<RECORD ID="307001" Log="[ffab40]【公会轶事】[-]成员[5bdf24]%p[-]功勋卓著，捐献%Diamond钻石！"/>
+	<RECORD ID="307002" Log="[ffab40]【公会轶事】[-]成员[5bdf24]%p[-]为公会发布招收成员公告。"/>
+	<RECORD ID="307003" Log="[ffab40]【公会轶事】[-]成员[5bdf24]%p[-]功勋卓著，加速公会建筑升级。"/>
+</RECORDS>
