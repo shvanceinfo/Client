@@ -155,7 +155,7 @@ public class MainLogic : MonoBehaviour
 		NetBase net = NetBase.GetInstance ();
 		CacheUserInfo userCache = CacheManager.GetInstance ().GetCacheInfo ();
         CRequestLogin LoginMsg = new CRequestLogin { };
-        LoginMsg._userGUID = "";
+        LoginMsg._userGUID = "中华人民共和国";
         LoginMsg._userName = userCache.UserName;
         LoginMsg._userPassword = userCache.UserPassword;
         LoginMsg._reConnect = isInGame;

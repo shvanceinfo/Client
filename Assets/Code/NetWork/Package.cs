@@ -79,13 +79,12 @@ namespace NetGame
             {
                 MemoryStream ms = new MemoryStream();
                 ms.Write(buff.GetBuff(), 0, buff.GetLength());
-                CNetHead chead = null;
-                chead = Serializer.Deserialize<CNetHead>(ms);
 
-                if (chead._length == 0)
-                {
-                    return;
-                }
+                BinaryReader memRead = new BinaryReader(ms, System.Text.Encoding.GetEncoding("utf-8"));
+                UInt16 len = memRead.ReadUInt16();
+                UInt16 cmd = memRead.ReadUInt16();
+                //byte[] bytesData = new byte[buff.GetLength() - sizeof(UInt16) - sizeof(UInt16)];
+                byte[] bytesData = memRead.ReadBytes(buff.GetLength() - sizeof(UInt16) - sizeof(UInt16));
 
 //                 NetHead head = new NetHead();               
 //                 int headLength = Marshal.SizeOf(head);
@@ -99,11 +98,19 @@ namespace NetGame
 //                 {
 //                     return;
 //                 }
-                byte[] bytesData = new byte[chead.ToString().Length];
-                Buffer.BlockCopy(buff.GetBuff(), 0, bytesData, 0, chead.ToString().Length);
-                buff.DrainBuff(chead.ToString().Length);
+                //byte[] bytesData = new byte[chead.ToString().Length];
+                //Buffer.BlockCopy(buff.GetBuff(), 0, bytesData, 0, bytesData.Length);
+                buff.DrainBuff(sizeof(UInt16) + sizeof(UInt16) + bytesData.Length);
 				MessageManager.Instance.pushMeassage(bytesData);
-                ShowLogre(chead);
+                ShowLogre(cmd, len);
+            }
+        }
+
+        static void ShowLogre(UInt16 cmd, UInt16 len)
+        {
+            //if (NetBase.DEBUGER)
+            {
+                UnityEngine.Debug.Log("receive message type=" + cmd + ",headLen=" + len);
             }
         }
 

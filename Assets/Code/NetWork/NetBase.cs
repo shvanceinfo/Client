@@ -224,6 +224,7 @@ namespace NetGame
                 ///异步发送
                 ///
 
+
                 NetHead head = new NetHead();
                 //head.ToObject(data);
 
@@ -232,18 +233,38 @@ namespace NetGame
                 Serializer.Serialize<T>(ms, obj);
 
                 //压入包头
-                head._assistantCmd = cmd;
-                head._body = System.Text.Encoding.UTF8.GetString(ms.ToArray(), 0, ms.ToArray().Length);
-                head._length = (UInt16)head._body.Length;
+                {
+                    MemoryStream memStream = new MemoryStream();
+                    BinaryWriter memWrite = new BinaryWriter(memStream, Encoding.GetEncoding("utf-8"));
+
+                    UInt16 _length = (UInt16)(sizeof(UInt16) + sizeof(UInt16) + ms.ToArray().Length);
+                    UInt16 _cmd = cmd;
+                    memWrite.Write(_length);
+                    memWrite.Write(_cmd);
+
+                    memWrite.Write(ms.ToArray(), 0, ms.ToArray().Length);
+
+                    byte[] bytesData = memStream.ToArray();
+                    memWrite.Close();
+                    memStream.Close();
+
+                    _socket.BeginSend(bytesData, 0, bytesData.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
+                    ShowSendHeadMsg(bytesData);
+                }
+
+
+                //head._assistantCmd = cmd;
+                //head._body = System.Text.Encoding.UTF8.GetString(ms.ToArray(), 0, ms.ToArray().Length);
+                //head._length = (UInt16)head._body.Length;
 
                 //MemoryStream real = new MemoryStream();
                 //Serializer.Serialize<CNetHead>(real, head);
 
                 //byte[] bytesData = real.ToArray();
-                byte[] bytesData = head.ToBytes();
+                //byte[] bytesData1 = head.ToBytes();
 
-                _socket.BeginSend(bytesData, 0, bytesData.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
-                ShowSendHeadMsg(bytesData);
+               // _socket.BeginSend(bytesData1, 0, bytesData1.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
+                //ShowSendHeadMsg(bytesData1);
                 if (showWait) //是否需要显示加载窗口
                     UIManager.Instance.showWaitting(); //如果Send的时候没有Recv回调那么就会waiting
             }
