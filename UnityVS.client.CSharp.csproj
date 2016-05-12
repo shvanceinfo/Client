@@ -54,9 +54,6 @@
     <Reference Include="UnityEditor">
       <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>Assets\Code\Protobuf\netMessage\bin\protobuf-net.dll</HintPath>
-    </Reference>
     <Reference Include="LitJson">
       <HintPath>Assets\Plugins\LitJson.dll</HintPath>
     </Reference>
@@ -332,9 +329,6 @@
     <Compile Include="Assets\Code\Protobuf\protobuf-net\Meta\TypeModel.cs" />
     <Compile Include="Assets\Code\Protobuf\protobuf-net\Meta\ValueMember.cs" />
     <Compile Include="Assets\Code\Protobuf\protobuf-net\NetObjectCache.cs" />
-    <Compile Include="Assets\Code\Protobuf\protobuf-net\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="Assets\Code\Protobuf\protobuf-net\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="Assets\Code\Protobuf\protobuf-net\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Assets\Code\Protobuf\protobuf-net\PrefixStyle.cs" />
     <Compile Include="Assets\Code\Protobuf\protobuf-net\Properties\AssemblyInfo.cs" />
     <Compile Include="Assets\Code\Protobuf\protobuf-net\ProtoContractAttribute.cs" />
@@ -1216,9 +1210,6 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
-    <None Include="Assets\Code\Protobuf\netMessage\bin\Licence.txt" />
-    <None Include="Assets\Code\Protobuf\netMessage\bin\protobuf-net.xml" />
-    <None Include="Assets\Code\Protobuf\netMessage\bin\protoc-license.txt" />
     <None Include="Assets\Code\Protobuf\netMessage\example.txt" />
     <None Include="Assets\Code\Protobuf\protobuf-net\Web\TODO.txt" />
     <None Include="Assets\IGSoft_Resources\aFX_Bao\Ian&apos;s Fire Pack\Shaders\Add_Layer.shader" />
@@ -1444,7 +1435,6 @@
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
     <None Include="Assets\UVersionControl\README.txt" />
-    <None Include="Assets\Code\Protobuf\netMessage\bin\protobuf-net.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
 </Project>

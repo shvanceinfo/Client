@@ -121,7 +121,6 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\Resources\Config\Data\MapGrid\emodongku.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
-     <None Include="Assets\Code\Protobuf\netMessage\bin\protobuf-net.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\Resources\Config\Data\MG_jiangli.xml" />
      <None Include="Assets\Resources\Shader\DiffuseWithRimLightSpace.shader" />
@@ -134,7 +133,6 @@
      <None Include="Assets\Resources\Shader\RimLightSpce.shader" />
      <None Include="Assets\Resources\Config\Data\TiLi.xml" />
      <None Include="Assets\Resources\Config\Data\MapGrid\TKC1.txt" />
-     <None Include="Assets\Code\Protobuf\netMessage\bin\protoc-license.txt" />
      <None Include="Assets\Resources\Config\Data\MapGrid\CZ1.txt" />
      <None Include="Assets\Resources\Config\Data\MapGrid\TKC2.txt" />
      <None Include="Assets\Resources\Config\Data\HonorPVP.xml" />
@@ -253,7 +251,6 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Light.shader" />
      <None Include="Assets\Resources\Config\Data\EquipmentPart.xml" />
      <None Include="Assets\Resources\Config\Data\SkillEffect.xml" />
-     <None Include="Assets\Code\Protobuf\netMessage\bin\Licence.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\Resources\Config\Data\MapGrid\TKC4.txt" />
@@ -292,14 +289,11 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="protobuf-net">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/Code/Protobuf/netMessage/bin/protobuf-net.dll</HintPath>
- </Reference>
  <Reference Include="LitJson">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="MVC">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/Plugins/MVC.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/Plugins/MVC.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

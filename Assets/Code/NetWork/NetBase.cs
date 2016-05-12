@@ -204,7 +204,7 @@ namespace NetGame
 	                BeginRece();
 	            }
 	            ///异步发送
-	            _socket.BeginSend(bytesData, 0, bytesData.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
+	            //_socket.BeginSend(bytesData, 0, bytesData.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
 	            ShowSendHeadMsg(bytesData);
 	            if(showWait) //是否需要显示加载窗口
 	            	UIManager.Instance.showWaitting(); //如果Send的时候没有Recv回调那么就会waiting
@@ -222,19 +222,26 @@ namespace NetGame
                     BeginRece();
                 }
                 ///异步发送
+                ///
+
+                NetHead head = new NetHead();
+                //head.ToObject(data);
+
+
                 MemoryStream ms = new MemoryStream();
                 Serializer.Serialize<T>(ms, obj);
 
                 //压入包头
-                CNetHead head = new CNetHead();
                 head._assistantCmd = cmd;
                 head._body = System.Text.Encoding.UTF8.GetString(ms.ToArray(), 0, ms.ToArray().Length);
-                head._length = (uint)head._body.Length;
+                head._length = (UInt16)head._body.Length;
 
-                MemoryStream real = new MemoryStream();
-                Serializer.Serialize<CNetHead>(real, head);
+                //MemoryStream real = new MemoryStream();
+                //Serializer.Serialize<CNetHead>(real, head);
 
-                byte[] bytesData = real.ToArray();
+                //byte[] bytesData = real.ToArray();
+                byte[] bytesData = head.ToBytes();
+
                 _socket.BeginSend(bytesData, 0, bytesData.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
                 ShowSendHeadMsg(bytesData);
                 if (showWait) //是否需要显示加载窗口

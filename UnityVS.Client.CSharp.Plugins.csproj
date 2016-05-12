@@ -54,9 +54,6 @@
     <Reference Include="UnityEditor">
       <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>Assets\Code\Protobuf\netMessage\bin\protobuf-net.dll</HintPath>
-    </Reference>
     <Reference Include="LitJson">
       <HintPath>Assets\Plugins\LitJson.dll</HintPath>
     </Reference>
@@ -80,9 +77,6 @@
     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
-    <None Include="Assets\Code\Protobuf\netMessage\bin\Licence.txt" />
-    <None Include="Assets\Code\Protobuf\netMessage\bin\protobuf-net.xml" />
-    <None Include="Assets\Code\Protobuf\netMessage\bin\protoc-license.txt" />
     <None Include="Assets\Code\Protobuf\netMessage\example.txt" />
     <None Include="Assets\Code\Protobuf\protobuf-net\Web\TODO.txt" />
     <None Include="Assets\IGSoft_Resources\aFX_Bao\Ian&apos;s Fire Pack\Shaders\Add_Layer.shader" />

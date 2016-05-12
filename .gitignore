@@ -10,6 +10,10 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+#unity3d
+Library/
+Temp/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

@@ -48,10 +48,11 @@ namespace NetGame
 			BinaryWriter memWrite = new BinaryWriter (memStream, Encoding.GetEncoding ("utf-8"));
 
             this._length = (UInt16)(sizeof(UInt16) + sizeof(UInt16) + _body.Length);
-
-			memWrite.Write (this._length);
-			memWrite.Write (this._assistantCmd);
+            memWrite.Write(this._length);
+            memWrite.Write(this._assistantCmd);
+			
             memWrite.Write(this._body);
+            
 			byte[] bytesData = memStream.ToArray ();
 			memWrite.Close ();
 			memStream.Close ();

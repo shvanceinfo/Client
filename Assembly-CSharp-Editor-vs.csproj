@@ -231,7 +231,6 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\Resources\Config\Data\MapGrid\emodongku.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
-     <None Include="Assets\Code\Protobuf\netMessage\bin\protobuf-net.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\Resources\Config\Data\MG_jiangli.xml" />
      <None Include="Assets\Resources\Shader\DiffuseWithRimLightSpace.shader" />
@@ -244,7 +243,6 @@
      <None Include="Assets\Resources\Shader\RimLightSpce.shader" />
      <None Include="Assets\Resources\Config\Data\TiLi.xml" />
      <None Include="Assets\Resources\Config\Data\MapGrid\TKC1.txt" />
-     <None Include="Assets\Code\Protobuf\netMessage\bin\protoc-license.txt" />
      <None Include="Assets\Resources\Config\Data\MapGrid\CZ1.txt" />
      <None Include="Assets\Resources\Config\Data\MapGrid\TKC2.txt" />
      <None Include="Assets\Resources\Config\Data\HonorPVP.xml" />
@@ -363,7 +361,6 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Light.shader" />
      <None Include="Assets\Resources\Config\Data\EquipmentPart.xml" />
      <None Include="Assets\Resources\Config\Data\SkillEffect.xml" />
-     <None Include="Assets\Code\Protobuf\netMessage\bin\Licence.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\Resources\Config\Data\MapGrid\TKC4.txt" />
@@ -400,10 +397,10 @@
      <None Include="Assets\Resources\Config\Data\PandoraMap.xml" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
@@ -411,50 +408,47 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
- <Reference Include="protobuf-net">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/Code/Protobuf/netMessage/bin/protobuf-net.dll</HintPath>
- </Reference>
  <Reference Include="JMOAssets">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/IGSoft_Resources/aFX_Bao/JMO Assets01/Editor/JMOAssets.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/IGSoft_Resources/aFX_Bao/JMO Assets01/Editor/JMOAssets.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="MVC">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/Plugins/MVC.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/Plugins/MVC.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
  </Reference>
  <Reference Include="CommandLine">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/CommandLine.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/CommandLine.dll</HintPath>
  </Reference>
  <Reference Include="Common">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/Common.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/Common.dll</HintPath>
  </Reference>
  <Reference Include="NoopBackend">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/NoopBackend.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/NoopBackend.dll</HintPath>
  </Reference>
  <Reference Include="P4Backend">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/P4Backend.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/P4Backend.dll</HintPath>
  </Reference>
  <Reference Include="RendererInspectors">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/RendererInspectors.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/RendererInspectors.dll</HintPath>
  </Reference>
  <Reference Include="SVNBackend">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/SVNBackend.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/SVNBackend.dll</HintPath>
  </Reference>
  <Reference Include="System.Threading">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/System.Threading.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/System.Threading.dll</HintPath>
  </Reference>
  <Reference Include="TeamFeatures">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/TeamFeatures.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/TeamFeatures.dll</HintPath>
  </Reference>
  <Reference Include="UnityVersionControl">
- <HintPath>D:/share/jianglin/[src.cool]jianglin/Client/Assets/UVersionControl/Editor/UnityVersionControl.dll</HintPath>
+ <HintPath>D:/work/self_source/Client/Assets/UVersionControl/Editor/UnityVersionControl.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
