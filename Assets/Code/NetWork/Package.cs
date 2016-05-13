@@ -77,32 +77,27 @@ namespace NetGame
         {
             while (true)
             {
-                MemoryStream ms = new MemoryStream();
-                ms.Write(buff.GetBuff(), 0, buff.GetLength());
+                if (buff.GetLength() < sizeof(UInt16) + sizeof(UInt16))
+                {
+                    return ;    
+                }
 
+                MemoryStream ms = new MemoryStream(buff.GetBuff(), 0, buff.GetLength());
                 BinaryReader memRead = new BinaryReader(ms, System.Text.Encoding.GetEncoding("utf-8"));
                 UInt16 len = memRead.ReadUInt16();
+                if (buff.GetLength() < len)
+                {
+                    return;
+                }
                 UInt16 cmd = memRead.ReadUInt16();
-                //byte[] bytesData = new byte[buff.GetLength() - sizeof(UInt16) - sizeof(UInt16)];
-                byte[] bytesData = memRead.ReadBytes(buff.GetLength() - sizeof(UInt16) - sizeof(UInt16));
-
-//                 NetHead head = new NetHead();               
-//                 int headLength = Marshal.SizeOf(head);
-//                 if (buff.GetLength() < headLength)
-//                 {
-//                     return;
-//                 }
-//                 head.ToObject(buff.GetBuff());
-//                 int realLength = head._length + 2;
-//                 if (buff.GetLength() < realLength)
-//                 {
-//                     return;
-//                 }
-                //byte[] bytesData = new byte[chead.ToString().Length];
-                //Buffer.BlockCopy(buff.GetBuff(), 0, bytesData, 0, bytesData.Length);
+                byte[] bytesData = new byte[len];
+                Buffer.BlockCopy(buff.GetBuff(), 0, bytesData, 0, bytesData.Length);
                 buff.DrainBuff(sizeof(UInt16) + sizeof(UInt16) + bytesData.Length);
 				MessageManager.Instance.pushMeassage(bytesData);
                 ShowLogre(cmd, len);
+
+                ms.Close();
+                memRead.Close();
             }
         }
 

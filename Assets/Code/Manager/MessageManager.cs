@@ -56,8 +56,8 @@ public class MessageManager
 	}
 	
 	public void processMessage(byte[] data) {
-		
-		NetHead head = new NetHead();
+
+        NetHead head = new NetHead();
 		head.ToObject(data);
 		
 		GameMessage gmsg = new GameMessage();

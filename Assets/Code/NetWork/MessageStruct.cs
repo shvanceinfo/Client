@@ -33,26 +33,19 @@ namespace NetGame
 	{
 		public UInt16 _length;
 		public UInt16 _assistantCmd;
-        public string _body;
 
 		public NetHead ()
 		{
 			this._length = 0;
 			this._assistantCmd = 100;
-            this._body = "";
 		}
 
 		public byte[] ToBytes ()
 		{
 			MemoryStream memStream = new MemoryStream ();
 			BinaryWriter memWrite = new BinaryWriter (memStream, Encoding.GetEncoding ("utf-8"));
-
-            this._length = (UInt16)(sizeof(UInt16) + sizeof(UInt16) + _body.Length);
-            memWrite.Write(this._length);
-            memWrite.Write(this._assistantCmd);
-			
-            memWrite.Write(this._body);
-            
+			memWrite.Write (this._length);
+			memWrite.Write (this._assistantCmd);            
 			byte[] bytesData = memStream.ToArray ();
 			memWrite.Close ();
 			memStream.Close ();
@@ -71,7 +64,6 @@ namespace NetGame
 			BinaryReader memRead = new BinaryReader (memStream, Encoding.GetEncoding ("utf-8"));
 			this._length = memRead.ReadUInt16 ();
 			this._assistantCmd = memRead.ReadUInt16 ();
-            this._body = memRead.ReadString();
 			memRead.Close ();
 			memStream.Close ();
 		}
@@ -111,59 +103,59 @@ namespace NetGame
 	/// <summary>
 	/// 登入请求
 	/// </summary>
-//	[Serializable]
-//    [StructLayout(LayoutKind.Sequential, Pack = 1)]
-//     public class RequestLogin : NetHead
-// 	{
-// 		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 20)]
-// 		//申请空间
-//         public byte[] _userName;
-// 		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 36)]
-// 		public byte[] _userPassword; 
-// 		//GUID
-// 		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 36)]
-// 		public byte[] _userGUID;
-// 		//设备号
-// 		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 108)]
-// 		public byte[] _deviceToken;
-// 		public byte _reConnect; //是否请求重新登录，0代表第一次登录，1代表重新登录
-// 
-// 		public RequestLogin () : base()
-// 		{  
-// 			this._length = (UInt16)(Marshal.SizeOf (this) - 2);
-// 			this._assistantCmd = (UInt16)eC2GType.C2G_Login;
-// 		}
-// 
-// 		public RequestLogin (string name, string password, string guid, bool reConnect)
-//             : base()
-// 		{
-// 			this._assistantCmd = (UInt16)eC2GType.C2G_Login;
-// 			this._length = (UInt16)(Marshal.SizeOf (this) - 2);
-// 			this._userName = StringToByte (name, 20);
-// 			this._userPassword = StringToByte (password, 36);
-// 			this._userGUID = StringToByte (guid, 36);
-// 			this._deviceToken = StringToByte (Global.GetDeviceIdentifier (), 108);  
-// 			if (reConnect)
-// 				this._reConnect = 1;
-// 			else
-// 				this._reConnect = 0;          
-// 		}
-// 
-// 		public byte[] ToBytes ()
-// 		{
-// 			MemoryStream memStream = new MemoryStream ();
-// 			BinaryWriter memWrite = new BinaryWriter (memStream, Encoding.GetEncoding ("utf-8"));
-// 			base.ToBytes (ref memWrite);
-// 			memWrite.Write (this._userName);
-// 			memWrite.Write (this._userPassword);
-// 			memWrite.Write (this._userGUID);
-// 			memWrite.Write (this._deviceToken);
-// 			memWrite.Write (this._reConnect);
-// 			byte[] bytesData = memStream.ToArray ();
-// 			memWrite.Close ();
-// 			return bytesData;
-// 		}
-// 	}
+	[Serializable]
+    [StructLayout(LayoutKind.Sequential, Pack = 1)]
+    public class RequestLogin : NetHead
+	{
+		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 20)]
+		//申请空间
+        public byte[] _userName;
+		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 36)]
+		public byte[] _userPassword; 
+		//GUID
+		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 36)]
+		public byte[] _userGUID;
+		//设备号
+		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 108)]
+		public byte[] _deviceToken;
+		public byte _reConnect; //是否请求重新登录，0代表第一次登录，1代表重新登录
+
+		public RequestLogin () : base()
+		{  
+			this._length = (UInt16)(Marshal.SizeOf (this) - 2);
+			this._assistantCmd = (UInt16)eC2GType.C2G_Login;
+		}
+
+		public RequestLogin (string name, string password, string guid, bool reConnect)
+            : base()
+		{
+			this._assistantCmd = (UInt16)eC2GType.C2G_Login;
+			this._length = (UInt16)(Marshal.SizeOf (this) - 2);
+			this._userName = StringToByte (name, 20);
+			this._userPassword = StringToByte (password, 36);
+			this._userGUID = StringToByte (guid, 36);
+			this._deviceToken = StringToByte (Global.GetDeviceIdentifier (), 108);  
+			if (reConnect)
+				this._reConnect = 1;
+			else
+				this._reConnect = 0;          
+		}
+
+		public byte[] ToBytes ()
+		{
+			MemoryStream memStream = new MemoryStream ();
+			BinaryWriter memWrite = new BinaryWriter (memStream, Encoding.GetEncoding ("utf-8"));
+			base.ToBytes (ref memWrite);
+			memWrite.Write (this._userName);
+			memWrite.Write (this._userPassword);
+			memWrite.Write (this._userGUID);
+			memWrite.Write (this._deviceToken);
+			memWrite.Write (this._reConnect);
+			byte[] bytesData = memStream.ToArray ();
+			memWrite.Close ();
+			return bytesData;
+		}
+	}
 
 	/// <summary>
 	/// 登入回应
