@@ -4,7 +4,8 @@ using MVC.entrance.gate;
 using System;
 using NetGame;
 using helper;
-
+using ProtoBuf;
+using NetPackage;
 
 namespace manager
 {
@@ -73,8 +74,17 @@ namespace manager
             }
             else if (NetBase.GetInstance().IsConnected)
             {
-                GCSendCreateRole sendMsg = new GCSendCreateRole((int)_career, _isMale, _name, false, CreateRoleCallback);
-                NetBase.GetInstance().Send(sendMsg.ToBytes());
+                CGCSendCreateRole sendMsg = new CGCSendCreateRole();
+                sendMsg._u32VocationID = (uint)_career;
+                sendMsg._nickName = _name;
+                sendMsg._byteVerify = false;
+                if (_isMale)
+                    sendMsg._byteGender = true;
+                else
+                    sendMsg._byteGender = false;
+
+                NetBase.GetInstance().Send<CGCSendCreateRole>(sendMsg, (UInt16)CeC2GType.C2G_CreateRole);
+
                 UIManager.Instance.showWaitting(true);
             }
             else 
@@ -84,7 +94,6 @@ namespace manager
             }
 
             Gate.instance.sendNotification(MsgConstant.MSG_CREATEROLE_DISPLAY_NAME, _name);
-            
         }
 
         //随机名字
@@ -97,8 +106,7 @@ namespace manager
             Gate.instance.sendNotification(MsgConstant.MSG_CREATEROLE_ERROR, "");
         }
 
-
-        private void CreateRoleCallback(int result)
+        public void CreateRoleCallback(int result)
         {
             UIManager.Instance.closeWaitting();
 //            if (result == 0) //创角成功

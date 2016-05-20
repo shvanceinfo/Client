@@ -2,7 +2,8 @@ using UnityEngine;
 using System.Collections;
 using NetGame;
 using System;
-
+using ProtoBuf;
+using NetPackage;
 
 
 public class MessageManager
@@ -60,8 +61,11 @@ public class MessageManager
         NetHead head = new NetHead();
 		head.ToObject(data);
 		
+        int len = sizeof(UInt16) + sizeof(UInt16);
+        byte[] msg = new byte[data.Length - len];
+        Buffer.BlockCopy(data, len, msg, 0, data.Length - len);
 		GameMessage gmsg = new GameMessage();
-		gmsg.OnMessage(head._assistantCmd, data);
+        gmsg.OnMessage(head._assistantCmd, msg);
 	}
 	
 	public void doNothing() 
@@ -72,11 +76,18 @@ public class MessageManager
 	public void sendMessageSelectRole() {
 		
 		NetBase net = NetBase.GetInstance();
-        GCAskSelectRole selectRoleMsg = new GCAskSelectRole();
+        GCAskSelectRole selectRoleMsg1 = new GCAskSelectRole();
         if (net.IsConnected)
         {
-			selectRoleMsg.SetRoleName(my_property.getNickName());
-            net.Send(selectRoleMsg.ToBytes());
+			selectRoleMsg1.SetRoleName(my_property.getNickName());
+            net.Send(selectRoleMsg1.ToBytes());
+        }
+
+        CGCAskSelectRole selectRoleMsg  = new CGCAskSelectRole();
+        if (net.IsConnected)
+        {
+            selectRoleMsg._roleName = my_property.getNickName();
+            net.Send<CGCAskSelectRole>(selectRoleMsg, (UInt16)CeC2GType.C2G_SelectRole);
         }
 	}
 	
