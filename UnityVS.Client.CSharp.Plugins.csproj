@@ -54,6 +54,9 @@
     <Reference Include="UnityEditor">
       <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\Code\Protobuf\netMessage\protobuf-net.dll</HintPath>
+    </Reference>
     <Reference Include="LitJson">
       <HintPath>Assets\Plugins\LitJson.dll</HintPath>
     </Reference>

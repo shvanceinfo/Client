@@ -264,8 +264,6 @@ public class ControlUI : MonoBehaviour
 		get { return _serverRoleUI; }
 	}
 	
-
-	
 	public GameObject ServerSelectBtn
 	{
 		get { return _serverSelectBtn; }

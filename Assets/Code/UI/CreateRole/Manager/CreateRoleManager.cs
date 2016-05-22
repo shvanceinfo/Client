@@ -109,12 +109,14 @@ namespace manager
         public void CreateRoleCallback(int result)
         {
             UIManager.Instance.closeWaitting();
-//            if (result == 0) //创角成功
-//            {
-//                MessageManager.Instance.sendMessageSelectRole();
-//                UIManager.Instance.showWaitting(true);
-//                MainLogic.hasLoadCreateScene = false; //标记为创角结束，能够加载游戏场景
-//            }
+            //TODO仅用来调试BEGIN
+            if (result == 0) //创角成功
+            {
+                MessageManager.Instance.sendMessageSelectRole();
+                UIManager.Instance.showWaitting(true);
+                //MainLogic.hasLoadCreateScene = false; //标记为创角结束，能够加载游戏场景
+            }
+            //TODO仅用来调试END
             if (result == 1) //角色昵称重复
             {
                 DeathManager.Instance.ShowError(LanguageManager.GetText("nick_success"));

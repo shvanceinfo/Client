@@ -1983,6 +1983,24 @@ namespace NetPackage
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"CGCSendCreateRoleRet")]
+  public partial class CGCSendCreateRoleRet : global::ProtoBuf.IExtensible
+  {
+    public CGCSendCreateRoleRet() {}
+    
+    private int __result = default(int);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"_result", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(int))]
+    public int _result
+    {
+      get { return __result; }
+      set { __result = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"CGCAskRankList")]
   public partial class CGCAskRankList : global::ProtoBuf.IExtensible
   {

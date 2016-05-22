@@ -6,11 +6,14 @@ date:
 using UnityEngine;
 using System.Collections;
 using NetGame;
+using ProtoBuf;
+using NetPackage;
 
 public class CreateRole : MonoBehaviour 
 {
 	private static bool _isMale; //人物选择的性别
 	private static CHARACTER_CAREER _vocation;
+    public static CreateRole _instance;
 	
 	void OnClick()
     {    
@@ -34,10 +37,21 @@ public class CreateRole : MonoBehaviour
 					tipLable.text = LanguageManager.GetText("nick_outof");		
 				}
 				else if (NetBase.GetInstance().IsConnected)
-				{				
-					GCSendCreateRole sendMsg = new GCSendCreateRole((int)_vocation, _isMale, nickName, false, processResult);
-		            NetBase.GetInstance().Send(sendMsg.ToBytes());
-		            UIManager.Instance.showWaitting(true);
+				{	
+			        //TODO BEGIN
+					GCSendCreateRole sendMsg1 = new GCSendCreateRole((int)_vocation, _isMale, nickName, false, processResult);
+		            //NetBase.GetInstance().Send(sendMsg1.ToBytes());
+		            //UIManager.Instance.showWaitting(true);
+                    //END
+
+                    //Add
+                    CGCSendCreateRole sendMsg = new CGCSendCreateRole();
+                    sendMsg._u32VocationID = (uint)_vocation;
+                    sendMsg._byteGender = _isMale;
+                    sendMsg._nickName = nickName;
+                    sendMsg._byteVerify = false;
+                    NetBase.GetInstance().Send<CGCSendCreateRole>(sendMsg, (ushort)CeC2GType.C2G_CreateRole);
+                    UIManager.Instance.showWaitting(true);
 				}
 				else
 				{
@@ -87,7 +101,7 @@ public class CreateRole : MonoBehaviour
     }
 	
 	//进入创角之后的创立角色处理，收到创角之后的回调
-	void processResult(int result)
+	public void processResult(int result)
 	{
 		UIManager.Instance.closeWaitting();
 		UILabel tipLable = GameObject.Find("tipLable").GetComponent<UILabel>();

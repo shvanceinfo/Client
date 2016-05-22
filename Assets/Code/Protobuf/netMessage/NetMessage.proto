@@ -673,6 +673,13 @@ message CGCSendCreateRole
 	//processCreateRole createRole  = 5;
 }
 
+//返回创建角色消息
+message CGCSendCreateRoleRet
+{
+	//创建角色返回错误码
+	optional int32 _result = 1;
+}
+
 //发送创建角色消息
 message CGCAskRankList
 {

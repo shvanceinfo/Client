@@ -339,6 +339,9 @@
  <Reference Include="MVC">
  <HintPath>D:/work/self_source/Client/Assets/Plugins/MVC.dll</HintPath>
  </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>D:/work/self_source/Client/Assets/Code/Protobuf/netMessage/protobuf-net.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">

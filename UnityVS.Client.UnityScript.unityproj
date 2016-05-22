@@ -54,6 +54,9 @@
     <Reference Include="UnityEditor">
       <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\Code\Protobuf\netMessage\protobuf-net.dll</HintPath>
+    </Reference>
     <Reference Include="LitJson">
       <HintPath>Assets\Plugins\LitJson.dll</HintPath>
     </Reference>
@@ -353,6 +356,7 @@
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
     <None Include="Assets\UVersionControl\README.txt" />
+    <None Include="Assets\Code\Protobuf\netMessage\protobuf-net.dll" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets" />

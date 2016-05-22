@@ -54,6 +54,9 @@
     <Reference Include="UnityEditor">
       <HintPath>$(UnityPath)\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\Code\Protobuf\netMessage\protobuf-net.dll</HintPath>
+    </Reference>
     <Reference Include="JMOAssets">
       <HintPath>Assets\IGSoft_Resources\aFX_Bao\JMO Assets01\Editor\JMOAssets.dll</HintPath>
     </Reference>

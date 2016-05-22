@@ -80,7 +80,7 @@ public class MessageManager
         if (net.IsConnected)
         {
 			selectRoleMsg1.SetRoleName(my_property.getNickName());
-            net.Send(selectRoleMsg1.ToBytes());
+            //net.Send(selectRoleMsg1.ToBytes());
         }
 
         CGCAskSelectRole selectRoleMsg  = new CGCAskSelectRole();

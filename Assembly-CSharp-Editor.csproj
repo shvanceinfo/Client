@@ -447,6 +447,9 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>D:/work/self_source/Client/Assets/Code/Protobuf/netMessage/protobuf-net.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
