@@ -85,7 +85,11 @@ public class LoadingProgress : MonoBehaviour
 	    }
 	    if (_loadBundleFinish)
 	    {
-            StartCoroutine(loadNewScene());
+            //TODO测试:自己搞不定为啥会卡住，以后让别人来弄，先跑通再说
+            MapDataItem mapData = ConfigDataManager.GetInstance().getMapConfig().getMapData(CharacterPlayer.character_property.getServerMapID());
+            Application.LoadLevel(mapData.sceneNO);
+            //TODO
+            //StartCoroutine(loadNewScene());
 	        _loadBundleFinish = false;
 	    }
 		else if(_async != null && !_loadScenefinish) //没有加载完成才需要更新

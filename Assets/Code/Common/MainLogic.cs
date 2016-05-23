@@ -241,7 +241,7 @@ public class MainLogic : MonoBehaviour
 		{
 			bRelogin = false;
 			UIManager.Instance.closeAllUI (false, true); //确保加载loading关闭所有的UI
-			Application.LoadLevel (Constant.LOADING_SCENE); //清除之前场景	
+			Application.LoadLevel (Constant.LOADING_SCENE); //清除之前场景
 		}
 	}
 	
