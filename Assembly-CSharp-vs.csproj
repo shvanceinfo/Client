@@ -1415,14 +1415,14 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>D:/work/self_source/Client/Assets/Code/Protobuf/netMessage/protobuf-net.dll</HintPath>
+ </Reference>
  <Reference Include="LitJson">
  <HintPath>D:/work/self_source/Client/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="MVC">
  <HintPath>D:/work/self_source/Client/Assets/Plugins/MVC.dll</HintPath>
- </Reference>
- <Reference Include="protobuf-net">
- <HintPath>D:/work/self_source/Client/Assets/Code/Protobuf/netMessage/protobuf-net.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

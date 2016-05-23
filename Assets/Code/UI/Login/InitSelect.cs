@@ -85,11 +85,12 @@ public class InitSelect : MonoBehaviour
 		_realServerNum = 8;
 		_lastServerClick = null;
 		_lastGroupClick = null;
-        OnGetServerList();
 	}
 	
 	void Start () 
-	{	
+	{
+        OnGetServerList();
+
 		_currentServerLbl = GameObject.Find("current_server").GetComponent<UILabel>();
 		int i = 0;
 		for(i=1; i<=SERVER_NUM; i++)

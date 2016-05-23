@@ -89,7 +89,6 @@ class GSNotifyWorldBossUseItemResult:NetHead
 		memStream.Close ();
 
 		BossManager.Instance.UpdateBuffInfo(count);
- 
 	}
 } 
 

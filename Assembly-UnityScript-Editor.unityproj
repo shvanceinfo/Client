@@ -293,6 +293,9 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>D:/work/self_source/Client/Assets/Code/Protobuf/netMessage/protobuf-net.dll</HintPath>
+ </Reference>
  <Reference Include="JMOAssets">
  <HintPath>D:/work/self_source/Client/Assets/IGSoft_Resources/aFX_Bao/JMO Assets01/Editor/JMOAssets.dll</HintPath>
  </Reference>
@@ -337,9 +340,6 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="protobuf-net">
- <HintPath>D:/work/self_source/Client/Assets/Code/Protobuf/netMessage/protobuf-net.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

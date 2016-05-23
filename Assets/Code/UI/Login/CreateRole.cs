@@ -13,7 +13,6 @@ public class CreateRole : MonoBehaviour
 {
 	private static bool _isMale; //人物选择的性别
 	private static CHARACTER_CAREER _vocation;
-    public static CreateRole _instance;
 	
 	void OnClick()
     {    

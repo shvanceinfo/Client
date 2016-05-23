@@ -21,7 +21,7 @@ public class SelectServer : MonoBehaviour
     private UILabel _accontLbl; //输入账户昵称
     private UIInput _inputAccount;
     private UIInput _inputPassword;
-	void Start () 
+	void Awake () 
 	{
 		Debug.Log (gameObject.name);
 		_controlUI = Camera.main.GetComponent<ControlUI>();

@@ -112,8 +112,8 @@ namespace manager
             //TODO仅用来调试BEGIN
             if (result == 0) //创角成功
             {
-                MessageManager.Instance.sendMessageSelectRole();
-                UIManager.Instance.showWaitting(true);
+                //MessageManager.Instance.sendMessageSelectRole();
+                //UIManager.Instance.showWaitting(true);
                 //MainLogic.hasLoadCreateScene = false; //标记为创角结束，能够加载游戏场景
             }
             //TODO仅用来调试END
