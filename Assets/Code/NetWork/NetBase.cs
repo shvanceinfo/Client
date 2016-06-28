@@ -213,6 +213,11 @@ namespace NetGame
             //_socket.Send(bytesData, 0, bytesData.Length, SocketFlags.None);
         }
 
+        /// <summary>
+        /// 发送数据
+        /// </summary>
+        /// <param name="obj">内容：若为null则只发包头</param>
+        /// <param name="cmd">协议号</param>
         public void Send<T>(T obj, ushort cmd, bool showWait = true)
         {
             if (IsConnected)
@@ -221,19 +226,32 @@ namespace NetGame
                 {
                     BeginRece();
                 }
-                ///异步发送
-                ///
-
-
-                NetHead head = new NetHead();
-                //head.ToObject(data);
-
-
-                MemoryStream ms = new MemoryStream();
-                Serializer.Serialize<T>(ms, obj);
-
-                //压入包头
+                
+                if (obj != null)
                 {
+                    MemoryStream memStream = new MemoryStream();
+                    BinaryWriter memWrite = new BinaryWriter(memStream, Encoding.GetEncoding("utf-8"));
+
+                    UInt16 _length = (UInt16)(sizeof(UInt16) + sizeof(UInt16));
+                    UInt16 _cmd = cmd;
+                    memWrite.Write(_length);
+                    memWrite.Write(_cmd);
+
+                    byte[] bytesData = memStream.ToArray();
+                    memWrite.Close();
+                    memStream.Close();
+
+                    _socket.BeginSend(bytesData, 0, bytesData.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
+                    ShowSendHeadMsg(bytesData);
+                    return;
+                }else
+                {
+                    NetHead head = new NetHead();
+
+                    MemoryStream ms = new MemoryStream();
+                    Serializer.Serialize<T>(ms, obj);
+
+                    //压入包头
                     MemoryStream memStream = new MemoryStream();
                     BinaryWriter memWrite = new BinaryWriter(memStream, Encoding.GetEncoding("utf-8"));
 
@@ -252,24 +270,21 @@ namespace NetGame
                     ShowSendHeadMsg(bytesData);
                 }
 
+                /// head._assistantCmd = cmd;
+                /// head._body = System.Text.Encoding.UTF8.GetString(ms.ToArray(), 0, ms.ToArray().Length);
+                /// head._length = (UInt16)head._body.Length;
+                /// MemoryStream real = new MemoryStream();
+                /// Serializer.Serialize<CNetHead>(real, head);
+                /// byte[] bytesData = real.ToArray();
+                /// byte[] bytesData1 = head.ToBytes();
+                /// _socket.BeginSend(bytesData1, 0, bytesData1.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
+                /// ShowSendHeadMsg(bytesData1);
 
-                //head._assistantCmd = cmd;
-                //head._body = System.Text.Encoding.UTF8.GetString(ms.ToArray(), 0, ms.ToArray().Length);
-                //head._length = (UInt16)head._body.Length;
-
-                //MemoryStream real = new MemoryStream();
-                //Serializer.Serialize<CNetHead>(real, head);
-
-                //byte[] bytesData = real.ToArray();
-                //byte[] bytesData1 = head.ToBytes();
-
-               // _socket.BeginSend(bytesData1, 0, bytesData1.Length, SocketFlags.None, new AsyncCallback(SendCallback), _socket);
-                //ShowSendHeadMsg(bytesData1);
-                if (showWait) //是否需要显示加载窗口
-                    UIManager.Instance.showWaitting(); //如果Send的时候没有Recv回调那么就会waiting
+                //是否需要显示加载窗口
+                //如果Send的时候没有Recv回调那么就会waiting
+                if (showWait)
+                    UIManager.Instance.showWaitting(); 
             }
-            //同步发送
-            //_socket.Send(bytesData, 0, bytesData.Length, SocketFlags.None);
         }
 
         /// <summary>
