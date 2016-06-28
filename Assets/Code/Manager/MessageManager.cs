@@ -106,7 +106,8 @@ public class MessageManager
 		askMoveMsg.m_fTarPosX = target.x;
 		askMoveMsg.m_fTarPosY = target.y;
 		askMoveMsg.m_fTarPosZ = target.z;
-        net.Send(askMoveMsg.ToBytes(), false);
+        //TODO
+        //net.Send(askMoveMsg.ToBytes(), false);
 	}
 	
 	public void sendMessageAskMoveArrive(int id) {

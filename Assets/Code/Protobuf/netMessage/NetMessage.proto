@@ -304,6 +304,25 @@ message CNetErrorMessage
 	optional string errorMessage  = 4;
 }
 
+enum PostType
+{
+	None = 0;
+        System = 1;     //系统公告
+        Post = 2;       //客服公告
+        Annoucement = 3;//运维公告
+}
+
+//服务器返回公告，客服信息，运维公告
+message CGSNotifyService
+{
+	optional PostType type = 1;
+	optional uint32 time = 2;
+	optional string msgTime = 3;
+	optional string title = 4;
+	optional string content = 5;
+	optional string author = 6;
+}
+
 //改变场景
 message CGSNotifyChangeScene
 {
@@ -622,10 +641,54 @@ message CGCAskTowerInstanceAward
 	optional uint32 m_u16TowerType  = 2;
 }
 
-//请求邮件列表
-message CGCAskEMailList
+//邮件状态
+enum EmailState
 {
+	/// <summary>
+        /// 没阅读
+        /// </summary>
+        NotRead = 0;
 
+        Read = 1;
+        /// <summary>
+        /// 以领取
+        /// </summary>
+        Receive = 2;
+        /// <summary>
+        /// 未领取
+        /// </summary>
+        NotReceive = 3;
+}
+
+//邮件信息
+message MainInfo
+{
+	optional uint32 Id = 1;
+	//标题
+	optional string Title = 2;
+	/// <summary>
+        /// 内容
+        /// </summary>
+	optional string Content = 3;
+	/// <summary>
+        /// 奖励物品
+        /// </summary>
+	optional EmailState State = 4;
+	/// <summary>
+        /// 邮件状态
+        /// </summary>
+	optional EmailState AwardState = 5;
+	/// <summary>
+        /// 奖励物品
+        /// </summary>
+	//TODO
+}
+
+//通知邮件列表
+message CGSNotifyEMailList
+{
+	optional uint32 m_un32EMailNum  = 1;
+	repeated MainInfo m_mailInfo  = 2;
 }
 
 //请求阅读邮件
@@ -653,12 +716,6 @@ message CGSNotifyRankList
 	optional int32 m_n32SelfRank  = 2;
 	optional int32 m_n32SelfRankValue  = 3;
 	optional int32 m_n32RankNum  = 4;
-}
-
-//通知邮件列表TODO
-message CGSNotifyEMailList
-{
-	optional uint32 m_un32EMailNum  = 1;
 }
 
 //发送创建角色消息TODO

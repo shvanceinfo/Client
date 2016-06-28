@@ -146,7 +146,8 @@ public class MainLogic : MonoBehaviour
 	void OnApplicationQuit ()
 	{
 		GCAskLogout logout = new GCAskLogout ();
-		NetBase.GetInstance ().Send (logout.ToBytes (), false);
+		//TODO
+		//NetBase.GetInstance ().Send (logout.ToBytes (), false);
 		NetBase.GetInstance ().Close (true);
 	}
 	
@@ -187,7 +188,8 @@ public class MainLogic : MonoBehaviour
 		if (!isInGame) {			
 			MessageManager.Instance.sendMessageSelectRole (); //第一次进入游戏需要发送选择角色
 			GCAskNotice notice = new GCAskNotice (PostType.System); //请求服务器发送公告
-			SendMesg (notice.ToBytes ());
+            //TODO
+			//SendMesg (notice.ToBytes ());
 			isInGame = true;
 			InitUi ();
 		}	
@@ -545,7 +547,7 @@ public class MainLogic : MonoBehaviour
 	void Ping ()
 	{
 		RequestPing ping = new RequestPing ();
-		SendMesg (ping.ToBytes (), false);
+		//SendMesg (ping.ToBytes (), false);
         //BundleMemManager.Instance.freeCacheMem ();
 	}
 

@@ -384,6 +384,64 @@ namespace NetPackage
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"CGSNotifyService")]
+  public partial class CGSNotifyService : global::ProtoBuf.IExtensible
+  {
+    public CGSNotifyService() {}
+    
+    private NetPackage.PostType _type = NetPackage.PostType.None;
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"type", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(NetPackage.PostType.None)]
+    public NetPackage.PostType type
+    {
+      get { return _type; }
+      set { _type = value; }
+    }
+    private uint _time = default(uint);
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"time", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint time
+    {
+      get { return _time; }
+      set { _time = value; }
+    }
+    private string _msgTime = "";
+    [global::ProtoBuf.ProtoMember(3, IsRequired = false, Name=@"msgTime", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue("")]
+    public string msgTime
+    {
+      get { return _msgTime; }
+      set { _msgTime = value; }
+    }
+    private string _title = "";
+    [global::ProtoBuf.ProtoMember(4, IsRequired = false, Name=@"title", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue("")]
+    public string title
+    {
+      get { return _title; }
+      set { _title = value; }
+    }
+    private string _content = "";
+    [global::ProtoBuf.ProtoMember(5, IsRequired = false, Name=@"content", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue("")]
+    public string content
+    {
+      get { return _content; }
+      set { _content = value; }
+    }
+    private string _author = "";
+    [global::ProtoBuf.ProtoMember(6, IsRequired = false, Name=@"author", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue("")]
+    public string author
+    {
+      get { return _author; }
+      set { _author = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"CGSNotifyChangeScene")]
   public partial class CGSNotifyChangeScene : global::ProtoBuf.IExtensible
   {
@@ -1817,11 +1875,76 @@ namespace NetPackage
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
-  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"CGCAskEMailList")]
-  public partial class CGCAskEMailList : global::ProtoBuf.IExtensible
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"MainInfo")]
+  public partial class MainInfo : global::ProtoBuf.IExtensible
   {
-    public CGCAskEMailList() {}
+    public MainInfo() {}
     
+    private uint _Id = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"Id", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint Id
+    {
+      get { return _Id; }
+      set { _Id = value; }
+    }
+    private string _Title = "";
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"Title", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue("")]
+    public string Title
+    {
+      get { return _Title; }
+      set { _Title = value; }
+    }
+    private string _Content = "";
+    [global::ProtoBuf.ProtoMember(3, IsRequired = false, Name=@"Content", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue("")]
+    public string Content
+    {
+      get { return _Content; }
+      set { _Content = value; }
+    }
+    private NetPackage.EmailState _State = NetPackage.EmailState.NotRead;
+    [global::ProtoBuf.ProtoMember(4, IsRequired = false, Name=@"State", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(NetPackage.EmailState.NotRead)]
+    public NetPackage.EmailState State
+    {
+      get { return _State; }
+      set { _State = value; }
+    }
+    private NetPackage.EmailState _AwardState = NetPackage.EmailState.NotRead;
+    [global::ProtoBuf.ProtoMember(5, IsRequired = false, Name=@"AwardState", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(NetPackage.EmailState.NotRead)]
+    public NetPackage.EmailState AwardState
+    {
+      get { return _AwardState; }
+      set { _AwardState = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"CGSNotifyEMailList")]
+  public partial class CGSNotifyEMailList : global::ProtoBuf.IExtensible
+  {
+    public CGSNotifyEMailList() {}
+    
+    private uint _m_un32EMailNum = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"m_un32EMailNum", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint m_un32EMailNum
+    {
+      get { return _m_un32EMailNum; }
+      set { _m_un32EMailNum = value; }
+    }
+    private readonly global::System.Collections.Generic.List<NetPackage.MainInfo> _m_mailInfo = new global::System.Collections.Generic.List<NetPackage.MainInfo>();
+    [global::ProtoBuf.ProtoMember(2, Name=@"m_mailInfo", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public global::System.Collections.Generic.List<NetPackage.MainInfo> m_mailInfo
+    {
+      get { return _m_mailInfo; }
+    }
+  
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
@@ -1917,24 +2040,6 @@ namespace NetPackage
     {
       get { return _m_n32RankNum; }
       set { _m_n32RankNum = value; }
-    }
-    private global::ProtoBuf.IExtension extensionObject;
-    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
-  }
-  
-  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"CGSNotifyEMailList")]
-  public partial class CGSNotifyEMailList : global::ProtoBuf.IExtensible
-  {
-    public CGSNotifyEMailList() {}
-    
-    private uint _m_un32EMailNum = default(uint);
-    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"m_un32EMailNum", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
-    [global::System.ComponentModel.DefaultValue(default(uint))]
-    public uint m_un32EMailNum
-    {
-      get { return _m_un32EMailNum; }
-      set { _m_un32EMailNum = value; }
     }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
@@ -2959,6 +3064,40 @@ namespace NetPackage
             
       [global::ProtoBuf.ProtoEnum(Name=@"GSNotifyPandoraInfo", Value=90)]
       GSNotifyPandoraInfo = 90
+    }
+  
+    [global::ProtoBuf.ProtoContract(Name=@"PostType")]
+    public enum PostType
+    {
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"None", Value=0)]
+      None = 0,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"System", Value=1)]
+      System = 1,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"Post", Value=2)]
+      Post = 2,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"Annoucement", Value=3)]
+      Annoucement = 3
+    }
+  
+    [global::ProtoBuf.ProtoContract(Name=@"EmailState")]
+    public enum EmailState
+    {
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"NotRead", Value=0)]
+      NotRead = 0,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"Read", Value=1)]
+      Read = 1,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"Receive", Value=2)]
+      Receive = 2,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"NotReceive", Value=3)]
+      NotReceive = 3
     }
   
 }

@@ -41,7 +41,8 @@ namespace manager
         //请求邮件列表
         public void RequestEmailList()
         {
-            NetBase.GetInstance().Send(_requestMailList.ToBytes());
+            //TODO
+            //NetBase.GetInstance().Send(_requestMailList.ToBytes());
         }
 
         public void OpenWindow()
